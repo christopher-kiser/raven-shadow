@@ -27,3 +27,7 @@ Business operations owners: founder approves customer scope/pricing/release; Que
 - [RS-005](https://github.com/christopher-kiser/raven-shadow/issues/6)
 - [RS-006](https://github.com/christopher-kiser/raven-shadow/issues/7)
 - [RS-007](https://github.com/christopher-kiser/raven-shadow/issues/8)
+
+## Campaign 002 milestone update
+
+RS-002 now has a tested local-owner intake boundary and deterministic end-to-end source/contract/Shadow/internal-report workflow. Enterprise identity, delegated tenant sessions and legacy intake migration remain open. All later colony, recovery, Archive, communications and company requirements remain preserved. Tests are engineering evidence, not business readiness.

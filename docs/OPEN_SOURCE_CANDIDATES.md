@@ -31,3 +31,7 @@ Commercial-use licensing is screened from upstream declarations, not legal certi
 Future dataset work: the model cards link training/evaluation datasets, but no external dataset is approved for ingestion or redistribution. Start with owned synthetic cases and held-out outcomes. A separate license/data-governance review must precede any dataset trial.
 
 Executed native/reference comparison: the staging filename-based inventory rejects two same-name documents; the new Store adapter preserves both distinct artifact IDs and exact contents while suppressing duplicate ID selection. All 20 new tests pass with zero added dependencies. This bounded correctness benefit supports reuse/adaptation rather than adopting a new package.
+
+## Campaign 002 refresh
+
+[Authlib](https://github.com/authlib/authlib) and [OPA](https://github.com/open-policy-agent/opa) were evaluated against the verified local-owner intake gap. Both are **DEFER**: no enterprise issuer is configured, and a policy engine would not replace application authentication/enforcement. The existing session and Store were adapted. Docling, Presidio, Promptfoo, OpenTelemetry, MiniLM and BGE metadata/licenses/security/model formats were refreshed; no dependency or weight was adopted/downloaded. Existing Temporal/LiteLLM decisions remain unchanged. Retrieval quality, RAM and latency remain unmeasured; local synthetic correctness tests support only the bounded native adaptation.

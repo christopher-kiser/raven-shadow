@@ -9,3 +9,11 @@ The first private engineering slice is a read-only source snapshot adapter using
 Still blocked: native business model qualification, authenticated independent customer observations, enterprise identity/data handling and full reviewed customer delivery. Earlier failed qualification evidence is retained privately. No real customer data or native backup is published here.
 
 The public showcase contains documentation and its validator only. Private engineering work is maintained separately. See [roadmap](ROADMAP.md) and [resource evaluation](OPEN_SOURCE_CANDIDATES.md).
+
+## Campaign 002 — local authenticated intake
+
+A new private draft implements project-scoped, expiring and revocable intake grants using the existing local-owner session, canonical Store, source snapshots and exact citations. Immutable source admission handles concurrent duplicate requests and interrupted writes; unsupported formats and archives are rejected. No new framework, model or dependency was added.
+
+Verification: Windows **466 tests: 463 passed, 3 platform skips**; Linux/WSL **466 tests: 462 passed, 4 platform skips**. Each platform's skipped checks passed on the other. All **30 new tests** passed, including actual loopback HTTP authorization checks. Two fictional cases produced independently checked Shadow **FAIL** results and hash-bound internal reports, preserving unknowns.
+
+**RS-002 is partial.** This is local-owner authorization, not enterprise identity or delegated customer authentication. Existing owner-only legacy imports remain unchanged. Model service connectivity, real-model business qualification, authorized external observations and full Quality/Queen acceptance remain unresolved. The protected native installation remains inspection-only and unchanged. No production activation or customer release occurred.
