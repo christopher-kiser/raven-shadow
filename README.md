@@ -50,7 +50,7 @@ The target experience includes one founder/operator workspace, permission-aware 
 | Independent Shadow check on a synthetic false-success case | **Local staging implemented** | Correct outcome `FAIL`; it is an offline supplied fixture, not a live customer observation |
 | Internal evidence-backed draft report | **Local staging implemented** | Hash-checked report; not approved for external release |
 | Automated test suite | **153 tests passing on extracted v0.7 package (Oct 29, 2026)** | 79 workbench + 74 operator/runtime tests on Python 3.13.5 in this environment |
-| Authenticated native Raven/Queen/Store integration | **Pending** | Protected native installation not yet adapted or qualified |
+| Native reuse audit and read-only source adapter | **Audit complete; isolated private feature tested** | Existing canonical components mapped; 20 added tests pass. Authenticated runtime activation and business qualification remain pending |
 | Real customer connectors and production identity/security | **Not available** | No confidential intake, customer portal, or production permissions |
 | Autonomous production remediation and self-optimization | **Future, gated** | Requires scoped authority, isolated tests, independent verification, canary/rollback, and audit |
 | Windows hardware qualification | **Pending** | Package has Windows launchers, but the current verification was not performed on Windows hardware |
