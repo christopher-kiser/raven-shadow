@@ -11,7 +11,9 @@ const http = require('node:http');
 const crypto = require('node:crypto');
 
 const ROOT = path.resolve(__dirname, '..');
-const OUTPUT = path.join(ROOT, 'tests');
+const OUTPUT = path.resolve(ROOT, process.env.BROWSER_OUTPUT_DIR || 'tests');
+const relativeOutput = path.relative(ROOT, OUTPUT);
+if (relativeOutput.startsWith('..') || path.isAbsolute(relativeOutput)) throw new Error('Browser evidence must stay in the public repository.');
 const SHOTS = path.join(OUTPUT, 'screenshots');
 const MIME = {'.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript',
   '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png',
