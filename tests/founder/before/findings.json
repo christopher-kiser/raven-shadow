@@ -1,0 +1,262 @@
+{
+  "title": "Initial founder audit \u2014 live public baseline",
+  "recorded_before_application_changes": true,
+  "source_baseline": "23219010e478f3940b78f182c8615b862ead31aa",
+  "live_url": "https://christopher-kiser.github.io/raven-shadow/",
+  "run": {
+    "started_at": "2026-10-30T18:10:52.371Z",
+    "finished_at": "2026-10-30T18:11:32.910Z",
+    "browser_version": "156.0.4314.50",
+    "scenarios_completed": 8,
+    "targeted_control_checks_passed": 5,
+    "targeted_control_checks_failed": 0,
+    "verified_functional_bugs": 0,
+    "screenshots": 18,
+    "resources_closed": true
+  },
+  "proof_limits": "This is an engineering founder-style walkthrough, not a customer usability study or private-engine audit. UX recommendations are reasoned judgments tied to actual interface observations. Missing future capabilities are not counted as regressions.",
+  "findings": [
+    {
+      "id": "F-01",
+      "classification": "UX gap",
+      "priority": "P1 founder-workflow",
+      "task": "A: identify the engagement, current stage, blockers and next permitted action",
+      "steps": [
+        "Open the live URL in a fresh browser.",
+        "Read the overview and available navigation before loading the sample.",
+        "Load the sample and return to the overview."
+      ],
+      "actual_state": "One fictional Acme workspace; overview before and after sample intake.",
+      "expected": "A compact engagement brief and lifecycle summary should expose the question, deadline, limits, current stage, blocker and next available action.",
+      "observed": "The overview exposes a claim/comparison, sources and generic navigation. The precise question/deadline/read-only constraints are available only after opening the scope source or report. There is no engagement-stage or review-obligation summary.",
+      "implementation_status": "Information exists but is distributed and difficult to use as a founder cockpit.",
+      "business_impact": "Founder must reconstruct context across screens before deciding what to inspect or do next.",
+      "evidence": [
+        "a-empty-overview.png",
+        "b-scope-evidence.png",
+        "h-day-overview.png"
+      ],
+      "smallest_safe_improvement": "Add a single fictional engagement brief and state-derived next action, with links to the original scope and existing workflow."
+    },
+    {
+      "id": "F-02",
+      "classification": "UX gap",
+      "priority": "P1 founder-workflow",
+      "task": "A/E: distinguish work not yet performed from insufficient evidence",
+      "steps": [
+        "Open the fresh overview without loading or checking anything.",
+        "Compare the prominent comparison card with the adjacent Shadow panel."
+      ],
+      "actual_state": "No sources loaded; internal dataset verdict is NOT RUN.",
+      "expected": "Every summary should say the comparison has not run until the user runs it.",
+      "observed": "The comparison card says Not assessed while the adjacent Shadow verification badge says NOT RUN. The missing/stale cases later use NOT ASSESSED as an actual computed result.",
+      "implementation_status": "Implemented status labels are inconsistent; no false PASS was observed.",
+      "business_impact": "Founder can confuse an unexecuted check with an evidence-based inability to establish the outcome.",
+      "evidence": [
+        "a-empty-overview.png",
+        "f-missing-evidence.png"
+      ],
+      "smallest_safe_improvement": "Use an explicit Not run state consistently; reserve NOT ASSESSED for a completed comparison with insufficient evidence."
+    },
+    {
+      "id": "F-03",
+      "classification": "UX gap",
+      "priority": "P1 founder-workflow",
+      "task": "F: respond to missing, early or contradictory evidence",
+      "steps": [
+        "Load the sample and run baseline FAIL.",
+        "Select observation unavailable and run the check.",
+        "Select observation too early and run the check.",
+        "Inspect the overview then the internal report."
+      ],
+      "actual_state": "FAIL or NOT ASSESSED displayed with explanatory check details and citations.",
+      "expected": "The visible blocker should lead to a clear permitted next step, with a distinction between demo actions and real authorized evidence collection.",
+      "observed": "The dashboard explains the reason but retains the same generic Run fictional check and report navigation. The concrete follow-up is lower in the report; the dashboard does not show an outcome-specific next action or evidence request boundary.",
+      "implementation_status": "Explanations and follow-up prose exist, but actionable guidance is dispersed.",
+      "business_impact": "Founder can repeatedly rerun unchanged evidence or mistake a hypothetical variant for resolution of the original discrepancy. Existing what-if labels correctly warn that the baseline is unchanged.",
+      "evidence": [
+        "e-baseline-fail.png",
+        "f-missing-evidence.png",
+        "f-stale-observation.png",
+        "g-baseline-report.png"
+      ],
+      "smallest_safe_improvement": "Surface a deterministic source-linked next-step explanation for each state; keep real evidence requests unavailable."
+    },
+    {
+      "id": "F-04",
+      "classification": "UX gap",
+      "priority": "P1 founder-workflow",
+      "task": "E/G: understand what a PASS or FAIL does and does not establish",
+      "steps": [
+        "Run hypothetical outcome present.",
+        "Read the PASS overview.",
+        "Open the report and review provenance, unknowns and release limitations."
+      ],
+      "actual_state": "Hypothetical business outcome PASS; all sample checks pass; native reviews not performed and release not approved.",
+      "expected": "Business outcome, sample integrity, external authenticity, investigation completeness, Quality, Queen and human release should be visibly separate.",
+      "observed": "The distinction is truthful in source descriptions, panel captions and report prose, but is not presented as a single ordered set of gates. The dominant PASS is easier to find than the outstanding review/authorization obligations.",
+      "implementation_status": "Correct proof boundaries exist; founder scanning and review eligibility are difficult.",
+      "business_impact": "Non-engineers may overread a fictional PASS as a reviewed or releasable engagement despite the detailed disclaimers.",
+      "evidence": [
+        "e-hypothetical-pass.png",
+        "e-pass-report.png",
+        "g-baseline-report.png"
+      ],
+      "smallest_safe_improvement": "Expose separate outcome, evidence, review and release states; show unavailable/not-performed gates without inventing approvals."
+    },
+    {
+      "id": "F-05",
+      "classification": "UX recommendation",
+      "priority": "P2 enhancement",
+      "task": "C/H: understand Queen roles and why the next stage matters",
+      "steps": [
+        "Open Mission timeline, step once, play/pause and reset.",
+        "Open Colony map and select every role.",
+        "Inspect Queen and Raven responsibilities."
+      ],
+      "actual_state": "Five authored timeline stages and six fixed illustrative roles; no live work.",
+      "expected": "A founder should connect each illustrated responsibility to its expected input/output and relevant evidence while understanding that nothing is assigned or executing.",
+      "observed": "Role descriptions and synthetic labels are clear and interactive. The Queen inspector explains coordination generically; no compact mission brief, stage evidence handoff or founder decision appears alongside it.",
+      "implementation_status": "Existing illustration works; actual assignment/progress/peer-message capability is unavailable by design.",
+      "business_impact": "Founder can learn the architecture but cannot easily map it to the current fictional engagement lifecycle.",
+      "evidence": [
+        "c-timeline-one-step.png",
+        "c-queen-role.png"
+      ],
+      "smallest_safe_improvement": "Reuse the existing map and authored timeline; add source-linked illustrated responsibilities if useful. No diagram framework replacement is justified by observed behavior."
+    },
+    {
+      "id": "F-06",
+      "classification": "Future integration",
+      "priority": "P1 founder-workflow",
+      "task": "B/C: onboard a real organization and define a real mission",
+      "steps": [
+        "Click the Acme workspace label.",
+        "Inspect source-intake scope and available form controls.",
+        "Inspect Architecture and Roadmap."
+      ],
+      "actual_state": "One nonselectable fictional workspace and bundled sample intake only.",
+      "expected": "A future real engagement needs authenticated client identity, written scope, source permissions, question, deadline and constraints.",
+      "observed": "The label is static and no customer selector, arbitrary upload, authentication or editable mission form exists. The dialog explicitly says no access grant is created. This is a deliberate production boundary, not a broken control.",
+      "implementation_status": "Not implemented in the public prototype; private implementation not assessed.",
+      "business_impact": "The public app cannot onboard a customer or authorize a real investigation.",
+      "evidence": [
+        "b-intake-dialog.png",
+        "h-architecture.png",
+        "h-roadmap.png"
+      ],
+      "smallest_safe_improvement": "Clarify the single fictional engagement and the eventual authenticated interface contract; do not create a public client backend."
+    },
+    {
+      "id": "F-07",
+      "classification": "Future integration",
+      "priority": "P1 founder-workflow",
+      "task": "H: supervise service health, costs, worker reliability and pending business obligations",
+      "steps": [
+        "Inspect overview metrics and every navigation route.",
+        "Read Architecture and Roadmap operational capabilities."
+      ],
+      "actual_state": "Source/check counts and zero real model calls; no live service connection.",
+      "expected": "A real founder console requires attributable workload, cost, reliability, incidents, backups, customer follow-up and pending decisions.",
+      "observed": "Those operational records and telemetry do not exist in the public interface. The app honestly states no model/customer connection and labels the business capabilities future functionality.",
+      "implementation_status": "Unavailable here; private/native status intentionally unknown.",
+      "business_impact": "The public app is not a business operating system or evidence of operational readiness.",
+      "evidence": [
+        "h-day-overview.png",
+        "h-architecture.png",
+        "h-roadmap.png"
+      ],
+      "smallest_safe_improvement": "Show honest connection/availability states; keep numeric telemetry, alerts, costs and customer records absent until canonical authenticated data exists."
+    },
+    {
+      "id": "F-08",
+      "classification": "Future integration",
+      "priority": "P1 founder-workflow",
+      "task": "G/H: obtain review approval, release a report and follow up with a customer",
+      "steps": [
+        "Inspect and export the baseline internal report.",
+        "Read the release boundary and all available report controls."
+      ],
+      "actual_state": "Local unapproved fictional Markdown export; no review or delivery record.",
+      "expected": "A pilot requires full-artifact Quality, Queen acceptance, exact human release, secure delivery and attributable follow-up.",
+      "observed": "Report export works and is labeled INTERNAL DRAFT / NO RELEASE APPROVAL. No approval, secure customer delivery, billing or follow-up actions exist.",
+      "implementation_status": "Local export implemented; production review/delivery operations unavailable by design.",
+      "business_impact": "A file download cannot serve as customer-release authorization or a completed paid engagement.",
+      "evidence": [
+        "g-baseline-report.png",
+        "baseline-export.md"
+      ],
+      "smallest_safe_improvement": "Explain report eligibility and next authorized review step; document future integration rather than adding mock approval controls."
+    },
+    {
+      "id": "F-09",
+      "classification": "Verified recovery bug under controlled failure",
+      "priority": "P1 founder-workflow",
+      "task": "B/F: understand and recover from a failed source fingerprint operation",
+      "steps": [
+        "Open sample intake and check consent.",
+        "Deliberately reject one SHA-256 operation in this browser only.",
+        "Activate Load selected sample.",
+        "Restore the original browser hashing implementation.",
+        "Inspect error location and retry availability.",
+        "Cancel, reopen, consent and retry to confirm successful recovery route."
+      ],
+      "actual_state": "The modal remains open; consent remains checked; no sources were admitted.",
+      "expected": "A failed intake must expose the actionable error inside the modal and permit a clear retry once the transient failure is gone.",
+      "observed": "The error is only in the global toast behind the modal backdrop. The load button remains disabled even after hashing is restored; focus stays on the disabled load control. Cancel/reopen/reconsent succeeds, but the recovery is undisclosed.",
+      "implementation_status": "Recoverable error handling exists but obscures the failure and strands the primary action. The hashing rejection was injected, not a spontaneous platform fault.",
+      "business_impact": "Founder sees no reason intake stopped and cannot use the visible primary action to recover.",
+      "evidence": [
+        "injected-intake-error.png",
+        "recovery-and-keyboard.json"
+      ],
+      "smallest_safe_improvement": "Show an accessible inline intake error, restore retry state/focus, and preserve non-admission until all hashes succeed."
+    },
+    {
+      "id": "F-10",
+      "classification": "Verified keyboard focus bug",
+      "priority": "P2 enhancement",
+      "task": "C: inspect authored timeline stages using the keyboard",
+      "steps": [
+        "Open Mission timeline.",
+        "Use Tab until a checkpoint button has focus.",
+        "Press Enter.",
+        "Repeat for each of the five checkpoint buttons."
+      ],
+      "actual_state": "A checkpoint expands and the timeline DOM is rerendered.",
+      "expected": "Focus should remain on the activated checkpoint so the keyboard user can continue through the timeline.",
+      "observed": "All five activations leave document focus on BODY after the focused button is replaced. The next Tab restarts from early page navigation. Role selection retains focus; all source buttons remain keyboard reachable.",
+      "implementation_status": "Checkpoint selection works, but focus continuity is broken.",
+      "business_impact": "Keyboard-only founders lose their place and must retraverse page navigation for each stage.",
+      "evidence": [
+        "keyboard-timeline-after-selection.png",
+        "recovery-and-keyboard.json"
+      ],
+      "smallest_safe_improvement": "Preserve the active data-step identity through timeline rerender, as existing action/role controls already do."
+    }
+  ],
+  "confirmed_working": [
+    "Bundled fictional intake and source scope",
+    "Original source text, SHA-256 display and citation navigation",
+    "Baseline FAIL, explicit hypothetical PASS, missing and stale NOT ASSESSED",
+    "Insufficient-evidence source fallback and original source download",
+    "Internal report export exactly matches displayed Markdown and SHA-256",
+    "Illustrative timeline controls and every colony role",
+    "Seven routes at desktop/tablet/mobile; zero tablet/mobile overflow",
+    "Keyboard skip link, mobile Escape and close/focus behavior",
+    "No page errors, unexpected external app requests, backend writes or WebSockets"
+  ],
+  "supplement": {
+    "receipt": "recovery-and-keyboard.json",
+    "started_at": "2026-10-30T18:16:26.826Z",
+    "finished_at": "2026-10-30T18:16:33.620Z",
+    "checks_passed": 3,
+    "checks_failed": 3,
+    "verified_bug_groups": 2,
+    "screenshots": 2,
+    "injected_failure_is_not_spontaneous": true,
+    "crypto_restored": true,
+    "resources_closed": true
+  },
+  "overall_verified_bug_groups": 2
+}

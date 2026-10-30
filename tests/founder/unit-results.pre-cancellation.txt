@@ -1,0 +1,38 @@
+✔ documented Acme false-success case fails on observed state, not prose confidence (1.583264ms)
+✔ changed observation passes without altering original fixture (0.388187ms)
+✔ missing and stale evidence remain not assessed (0.368129ms)
+✔ changed metadata cannot override source observation (0.151547ms)
+✔ a different request and a later snapshot cannot prove this deadline outcome (0.197495ms)
+✔ source identity, frozen scope and metadata mismatches fail closed (0.528473ms)
+✔ edited evidence cannot masquerade as the unchanged original example (0.191303ms)
+✔ citations resolve exact original line ranges and reject out-of-bounds references (0.225778ms)
+✔ SHA-256 hashes exact UTF-8 source bytes and differs for changed observations (7.738512ms)
+✔ report binds exact current variant, source hashes and citations without acceptance claims (2.939838ms)
+✔ asynchronous report generation snapshots data rather than drifting with selection changes (1.86024ms)
+✔ illustrated timeline carries no actual model, message or approval records (1.113282ms)
+✔ initial state is NOT RUN with no evidence citations or invented completion (1.563546ms)
+✔ loaded fingerprints do not imply a check, authenticity, or approval (7.479321ms)
+✔ fingerprint availability counts supplied hashes without inventing them (0.32684ms)
+✔ baseline: actual result, exact citations and no approval elevation (3.095643ms)
+✔ satisfied: actual result, exact citations and no approval elevation (1.064059ms)
+✔ missing: actual result, exact citations and no approval elevation (0.999968ms)
+✔ stale: actual result, exact citations and no approval elevation (0.926899ms)
+✔ selecting another variant invalidates the earlier successful report (1.579727ms)
+✔ same variant with changed loaded bytes cannot retain the earlier result (1.681ms)
+✔ busy and failed actions cannot display an earlier PASS as current success (1.114675ms)
+✔ download-report failure retains the bound PASS, citations and report bytes for a download retry (1.852895ms)
+✔ download-report failure retains the bound FAIL, citations and report bytes for a download retry (0.78009ms)
+✔ download-source failure retains the bound PASS, citations and report bytes for a download retry (0.7433ms)
+✔ download-source failure retains the bound FAIL, citations and report bytes for a download retry (0.780942ms)
+✔ preparation and checking errors still suppress the prior bound result (1.482673ms)
+✔ projection is deterministic and leaves scenario, source and report bytes unchanged (0.908223ms)
+✔ unloaded state never exposes a retained report or source citation (0.633131ms)
+✔ lifecycle links resolve to registered application routes and the actual check location (2.743294ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 144.883916

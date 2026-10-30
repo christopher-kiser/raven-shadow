@@ -1,0 +1,67 @@
+{
+  "suite": "founder-final-acceptance-manifest",
+  "results": [
+    {
+      "path": "tests/founder/after-final/walkthrough.json",
+      "status": "PASS",
+      "checks": 37,
+      "screenshots": 18,
+      "browser": "156.0.4314.50",
+      "started_at": "2026-10-30T18:38:29.670Z",
+      "finished_at": "2026-10-30T18:39:23.577Z"
+    },
+    {
+      "path": "tests/founder/regression-verified/browser-results.json",
+      "status": "PASS",
+      "checks": 37,
+      "screenshots": 6,
+      "browser": "156.0.4314.50",
+      "started_at": "2026-10-30T18:38:29.670Z",
+      "finished_at": "2026-10-30T18:38:59.200Z"
+    }
+  ],
+  "application_source": [
+    {
+      "path": "index.html",
+      "sha256": "bce0dff6c9a1c8c68cba3fec7972c51c088e1cbd3b3b4114821cc08eb20849af"
+    },
+    {
+      "path": "demo/app.js",
+      "sha256": "8a130770fb4b6cacfb5e5ddd0abda0e7ff1e8576886d14c1279f7f5c11531853"
+    },
+    {
+      "path": "demo/acme.js",
+      "sha256": "07e11411cb9f2b4fdea56139443a8c4fdc5f8526eb4e63995741f75094855548"
+    },
+    {
+      "path": "demo/founder.js",
+      "sha256": "4231b489734e6c9aebb5d695eae7428488850dc21f2575f5118e5ad233224a18"
+    },
+    {
+      "path": "demo/styles.css",
+      "sha256": "e470d026fc427c3bcdc6effa6fb5981b066c43ebdbd93e739d81a34f30042187"
+    },
+    {
+      "path": "demo/mark.svg",
+      "sha256": "48545efa10e63b5ac84a9aac003dcc787cf0d4eeb03e0f78f26f8fe89bb5d1cd"
+    }
+  ],
+  "application_source_matches_final_worktree": true,
+  "historical_baseline_files_preserved": 7,
+  "source_baseline_commit": "23219010e478f3940b78f182c8615b862ead31aa",
+  "known_controlled_recovery_defects_resolved": [
+    "intake error visibility and retry",
+    "timeline checkpoint focus",
+    "terminal variant hashing labels",
+    "source/report export retry and preserved outcome",
+    "cancelled reload with incomplete source preparation"
+  ],
+  "proof_boundary": "Local public prototype only. Native engine, customer operations and live Pages deployment were not exercised by these final local tests.",
+  "first_candidate_evidence": [
+    "tests/founder/after/walkthrough.json",
+    "tests/founder/after/error-supplement.json",
+    "tests/founder/after-2/walkthrough.json",
+    "tests/founder/after-2/error-cancellation.json"
+  ],
+  "regression_storage_recovery": "tests/founder/regression/storage-recovery.json"
+}

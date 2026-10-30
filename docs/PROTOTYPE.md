@@ -4,6 +4,12 @@ A static, browser-based presentation of the fictional Acme `req-101` discrepancy
 The app explains the customer value of comparing a completion claim with an
 independent outcome contract. It does not connect to the native Raven engine.
 
+The published URL serves the existing `prototype/assurance-workspace` baseline.
+The separate `prototype/founder-cockpit-audit` candidate adds the founder views
+described below and has passed local browser acceptance. It remains a review
+candidate and has not replaced the published presentation.
+No candidate deployment or native-engine qualification is implied.
+
 ## Launch locally
 
 From the root of this public repository, with Python 3 installed:
@@ -44,6 +50,99 @@ this public repository. Do not place private files in this static hosting folder
    variant, preventing a hypothetical pass from overwriting the baseline failure.
 7. Explore the architecture and roadmap views to see the intended commercial
    platform and the separate engineering, security and customer-release gates.
+
+## Founder cockpit candidate
+
+Run the checked-out `prototype/founder-cockpit-audit` branch with the local launch
+command above. This candidate reuses the original fictional sources, comparison
+logic and report generator. Its new presentation state does not schedule workers,
+grant access, perform native reviews or authorize release.
+
+1. Start in **Command center**. Read the Acme question, fixed deadline and read-only
+   scope together. The current sample stage and next permitted demo action explain
+   whether sources need loading or a comparison needs running. NOT RUN does not
+   mean that insufficient evidence has already been assessed.
+2. Open **Engagement** from the navigation or fictional workspace label. Inspect the
+   source-linked contract, ordered engagement path and open obligations. There is
+   one fixed fictional engagement; the page cannot onboard a company or define a
+   real mission.
+3. Use the three **Raven briefing** topics to inspect what needs attention, what the
+   available proof means and why release remains unapproved. The answers are
+   deterministic explanations, with citations, rather than AI conversation or
+   recorded worker messages.
+4. Run the original fictional check, inspect **Evidence**, and compare the selected
+   variant's outcome with its separate fingerprint, authenticity, investigation,
+   Quality, Queen and release states. A business FAIL can be a valid discrepancy
+   finding; neither FAIL nor PASS grants review or human approval.
+5. Inspect the **Colony map** role inputs/outputs and the labeled synthetic timeline.
+   Then open the **Internal report** to review its sources, unknowns and export.
+   The adjacent review prerequisites do not modify the report or create approval.
+6. Expand **Connections and business operations** on Engagement. Native health,
+   worker reliability, costs, customer records and delivery are not connected by
+   this browser demo. The panel makes no claim about the private runtime's health.
+
+The [founder audit](FOUNDER_COCKPIT_AUDIT.md) retains the initial browser findings,
+controlled failure evidence, selected changes and verification status. The
+[business-readiness assessment](FOUNDER_BUSINESS_READINESS.md) ranks what a real
+supervised pilot still requires. [Focused reuse research](FOUNDER_REUSE_REVIEW.md)
+explains why the existing plain HTML/CSS/JavaScript was retained without new
+libraries or backend components.
+
+### Verified candidate results — 2026-10-30
+
+The qualified application source is commit
+`7e1319d5cbcebfcab16813d261922e952b1ae576`:
+
+- [Unit checks](../tests/founder/unit-results.txt): **34/34 PASS**, comprising the
+  original 12 and 22 founder-projection checks.
+- [Founder A–H browser acceptance](../tests/founder/after-final/walkthrough.json):
+  **37/37 PASS**, with 18 screenshots.
+- [Existing browser regression](../tests/founder/regression-verified/browser-results.json):
+  **37/37 PASS**, with six screenshots.
+
+Both browser suites used installed Edge `156.0.4314.50`; the final runs span
+18:38:29–18:39:23 UTC. They exercised desktop, tablet and mobile navigation, all
+four variants, separate assurance gates, exact citations/downloads, keyboard focus
+and actual recovery from injected intake, preparation and export failures. Cancelling
+a reload after failed preparation preserves a working recovery action; the test
+then re-prepares sources and completes the fictional comparison. An export failure
+preserves the existing outcome and retries the requested download.
+
+No uncaught browser error, unexpected external app request, backend write or
+WebSocket was recorded. The original source/report-generator bytes remain
+unchanged. New report downloads match their displayed Markdown and hashes;
+baseline report content also matches the earlier capture after excluding its
+generation timestamp. The [acceptance manifest](../tests/founder/acceptance-manifest.json)
+binds the result receipts and application hashes, while
+[independent preservation verification](../tests/founder/final-preservation.json)
+checks all six application files against the qualified commit, 24 final screenshots
+and 27 protected historical files.
+
+[Before/after screenshots and retained failures](FOUNDER_COCKPIT_AUDIT.md#before-and-after-browser-evidence)
+show the change. These checks establish this local fictional presentation's
+behavior, not accessibility certification, real worker intelligence, customer
+authorization, native review or commercial readiness. The historical results later
+in this guide apply to the earlier published presentation.
+
+### Reproduce the candidate checks
+
+The existing Node/Playwright Core/browser requirements described under
+[browser acceptance](#reproduce-browser-acceptance) also apply to the founder
+runner. Both runners start and close their own public-repository loopback server.
+Use fresh result directories to retain every earlier capture:
+
+```sh
+node --test tests/*.test.mjs
+node -e "process.env.FOUNDER_AUDIT_OUTPUT='tests/founder/recheck-'+Date.now(); process.argv.push('--after'); require('./scripts/founder_walkthrough.cjs')"
+node -e "process.env.BROWSER_OUTPUT_DIR='tests/founder/regression-recheck-'+Date.now(); require('./scripts/browser_test.cjs')"
+```
+
+The directory is set inside the Node process deliberately: a WSL shell variable
+did not propagate to Windows Node during the first candidate regression. The
+[audit recovery record](FOUNDER_COCKPIT_AUDIT.md#verification-and-preservation)
+documents the retained new results and byte-exact restoration of the originals.
+The founder runner refuses to overwrite an existing after-evidence directory.
+Do not rerun the initial live-baseline mode over its preserved evidence.
 
 ## What each evidence label means
 
@@ -90,7 +189,7 @@ The deterministic example checks use Node's built-in test runner:
 node --test tests/*.test.mjs
 ```
 
-### Actual results — 2026-10-30
+### Published baseline results — 2026-10-30
 
 - Deterministic Node suite: **12/12 PASS**.
 - Real Microsoft Edge **156.0.4314.50**: **37/37 PASS**, from
@@ -128,7 +227,7 @@ and Chromium-family browser. It does not install packages or browsers. When
 Windows location, run:
 
 ```sh
-node scripts/browser_test.cjs
+node -e "process.env.BROWSER_OUTPUT_DIR='tests/founder/regression-recheck-'+Date.now(); require('./scripts/browser_test.cjs')"
 ```
 
 Otherwise point the two environment variables at your existing installations.
@@ -137,14 +236,16 @@ For example, in Windows PowerShell:
 ```powershell
 $env:PLAYWRIGHT_MODULE = 'C:\path\to\existing\playwright-core'
 $env:BROWSER_EXECUTABLE = 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
-node scripts/browser_test.cjs
+node -e "process.env.BROWSER_OUTPUT_DIR='tests/founder/regression-recheck-'+Date.now(); require('./scripts/browser_test.cjs')"
 ```
 
 `PLAYWRIGHT_MODULE` must identify the existing module directory, and
 `BROWSER_EXECUTABLE` the existing browser executable. The harness starts its own
-loopback server for this public repository, exercises the app, writes
-`tests/browser-results.json` and the screenshot files, then closes its browser and
-server. Preserve previous result files before rerunning if their history matters.
+loopback server for this public repository, exercises the app, and closes its
+browser and server. These commands write `browser-results.json` and screenshots
+inside a new timestamped result directory, preserving historical evidence.
+Running the script without `BROWSER_OUTPUT_DIR` uses the original `tests/` paths;
+use the commands above to avoid overwriting them.
 
 These checks establish browser demo behavior, not full accessibility certification,
 native reasoning, independently authenticated customer evidence or commercial

@@ -1,5 +1,48 @@
 # Current verified state
 
+## Founder cockpit candidate — 2026-10-30
+
+The public-only `prototype/founder-cockpit-audit` branch starts from `2321901`.
+A fresh live A–H founder walkthrough preceded implementation. Its initial evidence
+identified five usability/status groups, three deliberately unavailable future
+integrations, an intake-recovery defect under injected source-hashing failure and
+a timeline keyboard-focus defect. Original observations, failures and screenshots
+are retained in the [founder audit](FOUNDER_COCKPIT_AUDIT.md).
+
+The candidate adds a Command Center, one source-bound Engagement view, current
+sample stage/next action, deterministic source-linked Raven explanations, separate
+assurance/release states, illustrative role handoffs and truthful operational
+availability. It reuses the original fictional source/check/report code. The first
+source commit `822cb20` is retained; the qualified application source is
+`7e1319d5cbcebfcab16813d261922e952b1ae576`. Final checks pass **34/34 unit tests**
+(12 original, 22 founder), **37/37 founder A–H browser checks** and **37/37 existing
+browser regression checks**. Installed Edge `156.0.4314.50` produced 24 final
+screenshots across desktop, tablet and mobile. The final browser runs span
+18:38:29–18:39:23 UTC and recorded no uncaught page errors, unexpected external app
+requests, backend writes or WebSockets.
+
+Observed intake/keyboard defects and the three additional preparation/export/cancel
+recovery cases are corrected and covered by actual browser checks. The original
+sample bytes and report generator remain unchanged; new downloads match their
+displayed content/hashes, and baseline report content matches apart from its
+generation timestamp. [Final acceptance](../tests/founder/acceptance-manifest.json)
+and [independent preservation checks](../tests/founder/final-preservation.json)
+bind the qualified source, final captures and 27 protected historical files. Initial
+failures, intermediate results and a corrected evidence-output routing mistake
+remain documented in the [audit](FOUNDER_COCKPIT_AUDIT.md).
+
+The live URL and Pages source remain the earlier `prototype/assurance-workspace`
+presentation described below. This candidate has no backend, live model connection,
+customer intake, real review, release or delivery. Private engineering claims in
+the historical record, including statements about native qualification below,
+have not been reverified. This work does not alter the separate native qualification
+workstream or its inspection-only boundary.
+
+See the [local candidate walkthrough](PROTOTYPE.md#founder-cockpit-candidate),
+[business-readiness gates](FOUNDER_BUSINESS_READINESS.md) and
+[focused reuse decisions](FOUNDER_REUSE_REVIEW.md). Existing architecture and
+cumulative requirements are preserved.
+
 ## Public Assurance Prototype — 2026-10-30
 
 The public repository now includes a standalone static presentation of the Acme

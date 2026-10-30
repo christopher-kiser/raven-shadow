@@ -1,0 +1,1399 @@
+{
+  "suite": "founder-live-before-audit",
+  "url": "https://christopher-kiser.github.io/raven-shadow/",
+  "started_at": "2026-10-30T18:10:52.371Z",
+  "proof_boundary": "Fresh real browser over fictional public data. Qualitative business findings are separate from control test results. No private engine or customer operations inspected.",
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "3a890d28aa1ed17989830803aa2c8a416fe216ae94317966c60c967919dfc235"
+    },
+    {
+      "path": "demo/app.js",
+      "status": 200,
+      "sha256": "22b67ec587629b7cc50adf4f0f9b862f2c957f144c7bf265343a3b2e109f44cd"
+    },
+    {
+      "path": "demo/acme.js",
+      "status": 200,
+      "sha256": "07e11411cb9f2b4fdea56139443a8c4fdc5f8526eb4e63995741f75094855548"
+    },
+    {
+      "path": "demo/styles.css",
+      "status": 200,
+      "sha256": "9276100ed8cc6c10b0d7249923febc4e5a8bb3b96781a3feef7df63868ff068a"
+    },
+    {
+      "path": "demo/mark.svg",
+      "status": 200,
+      "sha256": "48545efa10e63b5ac84a9aac003dcc787cf0d4eeb03e0f78f26f8fe89bb5d1cd"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "A",
+      "task": "Start the business day",
+      "steps": [
+        "Open live URL in a fresh browser context.",
+        "Inspect overview, workspace identifier, state, available actions and limitations."
+      ],
+      "expected": "Founder can identify current engagement, what needs attention, blockers and next permitted action.",
+      "observed": {
+        "overview": {
+          "text": "tests/founder/before/a-empty-overview.txt",
+          "screenshot": "tests/founder/before/a-empty-overview.png",
+          "route": "dashboard",
+          "loaded": "false",
+          "variant": "baseline",
+          "verdict": "NOT RUN",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Load Acme sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Run fictional check",
+              "action": "verify",
+              "href": null,
+              "disabled": true
+            },
+            {
+              "tag": "SELECT",
+              "name": "Original example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early",
+              "href": null,
+              "disabled": true
+            },
+            {
+              "tag": "A",
+              "name": "01\nInspect the original records\nRead lines, fingerprints and citations",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "02\nReplay the illustrative steps\nSynthetic history · no workers execute",
+              "href": "#timeline",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "03\nReview the discrepancy\nTraceable internal report, never approved",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "workspace": "AC\nAcme example\nFictional workspace",
+        "navigation": [
+          "Overview\nEvidence\nMission timeline\nColony map\nInternal report",
+          "Architecture\nRoadmap"
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "task": "Onboard a company and inspect scope",
+      "steps": [
+        "Click Acme workspace label and observe whether selection changes.",
+        "Click Load Acme sample.",
+        "Inspect scope, check bundled fictional sample, load it.",
+        "Navigate Evidence and select Scope & intended outcome."
+      ],
+      "expected": "Scope, authorized sources and the customer question should be discoverable; real onboarding must stay unavailable.",
+      "observed": {
+        "workspace_changes": false,
+        "intake": {
+          "text": "tests/founder/before/b-intake-dialog.txt",
+          "screenshot": "tests/founder/before/b-intake-dialog.png",
+          "route": "dashboard",
+          "loaded": "false",
+          "variant": "baseline",
+          "verdict": "NOT RUN",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "sample-consent",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Load Acme sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Run fictional check",
+              "action": "verify",
+              "href": null,
+              "disabled": true
+            },
+            {
+              "tag": "SELECT",
+              "name": "Original example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early",
+              "href": null,
+              "disabled": true
+            },
+            {
+              "tag": "A",
+              "name": "01\nInspect the original records\nRead lines, fingerprints and citations",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "02\nReplay the illustrative steps\nSynthetic history · no workers execute",
+              "href": "#timeline",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "03\nReview the discrepancy\nTraceable internal report, never approved",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "scope": {
+          "text": "tests/founder/before/b-scope-evidence.txt",
+          "screenshot": "tests/founder/before/b-scope-evidence.png",
+          "route": "evidence",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "NOT RUN",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Reload sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Scope & intended outcome\nacme-scope.txt",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Workflow completion claim\nacme-workflow-claim.txt",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Independent state observation\nacme-state-observation.txt",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "INPUT",
+              "name": "Find text in this record",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Download source",
+              "action": "download-source",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C",
+      "task": "Direct an investigation and inspect Queen responsibility",
+      "steps": [
+        "Open Mission timeline.",
+        "Step through each authored stage; open Queen colony node.",
+        "Inspect investigation question, deadline, constraints, responsibilities and progress."
+      ],
+      "expected": "Founder can distinguish assignment/progress from a labeled illustration and find the immutable mission contract.",
+      "observed": {
+        "timeline": {
+          "text": "tests/founder/before/c-timeline-one-step.txt",
+          "screenshot": "tests/founder/before/c-timeline-one-step.png",
+          "route": "timeline",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "NOT RUN",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BUTTON",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Play illustrative replay",
+              "action": "play",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Next step",
+              "action": "step",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Reset replay",
+              "action": "reset-replay",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Inspect illustrative step 1: Establish the source boundary",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Inspect illustrative step 2: Separate the claim from the evidence",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Inspect illustrative step 3: Compare the required and observed state",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Inspect illustrative step 4: Expose proof limits and unknowns",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Inspect illustrative step 5: Prepare an inspectable internal report",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect the illustrative colony",
+              "href": "#colony",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "roles": [
+          {
+            "id": "raven",
+            "text": "ROLE INSPECTOR\nRaven\n\nThe founder-facing narrator connects questions to evidence. This prototype offers fixed guidance, not a live conversation.\n\nResponsibility\nOperator guide\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+          },
+          {
+            "id": "queen",
+            "text": "ROLE INSPECTOR\nQueen\n\nThe intended canonical coordinator assigns bounded work. This crown-free map displays a fixed fictional structure; no workers are spawned.\n\nResponsibility\nScoped coordination\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+          },
+          {
+            "id": "research",
+            "text": "ROLE INSPECTOR\nResearch\n\nThe illustrated research role separates the completion claim from the supplied state. No native specialist or model runs here.\n\nResponsibility\nEvidence investigation\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+          },
+          {
+            "id": "shadow",
+            "text": "ROLE INSPECTOR\nShadow\n\nThe functional browser checker compares the fictional contract with its observation, independently of the success statement.\n\nResponsibility\nIndependent comparison\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+          },
+          {
+            "id": "quality",
+            "text": "ROLE INSPECTOR\nQuality\n\nNative full-artifact Quality is a separate acceptance gate. No Quality verdict or Queen acceptance is produced by this presentation.\n\nResponsibility\nReview boundary\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+          },
+          {
+            "id": "archive",
+            "text": "ROLE INSPECTOR\nArchive\n\nThe intended Archive protects founder/customer originals. This demo deletes nothing and grants no cleanup authority.\n\nResponsibility\nProtect the originals\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+          }
+        ],
+        "queen": {
+          "text": "tests/founder/before/c-queen-role.txt",
+          "screenshot": "tests/founder/before/c-queen-role.png",
+          "route": "colony",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "NOT RUN",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BUTTON",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Raven\nILLUSTRATIVE",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Queen\nILLUSTRATIVE",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Research\nILLUSTRATIVE",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Shadow\nILLUSTRATIVE",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Quality\nILLUSTRATIVE",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Archive\nILLUSTRATIVE",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "View illustrative timeline",
+              "action": "node-timeline",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "D",
+      "task": "Investigate evidence and trace assertions",
+      "steps": [
+        "Select scope, claim and observation sources.",
+        "Read original text and expand source fingerprint.",
+        "Run baseline comparison, follow every citation to its exact source lines."
+      ],
+      "expected": "Consequential assertions should resolve to preserved source lines with understandable proof limits.",
+      "observed": {
+        "sources": [
+          {
+            "id": "scope",
+            "text": "1\nACME — FICTIONAL SCOPE BRIEF\n2\nClassification: Synthetic example; not a customer authorization record.\n3\nRequest: req-101\n4\nObjective: Verify that access is enabled by the agreed deadline.\n5\nRequired state: access_enabled\n6\nDeadline (UTC): 2026-10-29T10:00:00Z\n7\nPermitted: Read only the fictional files supplied with this sample.\n8\nExternal writes: Not authorized by this presentation.\n9\nRelease: Internal demonstration only; no approval record exists.",
+            "sha256": "41847d65a12dea2ce07283c68d73ab291c303cb4b0058c131978417af6a3c976"
+          },
+          {
+            "id": "claim",
+            "text": "1\nACME — SYNTHETIC AUTOMATION CLAIM\n2\nClassification: Invented example of an unverified AI claim; no model call occurred.\n3\nRequest: req-101\n4\nStatement: Request req-101 is complete. Access has been enabled.\n5\nClaimed state: access_enabled\n6\nClaim timestamp (UTC): 2026-10-29T09:58:00Z\n7\nAuthority: This statement cannot prove the resulting system state.\n8\nApproval: No customer or owner approval is represented.",
+            "sha256": "6c06afc2eeefdb19efb53dffb3487ee3430654cc8b8e404dc3b9a0e788426eb5"
+          },
+          {
+            "id": "observation",
+            "text": "1\nACME — SYNTHETIC STATE OBSERVATION\n2\nClassification: Original public-demo example; not authenticated external evidence.\n3\nRequest: req-101\n4\nCaptured at (UTC): 2026-10-29T10:00:00Z\n5\nObserved state: pending_activation\n6\nOrigin: Separately supplied fictional state snapshot, not the automation claim.\n7\nAuthentication: External authenticity is not assessed.\n8\nCoverage: One request at the stated capture time; later state is unknown.",
+            "sha256": "2bc37d8120dd9c9a32242c5b373901b3954e58135d0b5f5d5f20c9fc4e689fd7"
+          }
+        ],
+        "citations": [
+          {
+            "href": "#evidence/scope/L3-L6",
+            "lines": [
+              "3\nRequest: req-101",
+              "4\nObjective: Verify that access is enabled by the agreed deadline.",
+              "5\nRequired state: access_enabled",
+              "6\nDeadline (UTC): 2026-10-29T10:00:00Z"
+            ]
+          },
+          {
+            "href": "#evidence/claim/L3-L7",
+            "lines": [
+              "3\nRequest: req-101",
+              "4\nStatement: Request req-101 is complete. Access has been enabled.",
+              "5\nClaimed state: access_enabled",
+              "6\nClaim timestamp (UTC): 2026-10-29T09:58:00Z",
+              "7\nAuthority: This statement cannot prove the resulting system state."
+            ]
+          },
+          {
+            "href": "#evidence/observation/L3-L5",
+            "lines": [
+              "3\nRequest: req-101",
+              "4\nCaptured at (UTC): 2026-10-29T10:00:00Z",
+              "5\nObserved state: pending_activation"
+            ]
+          }
+        ],
+        "evidence": {
+          "text": "tests/founder/before/d-observation-citation.txt",
+          "screenshot": "tests/founder/before/d-observation-citation.png",
+          "route": "evidence",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "FAIL",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "H1",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Reload sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Scope & intended outcome\nacme-scope.txt",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Workflow completion claim\nacme-workflow-claim.txt",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Independent state observation\nacme-state-observation.txt",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "INPUT",
+              "name": "Find text in this record",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Download source",
+              "action": "download-source",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "E",
+      "task": "Use Shadow and interpret separate assurance concepts",
+      "steps": [
+        "Run baseline FAIL.",
+        "Select hypothetical satisfied observation and run PASS.",
+        "Inspect dashboard and report proof labels."
+      ],
+      "expected": "Outcome support, source identity/authenticity, completeness, Quality, Queen and human release must stay distinguishable.",
+      "observed": {
+        "fail": {
+          "text": "tests/founder/before/e-baseline-fail.txt",
+          "screenshot": "tests/founder/before/e-baseline-fail.png",
+          "route": "dashboard",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "FAIL",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Reload sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Run fictional check",
+              "action": "verify",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect internal report",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Scope & intended outcome",
+              "href": "#evidence/scope",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Workflow completion claim",
+              "href": "#evidence/claim",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Independent state observation",
+              "href": "#evidence/observation",
+              "disabled": false
+            },
+            {
+              "tag": "SELECT",
+              "name": "Original example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[1] acme-scope.txt · L3–6",
+              "href": "#evidence/scope/L3-L6",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[2] acme-workflow-claim.txt · L3–7",
+              "href": "#evidence/claim/L3-L7",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[3] acme-state-observation.txt · L3–5",
+              "href": "#evidence/observation/L3-L5",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "01\nInspect the original records\nRead lines, fingerprints and citations",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "02\nReplay the illustrative steps\nSynthetic history · no workers execute",
+              "href": "#timeline",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "03\nReview the discrepancy\nTraceable internal report, never approved",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "pass": {
+          "text": "tests/founder/before/e-hypothetical-pass.txt",
+          "screenshot": "tests/founder/before/e-hypothetical-pass.png",
+          "route": "dashboard",
+          "loaded": "true",
+          "variant": "satisfied",
+          "verdict": "PASS",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BUTTON",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Reload sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Run fictional check",
+              "action": "verify",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect internal report",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Scope & intended outcome",
+              "href": "#evidence/scope",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Workflow completion claim",
+              "href": "#evidence/claim",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Independent state observation",
+              "href": "#evidence/observation",
+              "disabled": false
+            },
+            {
+              "tag": "SELECT",
+              "name": "Original example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[1] acme-scope.txt · L3–6",
+              "href": "#evidence/scope/L3-L6",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[2] acme-workflow-claim.txt · L3–7",
+              "href": "#evidence/claim/L3-L7",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[3] acme-state-observation.txt · L3–5",
+              "href": "#evidence/observation/L3-L5",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "01\nInspect the original records\nRead lines, fingerprints and citations",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "02\nReplay the illustrative steps\nSynthetic history · no workers execute",
+              "href": "#timeline",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "03\nReview the discrepancy\nTraceable internal report, never approved",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "report": {
+          "text": "tests/founder/before/e-pass-report.txt",
+          "screenshot": "tests/founder/before/e-pass-report.png",
+          "route": "report",
+          "loaded": "true",
+          "variant": "satisfied",
+          "verdict": "PASS",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Download report",
+              "action": "download-report",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[1] acme-scope.txt · L3–6",
+              "href": "#evidence/scope/L3-L6",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[2] acme-workflow-claim.txt · L3–7",
+              "href": "#evidence/claim/L3-L7",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[3] acme-state-observation.txt · L3–5",
+              "href": "#evidence/observation/L3-L5",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect original sources",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "F",
+      "task": "Respond to missing or stale evidence",
+      "steps": [
+        "Select observation in Evidence.",
+        "Return to dashboard; select missing observation and run check.",
+        "Open Evidence without changing the selected source; try Download source.",
+        "Then select stale observation and run check; inspect next actions."
+      ],
+      "expected": "Insufficient evidence should remain NOT ASSESSED with a next permitted action; any displayed downloadable source must download.",
+      "observed": {
+        "missing": {
+          "text": "tests/founder/before/f-missing-evidence.txt",
+          "screenshot": "tests/founder/before/f-missing-evidence.png",
+          "route": "dashboard",
+          "loaded": "true",
+          "variant": "missing",
+          "verdict": "NOT ASSESSED",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BUTTON",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Reload sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Run fictional check",
+              "action": "verify",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect internal report",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Scope & intended outcome",
+              "href": "#evidence/scope",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Workflow completion claim",
+              "href": "#evidence/claim",
+              "disabled": false
+            },
+            {
+              "tag": "SELECT",
+              "name": "Original example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[1] acme-scope.txt · L3–6",
+              "href": "#evidence/scope/L3-L6",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[2] acme-workflow-claim.txt · L3–7",
+              "href": "#evidence/claim/L3-L7",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "01\nInspect the original records\nRead lines, fingerprints and citations",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "02\nReplay the illustrative steps\nSynthetic history · no workers execute",
+              "href": "#timeline",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "03\nReview the discrepancy\nTraceable internal report, never approved",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "fallback": {
+          "text": "tests/founder/before/f-missing-source-fallback.txt",
+          "screenshot": "tests/founder/before/f-missing-source-fallback.png",
+          "route": "evidence",
+          "loaded": "true",
+          "variant": "missing",
+          "verdict": "NOT ASSESSED",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Reload sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Scope & intended outcome\nacme-scope.txt",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Workflow completion claim\nacme-workflow-claim.txt",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "INPUT",
+              "name": "Find text in this record",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Download source",
+              "action": "download-source",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "stale": {
+          "text": "tests/founder/before/f-stale-observation.txt",
+          "screenshot": "tests/founder/before/f-stale-observation.png",
+          "route": "dashboard",
+          "loaded": "true",
+          "variant": "stale",
+          "verdict": "NOT ASSESSED",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BUTTON",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Reload sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Run fictional check",
+              "action": "verify",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect internal report",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Scope & intended outcome",
+              "href": "#evidence/scope",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Workflow completion claim",
+              "href": "#evidence/claim",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Independent state observation",
+              "href": "#evidence/observation",
+              "disabled": false
+            },
+            {
+              "tag": "SELECT",
+              "name": "Original example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[1] acme-scope.txt · L3–6",
+              "href": "#evidence/scope/L3-L6",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[2] acme-workflow-claim.txt · L3–7",
+              "href": "#evidence/claim/L3-L7",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[3] acme-state-observation.txt · L3–5",
+              "href": "#evidence/observation/L3-L5",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "01\nInspect the original records\nRead lines, fingerprints and citations",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "02\nReplay the illustrative steps\nSynthetic history · no workers execute",
+              "href": "#timeline",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "03\nReview the discrepancy\nTraceable internal report, never approved",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "G",
+      "task": "Review and export the deliverable",
+      "steps": [
+        "Restore baseline and run comparison.",
+        "Open Internal report.",
+        "Read question, claim, findings, unknowns, next action and release boundary.",
+        "Export report and compare checksum with displayed Markdown."
+      ],
+      "expected": "Report should identify established versus unknown facts and remain an unapproved fictional internal report.",
+      "observed": {
+        "capture": {
+          "text": "tests/founder/before/g-baseline-report.txt",
+          "screenshot": "tests/founder/before/g-baseline-report.png",
+          "route": "report",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "FAIL",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Download report",
+              "action": "download-report",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[1] acme-scope.txt · L3–6",
+              "href": "#evidence/scope/L3-L6",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[2] acme-workflow-claim.txt · L3–7",
+              "href": "#evidence/claim/L3-L7",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[3] acme-state-observation.txt · L3–5",
+              "href": "#evidence/observation/L3-L5",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect original sources",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "export": {
+          "filename": "raven-shadow-acme-baseline.md",
+          "sha256": "6b107392050a996b0df8535d0473124366a6fae556d58ae8132074d612dca7ad",
+          "stored": "tests/founder/before/baseline-export.md"
+        }
+      }
+    },
+    {
+      "id": "H",
+      "task": "Operate and supervise the company",
+      "steps": [
+        "Return to Overview and inspect all navigation choices.",
+        "Inspect Architecture and Roadmap for service, review, cost and customer follow-up capabilities.",
+        "Compare the documented business lifecycle with actual controls."
+      ],
+      "expected": "Unavailable operations must be explicit; the founder should know the next permitted action without fabricated telemetry.",
+      "observed": {
+        "overview": {
+          "text": "tests/founder/before/h-day-overview.txt",
+          "screenshot": "tests/founder/before/h-day-overview.png",
+          "route": "dashboard",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "FAIL",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "BUTTON",
+              "name": "Reload sample",
+              "action": "open-scope",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "BUTTON",
+              "name": "Run fictional check",
+              "action": "verify",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect internal report",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Scope & intended outcome",
+              "href": "#evidence/scope",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Workflow completion claim",
+              "href": "#evidence/claim",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "Inspect Independent state observation",
+              "href": "#evidence/observation",
+              "disabled": false
+            },
+            {
+              "tag": "SELECT",
+              "name": "Original example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early",
+              "href": null,
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[1] acme-scope.txt · L3–6",
+              "href": "#evidence/scope/L3-L6",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[2] acme-workflow-claim.txt · L3–7",
+              "href": "#evidence/claim/L3-L7",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "[3] acme-state-observation.txt · L3–5",
+              "href": "#evidence/observation/L3-L5",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "01\nInspect the original records\nRead lines, fingerprints and citations",
+              "href": "#evidence",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "02\nReplay the illustrative steps\nSynthetic history · no workers execute",
+              "href": "#timeline",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "03\nReview the discrepancy\nTraceable internal report, never approved",
+              "href": "#report",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "architecture": {
+          "text": "tests/founder/before/h-architecture.txt",
+          "screenshot": "tests/founder/before/h-architecture.png",
+          "route": "architecture",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "FAIL",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "A",
+              "name": "Read the full public blueprint",
+              "href": "docs/PRODUCT_BLUEPRINT.md",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        },
+        "roadmap": {
+          "text": "tests/founder/before/h-roadmap.txt",
+          "screenshot": "tests/founder/before/h-roadmap.png",
+          "route": "roadmap",
+          "loaded": "true",
+          "variant": "baseline",
+          "verdict": "FAIL",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scroll_width": 1440,
+          "active_element": "BODY",
+          "controls": [
+            {
+              "tag": "A",
+              "name": "Read the cumulative requirements",
+              "href": "docs/REQUIREMENTS.md",
+              "disabled": false
+            },
+            {
+              "tag": "A",
+              "name": "View public source ↗",
+              "href": "https://github.com/christopher-kiser/raven-shadow",
+              "disabled": false
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "controls": [
+    {
+      "name": "fresh_keyboard_skip_link",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_observation_fallback_source_download",
+      "status": "PASS",
+      "details": {
+        "name": "acme-scope.txt",
+        "sha256": "41847d65a12dea2ce07283c68d73ab291c303cb4b0058c131978417af6a3c976"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "tests/founder/before/a-empty-overview.png",
+      "sha256": "82a5304e937ca0963d6ea772a978e5f057004f99533f3a84bab5cd31aff0bd4c"
+    },
+    {
+      "path": "tests/founder/before/b-intake-dialog.png",
+      "sha256": "bb9b131fe14e3477b81f1af3fe3150f80249a1b0a5b09ef2bf5d3609addaaf16"
+    },
+    {
+      "path": "tests/founder/before/b-scope-evidence.png",
+      "sha256": "d7b157c569c41aadc423a97aa73b124838d1bb806dc5ee0221fd4ad32c86b7b9"
+    },
+    {
+      "path": "tests/founder/before/c-timeline-one-step.png",
+      "sha256": "655764c8ad4a35a383def8ae8ec9763d4093d71e9bf2be98e951b233c062971d"
+    },
+    {
+      "path": "tests/founder/before/c-queen-role.png",
+      "sha256": "a7b969a6d6375c494b683e40f6df84347f8f71df7a917dc313b84c1791af0cd3"
+    },
+    {
+      "path": "tests/founder/before/d-observation-citation.png",
+      "sha256": "f4b3291aef70822b5536905c687b29f4b832772dc4bade17fa765417ab99f69a"
+    },
+    {
+      "path": "tests/founder/before/e-baseline-fail.png",
+      "sha256": "8b5f26b71bfafb65d6f95db3fbd6998f8659ee0656cfddd5dfc71a4010cf04cf"
+    },
+    {
+      "path": "tests/founder/before/e-hypothetical-pass.png",
+      "sha256": "8d9836d90cecd40609e731d6c72ea9b6e34642516ac7939f7cdf8ba3cfc9c2ac"
+    },
+    {
+      "path": "tests/founder/before/e-pass-report.png",
+      "sha256": "be11f3c9c9784fc2f5e46980de4dabf043832c76ae6de34c480f5cce269336ff"
+    },
+    {
+      "path": "tests/founder/before/f-missing-evidence.png",
+      "sha256": "b00ca36d079b5ad012912984ce843c519af977a3965fae69bdc49ab8d30800b6"
+    },
+    {
+      "path": "tests/founder/before/f-missing-source-fallback.png",
+      "sha256": "156590f7ac403a354c6f7f12c9612ec0c6e65f6b5fc3fab3df253330fe666066"
+    },
+    {
+      "path": "tests/founder/before/f-stale-observation.png",
+      "sha256": "4421685394da657f0c10fca2699c14437d930168c9dadc696d48978af1dd685b"
+    },
+    {
+      "path": "tests/founder/before/g-baseline-report.png",
+      "sha256": "265cb6ef2e11af139c45cf3e7220f94fe79857343d2d351af42e7ef1c8eb37fa"
+    },
+    {
+      "path": "tests/founder/before/h-day-overview.png",
+      "sha256": "8b5f26b71bfafb65d6f95db3fbd6998f8659ee0656cfddd5dfc71a4010cf04cf"
+    },
+    {
+      "path": "tests/founder/before/h-architecture.png",
+      "sha256": "b350ecc304190a3fbc3bdc9c6c4ff6197319822fbabaa0a864dd80e4eca67d47"
+    },
+    {
+      "path": "tests/founder/before/h-roadmap.png",
+      "sha256": "a906e0d4e52289c31f88619360703e1d293d5f1f9df668345598676c9e46a365"
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "non_read_requests": [],
+  "websockets": [],
+  "browser_version": "156.0.4314.50"
+}

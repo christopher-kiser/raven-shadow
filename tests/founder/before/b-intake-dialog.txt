@@ -1,0 +1,22 @@
+FICTIONAL SOURCE INTAKE
+×
+A deliberately narrow scope.
+
+Inspect the bundled Acme example in this browser. No files are uploaded, no customer systems are connected, and no access grant is created.
+
+01
+Completion claim
+A synthetic workflow says req-101 is complete.
+02
+Outcome contract
+The state that must exist at the deadline.
+03
+Supplied observation
+A fictional, separate view of the resulting state.
+Use only the bundled fictional sample.
+
+This scope selection demonstrates the intake boundary. It is not production authentication or a real approval record.
+
+Cancel
+Load selected sample
+→

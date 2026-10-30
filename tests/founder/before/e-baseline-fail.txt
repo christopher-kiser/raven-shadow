@@ -1,0 +1,84 @@
+OPERATOR DESK / ACME EXAMPLE
+Look past the success claim.
+
+Trace a workflow from what it says happened to what the supplied evidence actually supports.
+
+Reload sample
+SYNTHETIC EXAMPLE
+req-101
+Completion not supported.
+
+The supplied fictional state does not support the completion claim at the deadline.
+
+WORKFLOW CLAIM
+Complete
+UNVERIFIED AI CLAIM
+
+Illustrative statement, not a real model response
+
+CHECKED FICTIONAL OUTCOME
+FAIL
+
+Against the supplied pending activation state
+
+Run fictional check
+Inspect internal report
+3
+Scoped sample sources
+Hashed in this browser
+4
+Deterministic checks
+Inspectable results
+0
+Real model calls
+Presentation only
+The evidence trail
+Originals stay visible
+Scope & intended outcome
+Fictional scope brief
+Workflow completion claim
+Unverified AI claim
+Independent state observation
+Supplied fictional observation
+Read-only fictional scope. No uploads, connections or real access grants. Source fingerprints establish byte identity, not external truth.
+Shadow verification
+FAIL
+
+A separate comparison of contract and observation. The completion claim has no vote.
+
+Observation to inspect
+Original example · outcome missing
+What if · outcome present
+What if · observation unavailable
+What if · observation too early
+Frozen sample scope
+The unchanged fictional scope and claim resolve to req-101.
+PASS
+Request identity
+The contract, claim and separate observation refer to req-101.
+PASS
+Deadline coverage
+The snapshot covers the stated deadline exactly.
+PASS
+!
+Required outcome
+Required: access_enabled. Observed: pending_activation.
+FAIL
+[1] acme-scope.txt · L3–6
+[2] acme-workflow-claim.txt · L3–7
+[3] acme-state-observation.txt · L3–5
+
+Independent of the claim; limited to supplied fictional records. This is a presentation checker, not the native Shadow engine.
+
+Follow the investigation
+01
+Inspect the original records
+Read lines, fingerprints and citations
+02
+Replay the illustrative steps
+Synthetic history · no workers execute
+03
+Review the discrepancy
+Traceable internal report, never approved
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

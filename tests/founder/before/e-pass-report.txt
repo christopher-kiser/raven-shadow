@@ -1,0 +1,82 @@
+REPORTS & DELIVERABLES
+The internal assessment.
+
+Every finding retains its observation, citations and proof boundary.
+
+Download report
+Changed synthetic observation · this what-if does not repair or replace the original example.
+INTERNAL DRAFT
+NO RELEASE APPROVAL
+Acme workflow assurance
+
+Request req-101 · What if · outcome present
+
+PASS
+
+The changed fictional observation contains the required state at the deadline. This does not change the original example.
+
+01 / Question and claim
+
+Was access enabled for req-101 by the agreed deadline?
+
+“Request req-101 is complete. Access has been enabled.”
+
+Unverified AI claim · synthetic statement, not a real model response.
+
+02 / Independently checked fictional outcome
+
+REQUIRED_STATE_OBSERVED_AT_DEADLINE
+
+Frozen sample scope
+The unchanged fictional scope and claim resolve to req-101.
+PASS
+Request identity
+The contract, claim and separate observation refer to req-101.
+PASS
+Deadline coverage
+The snapshot covers the stated deadline exactly.
+PASS
+Required outcome
+Required: access_enabled. Observed: access_enabled.
+PASS
+[1] acme-scope.txt · L3–6
+[2] acme-workflow-claim.txt · L3–7
+[3] acme-state-observation.txt · L3–5
+03 / What remains unknown
+Why the workflow reported completion.
+Whether access was enabled after the observation boundary.
+The authenticity of any real external system or customer state.
+The effect of a proposed correction; no correction is performed.
+04 / Next operator action
+
+This changed hypothetical observation meets the fixture contract. Real customer assurance still needs authenticated evidence, native Quality and Queen acceptance.
+
+05 / Proof and release boundary
+This is a deterministic fictional comparison, not a native model investigation.
+Source hashes identify sample bytes; they do not establish external truth.
+No customer records, live connectors, worker messages or approval records are used.
+The presentation has no connection to the canonical Raven Store or Shadow runtime.
+Native Quality and Queen acceptance: not performed.
+No approval, customer delivery or production correction.
+Inspect the complete downloadable Markdown
+Report provenance
+Proof class
+Deterministic fictional comparison
+Independent of claim
+Yes · contract vs observation
+External authenticity
+Not assessed
+Native reviews
+Not performed
+Report SHA-256
+cef67665a5a7b7df3cc2648163ff2961ce4c06d4a6efd29b48c8b40475e9f5c8
+
+This checksum binds the downloaded UTF-8 Markdown. It is not certification or approval.
+
+Keep the distinction.
+
+Finding a fictional failure is useful detection. It does not prove a repaired system, a successful customer investigation or commercial readiness.
+
+Inspect original sources
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

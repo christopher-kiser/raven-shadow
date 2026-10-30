@@ -1,0 +1,259 @@
+{
+  "suite": "public-assurance-prototype-browser",
+  "started_at": "2026-10-30T18:33:15.531Z",
+  "proof_boundary": "Actual browser behavior over fictional, client-side demonstration data. No model, native runtime, real worker, customer observation or approval is exercised.",
+  "browser_executable": "msedge.exe",
+  "non_read_requests": [],
+  "websockets": [],
+  "checks": [
+    {
+      "name": "prototype_document_loads_with_honest_empty_state",
+      "status": "PASS",
+      "elapsed_ms": 33
+    },
+    {
+      "name": "skip_link_is_keyboard_operable",
+      "status": "PASS",
+      "elapsed_ms": 9
+    },
+    {
+      "name": "empty_evidence_and_report_do_not_fabricate_results",
+      "status": "PASS",
+      "elapsed_ms": 156
+    },
+    {
+      "name": "scope_dialog_requires_deliberate_fictional_selection",
+      "status": "PASS",
+      "elapsed_ms": 126
+    },
+    {
+      "name": "dialog_cancel_close_and_backdrop_controls",
+      "status": "PASS",
+      "elapsed_ms": 137
+    },
+    {
+      "name": "sample_intake_loads_only_fictional_records",
+      "status": "PASS",
+      "elapsed_ms": 82
+    },
+    {
+      "name": "baseline_real_client_check_detects_false_completion",
+      "status": "PASS",
+      "elapsed_ms": 40
+    },
+    {
+      "name": "desktop_dashboard_has_no_document_overflow",
+      "status": "PASS",
+      "elapsed_ms": 1,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "desktop_hides_mobile_navigation_toggle",
+      "status": "PASS",
+      "elapsed_ms": 1
+    },
+    {
+      "name": "baseline_report_download_is_hash_bound_and_unapproved",
+      "status": "PASS",
+      "elapsed_ms": 265,
+      "detail": {
+        "filename": "raven-shadow-acme-baseline.md",
+        "sha256": "fcb37c28ac2e6d845ce46381a4ac833aa01e0445f23f6b463f6593fcd9001244"
+      }
+    },
+    {
+      "name": "skip_link_preserves_the_active_report_route",
+      "status": "PASS",
+      "elapsed_ms": 5
+    },
+    {
+      "name": "all_report_citations_resolve_exact_original_lines",
+      "status": "PASS",
+      "elapsed_ms": 350,
+      "detail": {
+        "resolved_citations": 3
+      }
+    },
+    {
+      "name": "all_source_downloads_preserve_exact_text_and_sha256",
+      "status": "PASS",
+      "elapsed_ms": 669,
+      "detail": {
+        "source_count": 3
+      }
+    },
+    {
+      "name": "source_search_is_live_keyboard_usable_and_preserves_originals",
+      "status": "PASS",
+      "elapsed_ms": 21
+    },
+    {
+      "name": "satisfied_observation_invalidates_prior_report",
+      "status": "PASS",
+      "elapsed_ms": 106
+    },
+    {
+      "name": "satisfied_observation_produces_honest_verdict_and_report",
+      "status": "PASS",
+      "elapsed_ms": 239,
+      "detail": {
+        "filename": "raven-shadow-acme-satisfied.md",
+        "sha256": "191bcd1bd79d9ed67de51f1c1f6aa83ee5691991b3cce3831a7d2d201b3b036e",
+        "verdict": "PASS"
+      }
+    },
+    {
+      "name": "missing_observation_invalidates_prior_report",
+      "status": "PASS",
+      "elapsed_ms": 121
+    },
+    {
+      "name": "missing_observation_produces_honest_verdict_and_report",
+      "status": "PASS",
+      "elapsed_ms": 256,
+      "detail": {
+        "filename": "raven-shadow-acme-missing.md",
+        "sha256": "dd6c85151c4b79ca96c268c19166f92e061b0d479b7619f65dbd7491161ac71b",
+        "verdict": "NOT ASSESSED"
+      }
+    },
+    {
+      "name": "stale_observation_invalidates_prior_report",
+      "status": "PASS",
+      "elapsed_ms": 117
+    },
+    {
+      "name": "stale_observation_produces_honest_verdict_and_report",
+      "status": "PASS",
+      "elapsed_ms": 278,
+      "detail": {
+        "filename": "raven-shadow-acme-stale.md",
+        "sha256": "dfd6c0781f9c687c342b53c871fa714bfb357ab80ae310a95fee6519b14b45b1",
+        "verdict": "NOT ASSESSED"
+      }
+    },
+    {
+      "name": "controlled_async_race_discards_stale_report",
+      "status": "PASS",
+      "elapsed_ms": 579,
+      "detail": "Actual SHA-256 operations delayed by 100 ms to exercise the presentation generation fence; no digest or outcome fabricated."
+    },
+    {
+      "name": "reloading_sample_resets_results_and_original_observation",
+      "status": "PASS",
+      "elapsed_ms": 122
+    },
+    {
+      "name": "timeline_labels_separate_synthetic_history_from_verified_replay",
+      "status": "PASS",
+      "elapsed_ms": 63
+    },
+    {
+      "name": "every_timeline_step_reveals_its_labeled_content",
+      "status": "PASS",
+      "elapsed_ms": 187
+    },
+    {
+      "name": "replay_play_pause_resume_complete_reset_are_real_controls",
+      "status": "PASS",
+      "elapsed_ms": 6295
+    },
+    {
+      "name": "leaving_timeline_stops_the_owned_replay_timer",
+      "status": "PASS",
+      "elapsed_ms": 1782
+    },
+    {
+      "name": "all_colony_nodes_are_inspectable_without_fake_activity",
+      "status": "PASS",
+      "elapsed_ms": 222,
+      "detail": {
+        "node_count": 6
+      }
+    },
+    {
+      "name": "colony_links_to_the_selected_illustrative_stage",
+      "status": "PASS",
+      "elapsed_ms": 56
+    },
+    {
+      "name": "architecture_and_roadmap_preserve_canonical_and_future_boundaries",
+      "status": "PASS",
+      "elapsed_ms": 115
+    },
+    {
+      "name": "all_desktop_routes_have_accessible_names_and_current_navigation",
+      "status": "PASS",
+      "elapsed_ms": 368
+    },
+    {
+      "name": "tablet_layout_and_navigation",
+      "status": "PASS",
+      "elapsed_ms": 65
+    },
+    {
+      "name": "mobile_navigation_excludes_hidden_sidebar_and_every_page_fits",
+      "status": "PASS",
+      "elapsed_ms": 689
+    },
+    {
+      "name": "reduced_motion_disables_decorative_motion",
+      "status": "PASS",
+      "elapsed_ms": 97
+    },
+    {
+      "name": "deep_links_and_refresh_do_not_invent_persisted_evidence",
+      "status": "PASS",
+      "elapsed_ms": 556
+    },
+    {
+      "name": "no_uncaught_browser_errors",
+      "status": "PASS",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "no_external_app_requests",
+      "status": "PASS",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "no_backend_writes_or_websockets",
+      "status": "PASS",
+      "elapsed_ms": 0
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "tests/founder/regression-final/screenshots/dashboard-desktop.png",
+      "sha256": "35b4187c59465b695d575146f2df4d7a3f95f097db9e88fbcd7bf2587a356b66"
+    },
+    {
+      "path": "tests/founder/regression-final/screenshots/report-desktop.png",
+      "sha256": "be827050d4e2fb47b988863c9ae0682c94d11891b86334540d8168d365d7988a"
+    },
+    {
+      "path": "tests/founder/regression-final/screenshots/evidence-desktop.png",
+      "sha256": "871edb9b429e0ab1bf670ab0cc03c45dd1f97cfd4a4978b4f9936ad6634137ee"
+    },
+    {
+      "path": "tests/founder/regression-final/screenshots/colony-desktop.png",
+      "sha256": "35c4aee1894b3e08cea6e57685893c1d9c1cbc0529512d3438c89747a8b1f37e"
+    },
+    {
+      "path": "tests/founder/regression-final/screenshots/architecture-tablet.png",
+      "sha256": "b5f9324a7d0fe76c7205c6a77d402bee39e8f3d44c124c581cfc07112a23d4e9"
+    },
+    {
+      "path": "tests/founder/regression-final/screenshots/dashboard-mobile.png",
+      "sha256": "599048399c77b22fb1762fbd98d2469a6eb50656c0c513de5ac4e4c0356ac2ba"
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "browser_version": "156.0.4314.50",
+  "status": "PASS",
+  "finished_at": "2026-10-30T18:33:45.244Z"
+}

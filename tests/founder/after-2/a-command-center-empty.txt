@@ -1,0 +1,124 @@
+FOUNDER WORKSPACE / FICTIONAL ACME
+Command center.
+
+One engagement, a clear next step, and separate evidence and release obligations.
+
+Load Acme sample
+ONE FICTIONAL ENGAGEMENT
+req-101
+Acme · workflow assurance
+
+Was access enabled for req-101 by the agreed deadline?
+
+Expected outcome
+Access enabled
+Evidence deadline · UTC
+29 Oct 2026 · 10:00
+Permitted scope
+Bundled fictional records · read only
+Fictional outcome
+NOT RUN
+Native investigation
+NOT PERFORMED
+Human release
+NOT APPROVED
+CURRENT SAMPLE STAGE
+Start with the fictional scope
+
+No sample has been loaded or checked in this view.
+
+NEXT PERMITTED DEMO ACTION
+
+Read the question, deadline and read-only limits before preparing the fictional sources.
+
+Review scope and load sample
+Scope, responsibilities and review gates 
+SYNTHETIC EXAMPLE
+req-101
+A success claim is only the beginning.
+
+Acme’s support workflow says access is enabled. A separate state snapshot tells a different story. Follow the evidence before trusting the claim.
+
+WORKFLOW CLAIM
+Complete
+UNVERIFIED AI CLAIM
+
+Illustrative statement, not a real model response
+
+SHADOW CHECK
+NOT RUN
+
+Run the deterministic comparison
+
+Run fictional check
+Runs locally · no AI or external system call
+—
+Scoped sample sources
+Not loaded yet
+—
+Deterministic checks
+Awaiting execution
+0
+Real model calls
+Presentation only
+The evidence trail
+Originals stay visible
+Scope & intended outcome
+Fictional scope brief
+SAMPLE
+Workflow completion claim
+Unverified AI claim
+SAMPLE
+Independent state observation
+Supplied fictional observation
+SAMPLE
+Read-only fictional scope. No uploads, connections or real access grants. Source fingerprints establish byte identity, not external truth.
+Shadow verification
+NOT RUN
+
+A separate comparison of contract and observation. The completion claim has no vote.
+
+Observation to inspect
+Original example · outcome missing
+What if · outcome present
+What if · observation unavailable
+What if · observation too early
+01
+Identify the request
+Claim, contract and observation must refer to the same workflow.
+02
+Respect the deadline
+Missing or early evidence remains not assessed.
+03
+Inspect the actual state
+The completion claim cannot verify itself.
+
+Independent of the claim; limited to supplied fictional records. This is a presentation checker, not the native Shadow engine.
+
+Follow the investigation
+01
+Inspect the original records
+Read lines, fingerprints and citations
+02
+Replay the illustrative steps
+Synthetic history · no workers execute
+03
+Review the discrepancy
+Traceable internal report, never approved
+Raven briefing
+DETERMINISTIC EXPLANATION
+
+Fixed explanations of the selected fictional evidence. Raven is not connected; this is not an AI conversation.
+
+What needs attention?
+What can I trust?
+Can this be released?
+Separate the claim from the outcome
+
+No current fictional outcome is established. Review the scope and run the local check before interpreting the completion claim.
+
+This is deterministic presentation guidance derived from the selected sample state. It is not a conversation, model response or worker message.
+
+Connections and business operations Not connected by this prototype
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

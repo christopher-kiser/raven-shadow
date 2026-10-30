@@ -1,0 +1,49 @@
+SOURCES & CONTEXT
+Evidence you can inspect.
+
+Exact sample text, stable source identities and citations that resolve to their original lines.
+
+Reload sample
+Case Acme / req-101
+Data Synthetic example
+Scope Bundled records only
+Real model calls 0
+Source set
+3 files
+Scope & intended outcome
+acme-scope.txt
+Workflow completion claim
+acme-workflow-claim.txt
+Independent state observation
+acme-state-observation.txt
+
+All files are authored fictional examples. The scope brief is illustrative, not a customer permission or signed approval.
+
+Supplied fictional observation
+acme-state-observation.txt
+
+Synthetic example · original observation
+
+Download source
+
+8 original lines · no content omitted
+
+1
+ACME — SYNTHETIC STATE OBSERVATION
+2
+Classification: Original public-demo example; not authenticated external evidence.
+3
+Request: req-101
+4
+Captured at (UTC): 2026-10-29T10:00:00Z
+5
+Observed state: pending_activation
+6
+Origin: Separately supplied fictional state snapshot, not the automation claim.
+7
+Authentication: External authenticity is not assessed.
+8
+Coverage: One request at the stated capture time; later state is unknown.
+Inspect SHA-256 fingerprint
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

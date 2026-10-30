@@ -2,7 +2,35 @@
 
 **Evidence-first AI investigations, workflow assurance, and verified operations.**
 
-> **Project status — October 30, 2026:** A browser-based **Assurance Prototype** for a fictional Acme investigation. It demonstrates evidence navigation and a deterministic fictional outcome check. Native-engine qualification remains separate and incomplete. **No live agents, customer service, production certification or autonomous repair is represented.**
+> **Project status — October 30, 2026:** A browser-based **Assurance Prototype** for a fictional Acme investigation. It demonstrates evidence navigation and a deterministic fictional outcome check. Native-engine qualification is separate and is not established by this public prototype. **No live agents, customer service, production certification or autonomous repair is represented.**
+
+## Founder cockpit candidate — local review
+
+The isolated `prototype/founder-cockpit-audit` branch adds a Command Center and one
+Engagement view: the fixed question, deadline, source scope, current sample stage,
+next permitted action and separate assurance/release states. A deterministic Raven
+briefing links explanations to source evidence; it is not a live conversation.
+The existing map explains illustrative role inputs/outputs, and the operations
+panel states which real connections and records are unavailable.
+
+The candidate passes **34/34 unit checks**, **37/37 founder browser checks** and
+**37/37 existing browser regression checks** in installed Edge. Verified repairs
+cover intake retry, timeline keyboard focus, failed source preparation, cancelled
+reload recovery and source/report download retry without losing the bound result.
+[Final evidence](tests/founder/acceptance-manifest.json) ·
+[Source and historical-file preservation](tests/founder/final-preservation.json).
+
+The public URL below still serves the earlier presentation from
+`prototype/assurance-workspace`; this candidate has not been deployed. The same
+local launch command runs the checked-out branch.
+[Founder walkthrough](docs/PROTOTYPE.md#founder-cockpit-candidate) ·
+[Actual audit and retained failures](docs/FOUNDER_COCKPIT_AUDIT.md) ·
+[Pilot blockers and future interface boundary](docs/FOUNDER_BUSINESS_READINESS.md).
+
+[Candidate Command Center](tests/founder/regression-verified/screenshots/dashboard-desktop.png) ·
+[Engagement and separate assurance gates](tests/founder/after-final/e-satisfied-engagement.png) ·
+[Mobile founder view](tests/founder/after-final/mobile-command-center.png) ·
+[Before/after comparison](docs/FOUNDER_COCKPIT_AUDIT.md#before-and-after-browser-evidence).
 
 ## Try the Assurance Prototype
 
@@ -46,7 +74,7 @@ deadline. Detecting a discrepancy does not establish its cause or fix the workfl
 A changed observation is an explicitly hypothetical variant; it never rewrites the
 original case. Every example remains fictional and every report remains unapproved.
 
-## Verified prototype experience
+## Verified published baseline experience
 
 The deterministic example tests pass **12/12**. The final real-browser acceptance
 run in installed Microsoft Edge passes **37/37** checks at desktop, tablet and

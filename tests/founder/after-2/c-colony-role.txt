@@ -1,0 +1,46 @@
+COLONY PROJECTION
+Coordination, made legible.
+
+Understand the intended roles without confusing an animated interface with a running workforce.
+
+Synthetic example · no live workers. Select a role to inspect its responsibility. Node selection and illustrative replay are local presentation state only.
+Illustrative Acme colony
+NO LIVE ACTIVITY
+Raven
+ILLUSTRATIVE
+Queen
+ILLUSTRATIVE
+Research
+ILLUSTRATIVE
+Shadow
+ILLUSTRATIVE
+Quality
+ILLUSTRATIVE
+Archive
+ILLUSTRATIVE
+
+Queen is the coordination node, without a crown. Lines show an intended relationship; they are not recorded transmissions. Actual worker expansion, peer messages and recovery remain native-engine responsibilities.
+
+ROLE INSPECTOR
+Archive
+
+The intended Archive protects founder/customer originals. This demo deletes nothing and grants no cleanup authority.
+
+Responsibility
+Protect the originals
+Provenance
+Synthetic example / public product blueprint
+Actual model calls
+0 · no model connected
+Illustrated handoff · req-101
+Expected input
+Artifact ownership and retention policy
+Expected output
+A cleanup proposal requiring Queen approval; no deletion is performed.
+Recorded assignment or progress
+Unavailable · this is a role illustration.
+Inspect acme-scope.txt
+Return to the engagement and founder obligations 
+View illustrative timeline
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

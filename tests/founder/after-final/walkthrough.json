@@ -1,0 +1,1278 @@
+{
+  "suite": "founder-after-browser-acceptance",
+  "started_at": "2026-10-30T18:38:29.670Z",
+  "target": "owned public-repository loopback server",
+  "proof_boundary": "Actual browser behavior over the improved fictional public prototype, not native/customer qualification.",
+  "checks": [
+    {
+      "name": "consistent_unrun_state_and_empty_intake",
+      "status": "PASS"
+    },
+    {
+      "name": "fresh_keyboard_skip_link",
+      "status": "PASS"
+    },
+    {
+      "name": "F09_intake_error_visible_and_retryable",
+      "status": "PASS"
+    },
+    {
+      "name": "retry_loads_only_after_complete_hashing",
+      "status": "PASS"
+    },
+    {
+      "name": "clickable_workspace_opens_engagement",
+      "status": "PASS"
+    },
+    {
+      "name": "engagement_contract_and_all_raven_topics",
+      "status": "PASS",
+      "details": {
+        "topics": [
+          {
+            "id": "attention",
+            "text": "FICTIONAL ENGAGEMENT / req-101\nAcme engagement.\n\nThe question, next action and review obligations belong to one source-bound sample.\n\nReload sample\nONE FICTIONAL ENGAGEMENT\nreq-101\nAcme · workflow assurance\n\nWas access enabled for req-101 by the agreed deadline?\n\nExpected outcome\nAccess enabled\nEvidence deadline · UTC\n29 Oct 2026 · 10:00\nPermitted scope\nBundled fictional records · read only\nFictional outcome\nNOT RUN\nNative investigation\nNOT PERFORMED\nHuman release\nNOT APPROVED\nCURRENT SAMPLE STAGE\nReady for the fictional check\n\nThe selected sample is available. Its current outcome has not been checked.\n\nNEXT PERMITTED DEMO ACTION\n\nCompare the selected observation with the frozen deadline and required state. No model or native Shadow runtime is called.\n\nRun fictional check\nScope, responsibilities and review gates \nScope and constraints\nFIXED SAMPLE\n\nInvestigate only req-101 using the bundled fictional records. The deadline is fixed. No external reads, writes, customer delivery or cleanup are authorized. Scope selection is not a signed customer agreement.\n\nRead the exact question, deadline and constraints in acme-scope.txt · L3–9 \n\nDefining a real question, organization and permission scope requires authenticated native intake. This prototype cannot create that mission.\n\nEngagement path\n01\nPrepare fictional sources\nCOMPLETE\n\nThe loaded sample has browser-prepared fingerprints for its source texts.\n\nInspect this stage \n02\nCheck the fictional outcome\nAVAILABLE\n\nA browser comparison must run before an outcome can be shown.\n\nInspect this stage \n03\nInspect the internal sample report\nWAITING\n\nNo current sample report has been prepared.\n\nInspect this stage \n04\nComplete native investigation and reviews\nUNAVAILABLE\n\nReal specialist work, independent Quality review and Queen acceptance are outside this public presentation.\n\nInspect this stage \n05\nObtain human release authority\nUNAVAILABLE\n\nNo customer release, remediation, delivery or follow-up is approved or executed here.\n\nInspect this stage \nRaven briefing\nDETERMINISTIC EXPLANATION\n\nFixed explanations of the selected fictional evidence. Raven is not connected; this is not an AI conversation.\n\nWhat needs attention?\nWhat can I trust?\nCan this be released?\nSeparate the claim from the outcome\n\nNo current fictional outcome is established. Review the scope and run the local check before interpreting the completion claim.\n\nThis is deterministic presentation guidance derived from the selected sample state. It is not a conversation, model response or worker message.\n\nacme-scope.txt · L3–9\nacme-workflow-claim.txt · L3–7\nacme-state-observation.txt · L3–5\nAssurance and release\nNO RELEASE APPROVAL\n\nA business discrepancy can be a valid finding. A fictional PASS or FAIL cannot approve the investigation or authorize delivery.\n\nFictional business outcome\nNOT RUN\n\nThe selected fictional records have not been checked in this browser.\n\nSource fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval.\n\nBrowser comparison\nNOT RUN\n\nNo completed comparison is bound to the current selected records.\n\nExternal authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated.\n\nNative investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation.\n\nIndependent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails.\n\nQueen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied.\n\nHuman release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action.\n\nLocal draft export is permitted. Real review, release and customer delivery are unavailable here.\n\nOpen obligations\nReal evidence is absent\n\nFictional records and their hashes cannot qualify an authenticated customer investigation.\n\nNative work and reviews are unavailable here\n\nSpecialist investigation, independent Quality review and Queen acceptance have not occurred in this public presentation.\n\nHuman release is not approved\n\nNo sample result, including PASS, authorizes customer delivery, remediation or external action.\n\nConnections and business operations Not connected by this prototype\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+            "focus_retained": true
+          },
+          {
+            "id": "assurance",
+            "text": "FICTIONAL ENGAGEMENT / req-101\nAcme engagement.\n\nThe question, next action and review obligations belong to one source-bound sample.\n\nReload sample\nONE FICTIONAL ENGAGEMENT\nreq-101\nAcme · workflow assurance\n\nWas access enabled for req-101 by the agreed deadline?\n\nExpected outcome\nAccess enabled\nEvidence deadline · UTC\n29 Oct 2026 · 10:00\nPermitted scope\nBundled fictional records · read only\nFictional outcome\nNOT RUN\nNative investigation\nNOT PERFORMED\nHuman release\nNOT APPROVED\nCURRENT SAMPLE STAGE\nReady for the fictional check\n\nThe selected sample is available. Its current outcome has not been checked.\n\nNEXT PERMITTED DEMO ACTION\n\nCompare the selected observation with the frozen deadline and required state. No model or native Shadow runtime is called.\n\nRun fictional check\nScope, responsibilities and review gates \nScope and constraints\nFIXED SAMPLE\n\nInvestigate only req-101 using the bundled fictional records. The deadline is fixed. No external reads, writes, customer delivery or cleanup are authorized. Scope selection is not a signed customer agreement.\n\nRead the exact question, deadline and constraints in acme-scope.txt · L3–9 \n\nDefining a real question, organization and permission scope requires authenticated native intake. This prototype cannot create that mission.\n\nEngagement path\n01\nPrepare fictional sources\nCOMPLETE\n\nThe loaded sample has browser-prepared fingerprints for its source texts.\n\nInspect this stage \n02\nCheck the fictional outcome\nAVAILABLE\n\nA browser comparison must run before an outcome can be shown.\n\nInspect this stage \n03\nInspect the internal sample report\nWAITING\n\nNo current sample report has been prepared.\n\nInspect this stage \n04\nComplete native investigation and reviews\nUNAVAILABLE\n\nReal specialist work, independent Quality review and Queen acceptance are outside this public presentation.\n\nInspect this stage \n05\nObtain human release authority\nUNAVAILABLE\n\nNo customer release, remediation, delivery or follow-up is approved or executed here.\n\nInspect this stage \nRaven briefing\nDETERMINISTIC EXPLANATION\n\nFixed explanations of the selected fictional evidence. Raven is not connected; this is not an AI conversation.\n\nWhat needs attention?\nWhat can I trust?\nCan this be released?\nKeep the proof boundaries visible\n\nNo completed comparison is currently bound to the selected records.\n\n3 source fingerprints available. Fingerprints describe byte identity only; they do not authenticate the underlying business state.\n\nNative investigation, independent Quality review and Queen acceptance have not been performed. A business discrepancy alone does not decide whether a future reviewed report is acceptable.\n\nacme-scope.txt · L3–9\nacme-state-observation.txt · L3–5\nAssurance and release\nNO RELEASE APPROVAL\n\nA business discrepancy can be a valid finding. A fictional PASS or FAIL cannot approve the investigation or authorize delivery.\n\nFictional business outcome\nNOT RUN\n\nThe selected fictional records have not been checked in this browser.\n\nSource fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval.\n\nBrowser comparison\nNOT RUN\n\nNo completed comparison is bound to the current selected records.\n\nExternal authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated.\n\nNative investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation.\n\nIndependent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails.\n\nQueen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied.\n\nHuman release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action.\n\nLocal draft export is permitted. Real review, release and customer delivery are unavailable here.\n\nOpen obligations\nReal evidence is absent\n\nFictional records and their hashes cannot qualify an authenticated customer investigation.\n\nNative work and reviews are unavailable here\n\nSpecialist investigation, independent Quality review and Queen acceptance have not occurred in this public presentation.\n\nHuman release is not approved\n\nNo sample result, including PASS, authorizes customer delivery, remediation or external action.\n\nConnections and business operations Not connected by this prototype\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+            "focus_retained": true
+          },
+          {
+            "id": "release",
+            "text": "FICTIONAL ENGAGEMENT / req-101\nAcme engagement.\n\nThe question, next action and review obligations belong to one source-bound sample.\n\nReload sample\nONE FICTIONAL ENGAGEMENT\nreq-101\nAcme · workflow assurance\n\nWas access enabled for req-101 by the agreed deadline?\n\nExpected outcome\nAccess enabled\nEvidence deadline · UTC\n29 Oct 2026 · 10:00\nPermitted scope\nBundled fictional records · read only\nFictional outcome\nNOT RUN\nNative investigation\nNOT PERFORMED\nHuman release\nNOT APPROVED\nCURRENT SAMPLE STAGE\nReady for the fictional check\n\nThe selected sample is available. Its current outcome has not been checked.\n\nNEXT PERMITTED DEMO ACTION\n\nCompare the selected observation with the frozen deadline and required state. No model or native Shadow runtime is called.\n\nRun fictional check\nScope, responsibilities and review gates \nScope and constraints\nFIXED SAMPLE\n\nInvestigate only req-101 using the bundled fictional records. The deadline is fixed. No external reads, writes, customer delivery or cleanup are authorized. Scope selection is not a signed customer agreement.\n\nRead the exact question, deadline and constraints in acme-scope.txt · L3–9 \n\nDefining a real question, organization and permission scope requires authenticated native intake. This prototype cannot create that mission.\n\nEngagement path\n01\nPrepare fictional sources\nCOMPLETE\n\nThe loaded sample has browser-prepared fingerprints for its source texts.\n\nInspect this stage \n02\nCheck the fictional outcome\nAVAILABLE\n\nA browser comparison must run before an outcome can be shown.\n\nInspect this stage \n03\nInspect the internal sample report\nWAITING\n\nNo current sample report has been prepared.\n\nInspect this stage \n04\nComplete native investigation and reviews\nUNAVAILABLE\n\nReal specialist work, independent Quality review and Queen acceptance are outside this public presentation.\n\nInspect this stage \n05\nObtain human release authority\nUNAVAILABLE\n\nNo customer release, remediation, delivery or follow-up is approved or executed here.\n\nInspect this stage \nRaven briefing\nDETERMINISTIC EXPLANATION\n\nFixed explanations of the selected fictional evidence. Raven is not connected; this is not an AI conversation.\n\nWhat needs attention?\nWhat can I trust?\nCan this be released?\nInternal demonstration — release not approved\n\nNo. Human release is NOT APPROVED in every sample variant. There is no authenticated customer engagement, native review chain or approval record in this presentation.\n\nA business FAIL may still be a valid reviewed finding. The absent evidence, reviews and authority prevent release here; the business verdict itself does not decide release.\n\nInspecting or downloading the internal sample report is a working browser action. Customer delivery, correction, external writes and real follow-up remain unavailable.\n\nacme-scope.txt · L3–9\nAssurance and release\nNO RELEASE APPROVAL\n\nA business discrepancy can be a valid finding. A fictional PASS or FAIL cannot approve the investigation or authorize delivery.\n\nFictional business outcome\nNOT RUN\n\nThe selected fictional records have not been checked in this browser.\n\nSource fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval.\n\nBrowser comparison\nNOT RUN\n\nNo completed comparison is bound to the current selected records.\n\nExternal authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated.\n\nNative investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation.\n\nIndependent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails.\n\nQueen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied.\n\nHuman release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action.\n\nLocal draft export is permitted. Real review, release and customer delivery are unavailable here.\n\nOpen obligations\nReal evidence is absent\n\nFictional records and their hashes cannot qualify an authenticated customer investigation.\n\nNative work and reviews are unavailable here\n\nSpecialist investigation, independent Quality review and Queen acceptance have not occurred in this public presentation.\n\nHuman release is not approved\n\nNo sample result, including PASS, authorizes customer delivery, remediation or external action.\n\nConnections and business operations Not connected by this prototype\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+            "focus_retained": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "founder_source_citations_resolve",
+      "status": "PASS",
+      "details": [
+        {
+          "href": "#evidence/scope/L3-L9",
+          "source": "scope",
+          "quote": [
+            "Request: req-101",
+            "Objective: Verify that access is enabled by the agreed deadline.",
+            "Required state: access_enabled",
+            "Deadline (UTC): 2026-10-29T10:00:00Z",
+            "Permitted: Read only the fictional files supplied with this sample.",
+            "External writes: Not authorized by this presentation.",
+            "Release: Internal demonstration only; no approval record exists."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "role_inputs_outputs_and_keyboard_focus",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "raven",
+          "text": "ROLE INSPECTOR\nRaven\n\nThe founder-facing narrator connects questions to evidence. This prototype offers fixed guidance, not a live conversation.\n\nResponsibility\nOperator guide\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nIllustrated handoff · req-101\nExpected input\nQuestion, scoped evidence and attributable decisions\nExpected output\nA source-linked explanation; no conversation is generated here.\nRecorded assignment or progress\nUnavailable · this is a role illustration.\nInspect acme-scope.txt\nInspect acme-workflow-claim.txt\nReturn to the engagement and founder obligations \nView illustrative timeline"
+        },
+        {
+          "id": "queen",
+          "text": "ROLE INSPECTOR\nQueen\n\nThe intended canonical coordinator assigns bounded work. This crown-free map displays a fixed fictional structure; no workers are spawned.\n\nResponsibility\nScoped coordination\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nIllustrated handoff · req-101\nExpected input\nWritten scope and intended outcome\nExpected output\nBounded assignments and accountable handoffs; none are issued here.\nRecorded assignment or progress\nUnavailable · this is a role illustration.\nInspect acme-scope.txt\nReturn to the engagement and founder obligations \nView illustrative timeline"
+        },
+        {
+          "id": "research",
+          "text": "ROLE INSPECTOR\nResearch\n\nThe illustrated research role separates the completion claim from the supplied state. No native specialist or model runs here.\n\nResponsibility\nEvidence investigation\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nIllustrated handoff · req-101\nExpected input\nApproved claim and observation sources\nExpected output\nCited findings and unknowns; no specialist has investigated here.\nRecorded assignment or progress\nUnavailable · this is a role illustration.\nInspect acme-workflow-claim.txt\nInspect acme-state-observation.txt\nReturn to the engagement and founder obligations \nView illustrative timeline"
+        },
+        {
+          "id": "shadow",
+          "text": "ROLE INSPECTOR\nShadow\n\nThe functional browser checker compares the fictional contract with its observation, independently of the success statement.\n\nResponsibility\nIndependent comparison\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nIllustrated handoff · req-101\nExpected input\nOutcome contract and separate observation\nExpected output\nA defined comparison. Use Run fictional check for the browser example.\nRecorded assignment or progress\nUnavailable · this is a role illustration.\nInspect acme-scope.txt\nInspect acme-state-observation.txt\nReturn to the engagement and founder obligations \nView illustrative timeline"
+        },
+        {
+          "id": "quality",
+          "text": "ROLE INSPECTOR\nQuality\n\nNative full-artifact Quality is a separate acceptance gate. No Quality verdict or Queen acceptance is produced by this presentation.\n\nResponsibility\nReview boundary\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nIllustrated handoff · req-101\nExpected input\nComplete report and original evidence\nExpected output\nAn independent full-artifact verdict; not performed in this prototype.\nRecorded assignment or progress\nUnavailable · this is a role illustration.\nInspect acme-scope.txt\nInspect acme-workflow-claim.txt\nInspect acme-state-observation.txt\nReturn to the engagement and founder obligations \nView illustrative timeline"
+        },
+        {
+          "id": "archive",
+          "text": "ROLE INSPECTOR\nArchive\n\nThe intended Archive protects founder/customer originals. This demo deletes nothing and grants no cleanup authority.\n\nResponsibility\nProtect the originals\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nIllustrated handoff · req-101\nExpected input\nArtifact ownership and retention policy\nExpected output\nA cleanup proposal requiring Queen approval; no deletion is performed.\nRecorded assignment or progress\nUnavailable · this is a role illustration.\nInspect acme-scope.txt\nReturn to the engagement and founder obligations \nView illustrative timeline"
+        }
+      ]
+    },
+    {
+      "name": "F10_timeline_checkpoint_keyboard_focus",
+      "status": "PASS"
+    },
+    {
+      "name": "original_source_bytes_and_hashes_unchanged",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "scope",
+          "filename": "acme-scope.txt",
+          "sha256": "41847d65a12dea2ce07283c68d73ab291c303cb4b0058c131978417af6a3c976"
+        },
+        {
+          "id": "claim",
+          "filename": "acme-workflow-claim.txt",
+          "sha256": "6c06afc2eeefdb19efb53dffb3487ee3430654cc8b8e404dc3b9a0e788426eb5"
+        },
+        {
+          "id": "observation",
+          "filename": "acme-state-observation.txt",
+          "sha256": "2bc37d8120dd9c9a32242c5b373901b3954e58135d0b5f5d5f20c9fc4e689fd7"
+        }
+      ]
+    },
+    {
+      "name": "baseline_engagement_gates",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "outcome",
+          "state": "FAIL",
+          "text": "Fictional business outcome\nFAIL\n\nThe supplied fictional state does not support the completion claim at the deadline."
+        },
+        {
+          "id": "integrity",
+          "state": "HASHED",
+          "text": "Source fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+        },
+        {
+          "id": "comparison",
+          "state": "COMPLETE",
+          "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+        },
+        {
+          "id": "authenticity",
+          "state": "NOT ASSESSED",
+          "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+        },
+        {
+          "id": "investigation",
+          "state": "NOT PERFORMED",
+          "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+        },
+        {
+          "id": "quality",
+          "state": "NOT PERFORMED",
+          "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+        },
+        {
+          "id": "queen",
+          "state": "NOT PERFORMED",
+          "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+        },
+        {
+          "id": "release",
+          "state": "NOT APPROVED",
+          "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+        }
+      ]
+    },
+    {
+      "name": "baseline_exact_report_and_gates",
+      "status": "PASS",
+      "details": {
+        "filename": "raven-shadow-acme-baseline.md",
+        "sha256": "21592a044cee6ac4a219cb501aa408fa103ba19415bdc0ca2deaf3f223c95057",
+        "gate_states": [
+          {
+            "id": "outcome",
+            "state": "FAIL",
+            "text": "Fictional business outcome\nFAIL\n\nThe supplied fictional state does not support the completion claim at the deadline."
+          },
+          {
+            "id": "integrity",
+            "state": "HASHED",
+            "text": "Source fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+          },
+          {
+            "id": "comparison",
+            "state": "COMPLETE",
+            "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+          },
+          {
+            "id": "authenticity",
+            "state": "NOT ASSESSED",
+            "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+          },
+          {
+            "id": "investigation",
+            "state": "NOT PERFORMED",
+            "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+          },
+          {
+            "id": "quality",
+            "state": "NOT PERFORMED",
+            "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+          },
+          {
+            "id": "queen",
+            "state": "NOT PERFORMED",
+            "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+          },
+          {
+            "id": "release",
+            "state": "NOT APPROVED",
+            "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+          }
+        ]
+      }
+    },
+    {
+      "name": "baseline_report_citations",
+      "status": "PASS",
+      "details": [
+        {
+          "href": "#evidence/scope/L3-L6",
+          "source": "scope",
+          "quote": [
+            "Request: req-101",
+            "Objective: Verify that access is enabled by the agreed deadline.",
+            "Required state: access_enabled",
+            "Deadline (UTC): 2026-10-29T10:00:00Z"
+          ]
+        },
+        {
+          "href": "#evidence/claim/L3-L7",
+          "source": "claim",
+          "quote": [
+            "Request: req-101",
+            "Statement: Request req-101 is complete. Access has been enabled.",
+            "Claimed state: access_enabled",
+            "Claim timestamp (UTC): 2026-10-29T09:58:00Z",
+            "Authority: This statement cannot prove the resulting system state."
+          ]
+        },
+        {
+          "href": "#evidence/observation/L3-L5",
+          "source": "observation",
+          "quote": [
+            "Request: req-101",
+            "Captured at (UTC): 2026-10-29T10:00:00Z",
+            "Observed state: pending_activation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "satisfied_engagement_gates",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "outcome",
+          "state": "PASS",
+          "text": "Fictional business outcome\nPASS\n\nThe changed fictional observation contains the required state at the deadline. This does not change the original example."
+        },
+        {
+          "id": "integrity",
+          "state": "HASHED",
+          "text": "Source fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+        },
+        {
+          "id": "comparison",
+          "state": "COMPLETE",
+          "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+        },
+        {
+          "id": "authenticity",
+          "state": "NOT ASSESSED",
+          "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+        },
+        {
+          "id": "investigation",
+          "state": "NOT PERFORMED",
+          "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+        },
+        {
+          "id": "quality",
+          "state": "NOT PERFORMED",
+          "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+        },
+        {
+          "id": "queen",
+          "state": "NOT PERFORMED",
+          "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+        },
+        {
+          "id": "release",
+          "state": "NOT APPROVED",
+          "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+        }
+      ]
+    },
+    {
+      "name": "satisfied_exact_report_and_gates",
+      "status": "PASS",
+      "details": {
+        "filename": "raven-shadow-acme-satisfied.md",
+        "sha256": "33d9a39ec502f6cb4f2854e1bb56017853a2619d36409b615d370f6b8002d17a",
+        "gate_states": [
+          {
+            "id": "outcome",
+            "state": "PASS",
+            "text": "Fictional business outcome\nPASS\n\nThe changed fictional observation contains the required state at the deadline. This does not change the original example."
+          },
+          {
+            "id": "integrity",
+            "state": "HASHED",
+            "text": "Source fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+          },
+          {
+            "id": "comparison",
+            "state": "COMPLETE",
+            "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+          },
+          {
+            "id": "authenticity",
+            "state": "NOT ASSESSED",
+            "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+          },
+          {
+            "id": "investigation",
+            "state": "NOT PERFORMED",
+            "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+          },
+          {
+            "id": "quality",
+            "state": "NOT PERFORMED",
+            "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+          },
+          {
+            "id": "queen",
+            "state": "NOT PERFORMED",
+            "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+          },
+          {
+            "id": "release",
+            "state": "NOT APPROVED",
+            "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+          }
+        ]
+      }
+    },
+    {
+      "name": "satisfied_report_citations",
+      "status": "PASS",
+      "details": [
+        {
+          "href": "#evidence/scope/L3-L6",
+          "source": "scope",
+          "quote": [
+            "Request: req-101",
+            "Objective: Verify that access is enabled by the agreed deadline.",
+            "Required state: access_enabled",
+            "Deadline (UTC): 2026-10-29T10:00:00Z"
+          ]
+        },
+        {
+          "href": "#evidence/claim/L3-L7",
+          "source": "claim",
+          "quote": [
+            "Request: req-101",
+            "Statement: Request req-101 is complete. Access has been enabled.",
+            "Claimed state: access_enabled",
+            "Claim timestamp (UTC): 2026-10-29T09:58:00Z",
+            "Authority: This statement cannot prove the resulting system state."
+          ]
+        },
+        {
+          "href": "#evidence/observation/L3-L5",
+          "source": "observation",
+          "quote": [
+            "Request: req-101",
+            "Captured at (UTC): 2026-10-29T10:00:00Z",
+            "Observed state: access_enabled"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "missing_invalidates_old_result",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "outcome",
+          "state": "NOT RUN",
+          "text": "Fictional business outcome\nNOT RUN\n\nThe selected fictional records have not been checked in this browser."
+        },
+        {
+          "id": "integrity",
+          "state": "HASHED",
+          "text": "Source fingerprints\n2 OF 2 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+        },
+        {
+          "id": "comparison",
+          "state": "NOT RUN",
+          "text": "Browser comparison\nNOT RUN\n\nNo completed comparison is bound to the current selected records."
+        },
+        {
+          "id": "authenticity",
+          "state": "NOT ASSESSED",
+          "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+        },
+        {
+          "id": "investigation",
+          "state": "NOT PERFORMED",
+          "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+        },
+        {
+          "id": "quality",
+          "state": "NOT PERFORMED",
+          "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+        },
+        {
+          "id": "queen",
+          "state": "NOT PERFORMED",
+          "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+        },
+        {
+          "id": "release",
+          "state": "NOT APPROVED",
+          "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+        }
+      ]
+    },
+    {
+      "name": "missing_insufficient_evidence_gates",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "outcome",
+          "state": "NOT ASSESSED",
+          "text": "Fictional business outcome\nNOT ASSESSED\n\nThe completion claim cannot be assessed without a separate observation."
+        },
+        {
+          "id": "integrity",
+          "state": "HASHED",
+          "text": "Source fingerprints\n2 OF 2 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+        },
+        {
+          "id": "comparison",
+          "state": "COMPLETE",
+          "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+        },
+        {
+          "id": "authenticity",
+          "state": "NOT ASSESSED",
+          "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+        },
+        {
+          "id": "investigation",
+          "state": "NOT PERFORMED",
+          "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+        },
+        {
+          "id": "quality",
+          "state": "NOT PERFORMED",
+          "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+        },
+        {
+          "id": "queen",
+          "state": "NOT PERFORMED",
+          "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+        },
+        {
+          "id": "release",
+          "state": "NOT APPROVED",
+          "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+        }
+      ]
+    },
+    {
+      "name": "missing_exact_report_and_gates",
+      "status": "PASS",
+      "details": {
+        "filename": "raven-shadow-acme-missing.md",
+        "sha256": "f71b5e8932d0839dd9cfe24a3f8eb6234aed0d0d6143f0728e407a4d0f12659b",
+        "gate_states": [
+          {
+            "id": "outcome",
+            "state": "NOT ASSESSED",
+            "text": "Fictional business outcome\nNOT ASSESSED\n\nThe completion claim cannot be assessed without a separate observation."
+          },
+          {
+            "id": "integrity",
+            "state": "HASHED",
+            "text": "Source fingerprints\n2 OF 2 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+          },
+          {
+            "id": "comparison",
+            "state": "COMPLETE",
+            "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+          },
+          {
+            "id": "authenticity",
+            "state": "NOT ASSESSED",
+            "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+          },
+          {
+            "id": "investigation",
+            "state": "NOT PERFORMED",
+            "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+          },
+          {
+            "id": "quality",
+            "state": "NOT PERFORMED",
+            "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+          },
+          {
+            "id": "queen",
+            "state": "NOT PERFORMED",
+            "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+          },
+          {
+            "id": "release",
+            "state": "NOT APPROVED",
+            "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+          }
+        ]
+      }
+    },
+    {
+      "name": "missing_report_citations",
+      "status": "PASS",
+      "details": [
+        {
+          "href": "#evidence/scope/L3-L6",
+          "source": "scope",
+          "quote": [
+            "Request: req-101",
+            "Objective: Verify that access is enabled by the agreed deadline.",
+            "Required state: access_enabled",
+            "Deadline (UTC): 2026-10-29T10:00:00Z"
+          ]
+        },
+        {
+          "href": "#evidence/claim/L3-L7",
+          "source": "claim",
+          "quote": [
+            "Request: req-101",
+            "Statement: Request req-101 is complete. Access has been enabled.",
+            "Claimed state: access_enabled",
+            "Claim timestamp (UTC): 2026-10-29T09:58:00Z",
+            "Authority: This statement cannot prove the resulting system state."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "missing_founder_citations",
+      "status": "PASS",
+      "details": [
+        {
+          "href": "#evidence/scope/L3-L9",
+          "source": "scope",
+          "quote": [
+            "Request: req-101",
+            "Objective: Verify that access is enabled by the agreed deadline.",
+            "Required state: access_enabled",
+            "Deadline (UTC): 2026-10-29T10:00:00Z",
+            "Permitted: Read only the fictional files supplied with this sample.",
+            "External writes: Not authorized by this presentation.",
+            "Release: Internal demonstration only; no approval record exists."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stale_invalidates_old_result",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "outcome",
+          "state": "NOT RUN",
+          "text": "Fictional business outcome\nNOT RUN\n\nThe selected fictional records have not been checked in this browser."
+        },
+        {
+          "id": "integrity",
+          "state": "HASHED",
+          "text": "Source fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+        },
+        {
+          "id": "comparison",
+          "state": "NOT RUN",
+          "text": "Browser comparison\nNOT RUN\n\nNo completed comparison is bound to the current selected records."
+        },
+        {
+          "id": "authenticity",
+          "state": "NOT ASSESSED",
+          "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+        },
+        {
+          "id": "investigation",
+          "state": "NOT PERFORMED",
+          "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+        },
+        {
+          "id": "quality",
+          "state": "NOT PERFORMED",
+          "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+        },
+        {
+          "id": "queen",
+          "state": "NOT PERFORMED",
+          "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+        },
+        {
+          "id": "release",
+          "state": "NOT APPROVED",
+          "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+        }
+      ]
+    },
+    {
+      "name": "stale_insufficient_evidence_gates",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "outcome",
+          "state": "NOT ASSESSED",
+          "text": "Fictional business outcome\nNOT ASSESSED\n\nThis observation does not establish the required state at the deadline."
+        },
+        {
+          "id": "integrity",
+          "state": "HASHED",
+          "text": "Source fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+        },
+        {
+          "id": "comparison",
+          "state": "COMPLETE",
+          "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+        },
+        {
+          "id": "authenticity",
+          "state": "NOT ASSESSED",
+          "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+        },
+        {
+          "id": "investigation",
+          "state": "NOT PERFORMED",
+          "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+        },
+        {
+          "id": "quality",
+          "state": "NOT PERFORMED",
+          "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+        },
+        {
+          "id": "queen",
+          "state": "NOT PERFORMED",
+          "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+        },
+        {
+          "id": "release",
+          "state": "NOT APPROVED",
+          "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+        }
+      ]
+    },
+    {
+      "name": "stale_exact_report_and_gates",
+      "status": "PASS",
+      "details": {
+        "filename": "raven-shadow-acme-stale.md",
+        "sha256": "2fdb0bd3e247fa044ab6d1a46adabbdbe704ae5ae67befdc42e00b501ab47bc7",
+        "gate_states": [
+          {
+            "id": "outcome",
+            "state": "NOT ASSESSED",
+            "text": "Fictional business outcome\nNOT ASSESSED\n\nThis observation does not establish the required state at the deadline."
+          },
+          {
+            "id": "integrity",
+            "state": "HASHED",
+            "text": "Source fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+          },
+          {
+            "id": "comparison",
+            "state": "COMPLETE",
+            "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+          },
+          {
+            "id": "authenticity",
+            "state": "NOT ASSESSED",
+            "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+          },
+          {
+            "id": "investigation",
+            "state": "NOT PERFORMED",
+            "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+          },
+          {
+            "id": "quality",
+            "state": "NOT PERFORMED",
+            "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+          },
+          {
+            "id": "queen",
+            "state": "NOT PERFORMED",
+            "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+          },
+          {
+            "id": "release",
+            "state": "NOT APPROVED",
+            "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+          }
+        ]
+      }
+    },
+    {
+      "name": "stale_report_citations",
+      "status": "PASS",
+      "details": [
+        {
+          "href": "#evidence/scope/L3-L6",
+          "source": "scope",
+          "quote": [
+            "Request: req-101",
+            "Objective: Verify that access is enabled by the agreed deadline.",
+            "Required state: access_enabled",
+            "Deadline (UTC): 2026-10-29T10:00:00Z"
+          ]
+        },
+        {
+          "href": "#evidence/claim/L3-L7",
+          "source": "claim",
+          "quote": [
+            "Request: req-101",
+            "Statement: Request req-101 is complete. Access has been enabled.",
+            "Claimed state: access_enabled",
+            "Claim timestamp (UTC): 2026-10-29T09:58:00Z",
+            "Authority: This statement cannot prove the resulting system state."
+          ]
+        },
+        {
+          "href": "#evidence/observation/L3-L5",
+          "source": "observation",
+          "quote": [
+            "Request: req-101",
+            "Captured at (UTC): 2026-10-29T09:45:00Z",
+            "Observed state: pending_activation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stale_founder_citations",
+      "status": "PASS",
+      "details": [
+        {
+          "href": "#evidence/scope/L3-L9",
+          "source": "scope",
+          "quote": [
+            "Request: req-101",
+            "Objective: Verify that access is enabled by the agreed deadline.",
+            "Required state: access_enabled",
+            "Deadline (UTC): 2026-10-29T10:00:00Z",
+            "Permitted: Read only the fictional files supplied with this sample.",
+            "External writes: Not authorized by this presentation.",
+            "Release: Internal demonstration only; no approval record exists."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "final_baseline_report_preserved_except_generation_time",
+      "status": "PASS",
+      "details": {
+        "filename": "raven-shadow-acme-baseline.md",
+        "sha256": "615b95b1d4e1a7ae6f0e3de37febaabdc47dd8eab89652083b14de17835c67ed",
+        "gate_states": [
+          {
+            "id": "outcome",
+            "state": "FAIL",
+            "text": "Fictional business outcome\nFAIL\n\nThe supplied fictional state does not support the completion claim at the deadline."
+          },
+          {
+            "id": "integrity",
+            "state": "HASHED",
+            "text": "Source fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval."
+          },
+          {
+            "id": "comparison",
+            "state": "COMPLETE",
+            "text": "Browser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model."
+          },
+          {
+            "id": "authenticity",
+            "state": "NOT ASSESSED",
+            "text": "External authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated."
+          },
+          {
+            "id": "investigation",
+            "state": "NOT PERFORMED",
+            "text": "Native investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation."
+          },
+          {
+            "id": "quality",
+            "state": "NOT PERFORMED",
+            "text": "Independent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails."
+          },
+          {
+            "id": "queen",
+            "state": "NOT PERFORMED",
+            "text": "Queen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied."
+          },
+          {
+            "id": "release",
+            "state": "NOT APPROVED",
+            "text": "Human release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action."
+          }
+        ]
+      }
+    },
+    {
+      "name": "cancelled_reload_requires_and_recovers_source_preparation",
+      "status": "PASS",
+      "details": {
+        "verdict": "PASS",
+        "source_preparation_recovered": true
+      }
+    },
+    {
+      "name": "variant_hash_error_is_not_presented_as_active_preparation",
+      "status": "PASS",
+      "details": {
+        "failure_text": "The local step could not finish.\n\nControlled final variant hash failure\n\nRetry local step\n\nNo new approval, customer access or external action was created.\n\nSOURCES & CONTEXT\nSource preparation is incomplete.\n\nNo prepared source set is available. Retry the failed local step before checking or inspecting this selection.\n\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+        "retry_source_count": 3
+      }
+    },
+    {
+      "name": "download_error_preserves_comparison_and_retry_reissues_same_report",
+      "status": "PASS",
+      "details": {
+        "retry_filename": "raven-shadow-acme-satisfied.md",
+        "sha256": "b9457504ec772357ee4a87840e3e0f147b2c6da8ff1362a539205ceed2ae595c",
+        "accepted_outcome": "PASS"
+      }
+    },
+    {
+      "name": "source_download_error_retry_preserves_original_bytes",
+      "status": "PASS",
+      "details": {
+        "filename": "acme-scope.txt",
+        "sha256": "41847d65a12dea2ce07283c68d73ab291c303cb4b0058c131978417af6a3c976"
+      }
+    },
+    {
+      "name": "operational_boundary_is_explicit",
+      "status": "PASS",
+      "details": {
+        "text": "FICTIONAL ENGAGEMENT / req-101\nAcme engagement.\n\nThe question, next action and review obligations belong to one source-bound sample.\n\nReload sample\nONE FICTIONAL ENGAGEMENT\nreq-101\nAcme · workflow assurance\n\nWas access enabled for req-101 by the agreed deadline?\n\nExpected outcome\nAccess enabled\nEvidence deadline · UTC\n29 Oct 2026 · 10:00\nPermitted scope\nBundled fictional records · read only\nFictional outcome\nFAIL\nNative investigation\nNOT PERFORMED\nHuman release\nNOT APPROVED\nCURRENT SAMPLE STAGE\nFictional comparison complete\n\nA source-bound internal sample report is available. Native investigation, review and release remain incomplete.\n\nNEXT PERMITTED DEMO ACTION\n\nCompare the observed state with the completion claim. A failed business outcome can be a valid finding; it is not a failed Quality verdict.\n\nInspect the discrepancy\nScope, responsibilities and review gates \nScope and constraints\nFIXED SAMPLE\n\nInvestigate only req-101 using the bundled fictional records. The deadline is fixed. No external reads, writes, customer delivery or cleanup are authorized. Scope selection is not a signed customer agreement.\n\nRead the exact question, deadline and constraints in acme-scope.txt · L3–9 \n\nDefining a real question, organization and permission scope requires authenticated native intake. This prototype cannot create that mission.\n\nEngagement path\n01\nPrepare fictional sources\nCOMPLETE\n\nThe loaded sample has browser-prepared fingerprints for its source texts.\n\nInspect this stage \n02\nCheck the fictional outcome\nCOMPLETE\n\nThe current source-bound comparison returned FAIL.\n\nInspect this stage \n03\nInspect the internal sample report\nAVAILABLE\n\nA report is prepared; the interface does not claim that you have reviewed or approved it.\n\nInspect this stage \n04\nComplete native investigation and reviews\nUNAVAILABLE\n\nReal specialist work, independent Quality review and Queen acceptance are outside this public presentation.\n\nInspect this stage \n05\nObtain human release authority\nUNAVAILABLE\n\nNo customer release, remediation, delivery or follow-up is approved or executed here.\n\nInspect this stage \nRaven briefing\nDETERMINISTIC EXPLANATION\n\nFixed explanations of the selected fictional evidence. Raven is not connected; this is not an AI conversation.\n\nWhat needs attention?\nWhat can I trust?\nCan this be released?\nInternal demonstration — release not approved\n\nNo. Human release is NOT APPROVED in every sample variant. There is no authenticated customer engagement, native review chain or approval record in this presentation.\n\nA business FAIL may still be a valid reviewed finding. The absent evidence, reviews and authority prevent release here; the business verdict itself does not decide release.\n\nInspecting or downloading the internal sample report is a working browser action. Customer delivery, correction, external writes and real follow-up remain unavailable.\n\nacme-scope.txt · L3–9\nAssurance and release\nNO RELEASE APPROVAL\n\nA business discrepancy can be a valid finding. A fictional PASS or FAIL cannot approve the investigation or authorize delivery.\n\nFictional business outcome\nFAIL\n\nThe supplied fictional state does not support the completion claim at the deadline.\n\nSource fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval.\n\nBrowser comparison\nCOMPLETED\n\nThe existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model.\n\nExternal authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated.\n\nNative investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation.\n\nIndependent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails.\n\nQueen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied.\n\nHuman release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action.\n\nLocal draft export is permitted. Real review, release and customer delivery are unavailable here.\n\nOpen obligations\nReal evidence is absent\n\nFictional records and their hashes cannot qualify an authenticated customer investigation.\n\nNative work and reviews are unavailable here\n\nSpecialist investigation, independent Quality review and Queen acceptance have not occurred in this public presentation.\n\nHuman release is not approved\n\nNo sample result, including PASS, authorizes customer delivery, remediation or external action.\n\nConnections and business operations Not connected by this prototype\nRaven, Queen and native Shadow\nNo connection from this browser demo. Their private runtime health is not inspected.\nWorker reliability, cost and service monitoring\nUnavailable here. No operational measurements or running workers are represented.\nCustomer identity, scope grants and secure delivery\nFuture authenticated integration. No customer accounts, uploads or external access are available.\nFollow-up, billing, support and incidents\nNo business records connected. A sample download does not create a customer delivery or follow-up.\nSee the qualification roadmap \nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗"
+      }
+    },
+    {
+      "name": "desktop_all_routes_navigation_and_no_overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "tablet_all_routes_and_layout",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile_all_routes_menu_and_keyboard_focus",
+      "status": "PASS"
+    },
+    {
+      "name": "reduced_motion_remains_respected",
+      "status": "PASS"
+    },
+    {
+      "name": "no_page_errors_external_requests_writes_or_sockets",
+      "status": "PASS"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "A",
+      "task": "Start the business day",
+      "steps": [
+        "Open a fresh local preview.",
+        "Inspect current fictional engagement, question, deadline, attention state and next action."
+      ],
+      "observed": {
+        "route": "dashboard",
+        "variant": "baseline",
+        "verdict": "NOT RUN",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "id": "B",
+      "task": "Load the scoped engagement and recover from an intake error",
+      "steps": [
+        "Open fictional intake and check consent.",
+        "Inject one labeled hashing rejection.",
+        "Verify the error is visible in the modal and retry remains available.",
+        "Restore hashing and retry without dismissing the dialog."
+      ],
+      "observed": {
+        "injected_error": {
+          "dialog_open": true,
+          "text": "FICTIONAL SOURCE INTAKE\n×\nA deliberately narrow scope.\n\nInspect the bundled Acme example in this browser. No files are uploaded, no customer systems are connected, and no access grant is created.\n\n01\nCompletion claim\nA synthetic workflow says req-101 is complete.\n02\nOutcome contract\nThe state that must exist at the deadline.\n03\nSupplied observation\nA fictional, separate view of the resulting state.\nUse only the bundled fictional sample.\n\nThis scope selection demonstrates the intake boundary. It is not production authentication or a real approval record.\n\nThe sample could not be prepared. Controlled founder intake failure No new sources were admitted. Retry loading or cancel.\n\nCancel\nLoad selected sample\n→",
+          "consent": true,
+          "primary_disabled": false,
+          "focus": "confirm-load",
+          "focus_inside_dialog": true
+        },
+        "scope": {
+          "route": "engagement",
+          "variant": "baseline",
+          "verdict": "NOT RUN",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          }
+        }
+      }
+    },
+    {
+      "id": "C",
+      "task": "Direct and understand the illustrative investigation",
+      "steps": [
+        "Inspect engagement mission contract.",
+        "Use each Raven explanation topic.",
+        "Inspect each role input/output and source link.",
+        "Select timeline checkpoints using Tab and Enter."
+      ],
+      "observed": {
+        "route": "timeline",
+        "variant": "baseline",
+        "verdict": "NOT RUN",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "id": "D",
+      "task": "Trace original evidence",
+      "steps": [
+        "Download all three original sources.",
+        "Compare exact bytes and hashes with the preserved live baseline.",
+        "Verify source selection remains keyboard reachable."
+      ],
+      "observed": {
+        "route": "evidence",
+        "variant": "baseline",
+        "verdict": "NOT RUN",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "id": "E",
+      "task": "Interpret outcome separately from reviews and release",
+      "steps": [
+        "Run baseline FAIL and hypothetical PASS.",
+        "Read all eight assurance gates.",
+        "Inspect the exact report and source citations for each."
+      ],
+      "observed": [
+        {
+          "id": "baseline",
+          "status": "FAIL"
+        },
+        {
+          "id": "satisfied",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "task": "Respond to missing and stale observations",
+      "steps": [
+        "Change observation to missing, then stale.",
+        "Verify old report invalidation and NOT ASSESSED.",
+        "Inspect next action, all gates and citations."
+      ],
+      "observed": [
+        {
+          "id": "missing",
+          "status": "NOT ASSESSED"
+        },
+        {
+          "id": "stale",
+          "status": "NOT ASSESSED"
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "task": "Review and export the internal deliverable",
+      "steps": [
+        "Return to original baseline.",
+        "Run comparison and inspect report eligibility.",
+        "Export the internal report and preserve its exact contents."
+      ],
+      "observed": {
+        "route": "report",
+        "variant": "baseline",
+        "verdict": "FAIL",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "id": "H",
+      "task": "Supervise the engagement without fabricated operations",
+      "steps": [
+        "Inspect engagement operations status and review obligations.",
+        "Verify native gates stay unavailable/unperformed.",
+        "Inspect future architecture/roadmap and every route at tablet/mobile sizes."
+      ],
+      "observed": {
+        "route": "engagement",
+        "variant": "baseline",
+        "verdict": "FAIL",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "tests/founder/after-final/a-command-center-empty.png",
+      "sha256": "8e4ae11b0a0459669c4d80c1047aaa067b9164380d0c5013ac2f3fa6ca59c645",
+      "route": "dashboard",
+      "variant": "baseline",
+      "verdict": "NOT RUN",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/b-intake-visible-error.png",
+      "sha256": "bc0367b42b4f316da9e938838301a92161a9b5788ccd6e997f4c4accf3cac99e",
+      "route": "dashboard",
+      "variant": "baseline",
+      "verdict": "NOT RUN",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/b-engagement-scope.png",
+      "sha256": "c86ea0adcb19e3a7cda94156874e16cc298a4352e6b0fe3fb8e4c0ae1ba7f083",
+      "route": "engagement",
+      "variant": "baseline",
+      "verdict": "NOT RUN",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/c-colony-role.png",
+      "sha256": "45c08bc9c423ff652d2fcf288b6e9ffe40b6db5fa977aff3d22aebbc6fd9da64",
+      "route": "colony",
+      "variant": "baseline",
+      "verdict": "NOT RUN",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/c-timeline-keyboard.png",
+      "sha256": "8296b9d65a032206a2d4da03abbd3bf3715add0bfce30bed6e3fe398ecefbbfc",
+      "route": "timeline",
+      "variant": "baseline",
+      "verdict": "NOT RUN",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/d-source-evidence.png",
+      "sha256": "f446db5c7f89ea89c9897ce094052ff436345b3fa9b813ac611815735b9c02fc",
+      "route": "evidence",
+      "variant": "baseline",
+      "verdict": "NOT RUN",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/e-baseline-engagement.png",
+      "sha256": "61d6632308cd1d340d29762818955d445adf7aed243c5849ce705f6869c13dfa",
+      "route": "engagement",
+      "variant": "baseline",
+      "verdict": "FAIL",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/e-satisfied-engagement.png",
+      "sha256": "0df581fc8b5172a31972e298e6387dad824db28f75cc64db596af9d364b3c411",
+      "route": "engagement",
+      "variant": "satisfied",
+      "verdict": "PASS",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/f-missing-engagement.png",
+      "sha256": "3c5d866390f773d4d41e279f2e2a266af8bcf51fea71e925e12760b3c9952b08",
+      "route": "engagement",
+      "variant": "missing",
+      "verdict": "NOT ASSESSED",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/f-stale-engagement.png",
+      "sha256": "35757ac5fbf78f54ee2ce6fa85d3ef8a275ad16a76927e733362eaca6a6ccc50",
+      "route": "engagement",
+      "variant": "stale",
+      "verdict": "NOT ASSESSED",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/g-internal-report.png",
+      "sha256": "0689a523c4b59487fa3506ba5c75f9cc5ac4f7fe7335cf2bb0f3a0978820ba4b",
+      "route": "report",
+      "variant": "baseline",
+      "verdict": "FAIL",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/variant-error-terminal.png",
+      "sha256": "861e291e3b5dd0243582ac92f0f585aeb2114bdded0d29140135f23d02929416",
+      "route": "evidence",
+      "variant": "satisfied",
+      "verdict": "NOT RUN",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/cancelled-reload-unprepared-action.png",
+      "sha256": "724910fdca91dcedb1fe7f6098155a1dfe25c6d15422011643154e84acd7a977",
+      "route": "dashboard",
+      "variant": "satisfied",
+      "verdict": "NOT RUN",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/download-error-preserved-outcome.png",
+      "sha256": "128712324ba5b2d7a1c79e6532d0eb71bdc453357556ee8b02c70fd5dc7549ca",
+      "route": "report",
+      "variant": "satisfied",
+      "verdict": "PASS",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/h-operations-status.png",
+      "sha256": "7b8279946864b7b3fcb43c9db38f25d69f2a3c47b5fd94e451c7b5430bec7677",
+      "route": "engagement",
+      "variant": "baseline",
+      "verdict": "FAIL",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "tests/founder/after-final/tablet-engagement.png",
+      "sha256": "b7279fcead4e7929a08de25e53f835fdd6dfe64e2aed627fb21af4bd33965306",
+      "route": "engagement",
+      "variant": "baseline",
+      "verdict": "FAIL",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "path": "tests/founder/after-final/mobile-command-center.png",
+      "sha256": "9fa0b492052bcaf4f34ffbb8d758fbf12a099c3569a0bc26bf2022d0b0d3ac44",
+      "route": "dashboard",
+      "variant": "baseline",
+      "verdict": "FAIL",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "path": "tests/founder/after-final/mobile-engagement.png",
+      "sha256": "6ed62ddf6771fe788f717cfb74dc708499f2169c1a55d6221602036260bf3a20",
+      "route": "engagement",
+      "variant": "baseline",
+      "verdict": "FAIL",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "non_read_requests": [],
+  "websockets": [],
+  "app_source_hashes": [
+    {
+      "path": "index.html",
+      "sha256": "bce0dff6c9a1c8c68cba3fec7972c51c088e1cbd3b3b4114821cc08eb20849af"
+    },
+    {
+      "path": "demo/app.js",
+      "sha256": "8a130770fb4b6cacfb5e5ddd0abda0e7ff1e8576886d14c1279f7f5c11531853"
+    },
+    {
+      "path": "demo/acme.js",
+      "sha256": "07e11411cb9f2b4fdea56139443a8c4fdc5f8526eb4e63995741f75094855548"
+    },
+    {
+      "path": "demo/founder.js",
+      "sha256": "4231b489734e6c9aebb5d695eae7428488850dc21f2575f5118e5ad233224a18"
+    },
+    {
+      "path": "demo/styles.css",
+      "sha256": "e470d026fc427c3bcdc6effa6fb5981b066c43ebdbd93e739d81a34f30042187"
+    },
+    {
+      "path": "demo/mark.svg",
+      "sha256": "48545efa10e63b5ac84a9aac003dcc787cf0d4eeb03e0f78f26f8fe89bb5d1cd"
+    }
+  ],
+  "browser_version": "156.0.4314.50",
+  "application_source_unchanged": true,
+  "status": "PASS",
+  "resources_closed": true,
+  "finished_at": "2026-10-30T18:39:23.577Z"
+}

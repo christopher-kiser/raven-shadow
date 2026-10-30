@@ -1,0 +1,37 @@
+COLONY PROJECTION
+Coordination, made legible.
+
+Understand the intended roles without confusing an animated interface with a running workforce.
+
+Synthetic example · no live workers. Select a role to inspect its responsibility. Node selection and illustrative replay are local presentation state only.
+Illustrative Acme colony
+NO LIVE ACTIVITY
+Raven
+ILLUSTRATIVE
+Queen
+ILLUSTRATIVE
+Research
+ILLUSTRATIVE
+Shadow
+ILLUSTRATIVE
+Quality
+ILLUSTRATIVE
+Archive
+ILLUSTRATIVE
+
+Queen is the coordination node, without a crown. Lines show an intended relationship; they are not recorded transmissions. Actual worker expansion, peer messages and recovery remain native-engine responsibilities.
+
+ROLE INSPECTOR
+Queen
+
+The intended canonical coordinator assigns bounded work. This crown-free map displays a fixed fictional structure; no workers are spawned.
+
+Responsibility
+Scoped coordination
+Provenance
+Synthetic example / public product blueprint
+Actual model calls
+0 · no model connected
+View illustrative timeline
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

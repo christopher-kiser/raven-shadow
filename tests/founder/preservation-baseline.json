@@ -1,0 +1,39 @@
+{
+  "baseline_commit": "23219010e478f3940b78f182c8615b862ead31aa",
+  "baseline_branch": "prototype/assurance-workspace",
+  "candidate_branch": "prototype/founder-cockpit-audit",
+  "live_pages_source": {
+    "branch": "prototype/assurance-workspace",
+    "path": "/"
+  },
+  "protected_files": {
+    ".github/workflows/docs.yml": "933497a85bdc0ce456c8a2abb7706dd7509fd20c9b3bea7facc67e5b3e407896",
+    "demo/acme.js": "07e11411cb9f2b4fdea56139443a8c4fdc5f8526eb4e63995741f75094855548",
+    "docs/DECISIONS.md": "4f098c05c5eb8eacd56221525849a9db77caef60381b437ac5ceca7639160765",
+    "docs/DEMO.md": "66d58072e36b9140d7e9b72aef29ca9fd48b506d107bdcbce6d5d0461cb01979",
+    "docs/OPERATOR_WORKSPACE.md": "0d7acf1ac17c66087e47a2d1910511e266d04ad54b4a28de71ce50c6ae409c4a",
+    "docs/PRODUCT_BLUEPRINT.md": "e5540345c8b71e1704514c7856ecc39a3739236efa443527936bb8cd4d5a4d2a",
+    "docs/REQUIREMENTS.md": "bba89bef53f1109e47ea78347631c9c6f2528dd35bf531b5123b9e696bf32804",
+    "docs/ROADMAP.md": "1d5c28198c51b7240b12bdf8b941bb763a64c6dd271a494ea21ddb471a0cfd35",
+    "package.json": "1894b1ad5ecb7ad78bf9b7dea0fbe842cc11fb74deb7466cff4f41140725e5ee",
+    "scripts/validate_docs.py": "f8d4eb08d1b4b1afa2efbafe89421b0edd156f4461f78c1c19a481fc074227c2",
+    "tests/acme.test.mjs": "7cb9af6bb2b200fb4054f96660493c72f2a6bc6f19384db751185e3822813bbc",
+    "tests/browser-results.initial.json": "35a9342b2e2b9dcd6415b60e6bcfbd23c63efed1f088e0ccc6c79150a113ead3",
+    "tests/browser-results.json": "b8238115d8873f439b1033320e4c70c944af5cdf82c0e1907c4a86905cb2f32b",
+    "tests/deployment-results.json": "17804be172ff010dac5da9bcf462c2122e2c8b51f4c98c91d92c4c3a148f66d4",
+    "tests/public-smoke-results.json": "b30c2221bd0349658ce8e1de2e92a6d436cf0e124fa00f94a51800340a97f4c8",
+    "tests/screenshots/architecture-tablet.png": "b9454f6c1782708950142e102be5ae43e9dc8d71ea152ae546537c10a5a25c0d",
+    "tests/screenshots/colony-desktop.png": "5ad5045cd5e198f97d1d50b4be6605254029dfe323bfed7ac9e40d7c21ffa515",
+    "tests/screenshots/dashboard-desktop.png": "8b5f26b71bfafb65d6f95db3fbd6998f8659ee0656cfddd5dfc71a4010cf04cf",
+    "tests/screenshots/dashboard-mobile.png": "75ec3a3730db4a66b15b7386c75569c3022582e6f0bc2001dbbd214a23a76a82",
+    "tests/screenshots/evidence-desktop.png": "42bacffd91a6241436b553f7aa6928d7e49c7ea6210fed14ebb81198e642bae6",
+    "tests/screenshots/initial/architecture-tablet.png": "fc9f5f82c19660c832d550d30d6df95543a78de3bc012b2f4f07b8610f0501c4",
+    "tests/screenshots/initial/colony-desktop.png": "300ce9cf523c49d3300381a8b5d20a03385d205d3b07416d761c119507d85769",
+    "tests/screenshots/initial/dashboard-desktop.png": "f6c0040886e3441ea16e5e1f2edbc530fb899253905b57c7425f6a80913b45df",
+    "tests/screenshots/initial/dashboard-mobile.png": "eb0196adff6ebf3820cd47e18631831414dc5dfa9c0b5e2a5fa78f741069d77f",
+    "tests/screenshots/initial/evidence-desktop.png": "484fcf4adf28e5fc9eb4433f6855efa7f4310d762894f007735583c7f443545d",
+    "tests/screenshots/initial/report-desktop.png": "3508359f9ff56db219075be45c210482fc02a58e8c67696f255c6c92d835bf21",
+    "tests/screenshots/report-desktop.png": "d83e291619566a84b4cb282dd5d27be782bea1c440aad133093ee98719593189"
+  },
+  "scope": "Public prototype only. Preserve original sample/report generator, historical tests/evidence and cumulative architecture requirements. App presentation changes belong only to candidate branch."
+}

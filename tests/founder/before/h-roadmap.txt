@@ -1,0 +1,66 @@
+IMPLEMENTATION ROADMAP
+Build trust before scale.
+
+A cumulative product direction, with clear gates between a convincing example and a qualified commercial service.
+
+01
+A transparent assurance prototype
+
+Fictional source intake, inspectable evidence, deterministic comparisons and an internal report. This is the current presentation workstream.
+
+Acceptance: real browser controls, reproducible checks, honest labels and no private data.
+Implemented here
+02
+Qualified native investigations
+
+Connect the existing canonical components and demonstrate genuine specialist work, independently checked evidence, full-artifact Quality and Queen acceptance.
+
+Gate: retained real execution evidence; passing synthetic cases alone is insufficient.
+Separate engineering
+03
+Permissioned customer pilot
+
+Authenticated organizations, authorized external observations, isolation, security, consent, retention, incident response, support and reviewed delivery.
+
+Gate: secure, legally authorized and repeatable customer engagement.
+Future qualification
+04
+Controlled improvement & scale
+
+Reversible proposals, isolated tests, explicit spending/action authority, canaries, rollback and fresh independent outcome checks.
+
+Gate: proven effects and recovery; no autonomous production edits by default.
+Future functionality
+The longer-term vision remains intact.
+
+Consent-based voice/SMS, top-fed contextual conversations, recursively expanding specialist teams, observable peer communication, controlled learning, disaster recovery and commercial operations remain requirements. They are not silently discarded, nor presented as working features of this demo.
+
+Read the cumulative requirements
+Know what each label means
+UNAVAILABLE
+Verified event replay
+
+Would require a publishable, integrity-checked historical event payload. None is bundled here.
+
+DEMONSTRATION
+Synthetic example
+
+Authored fictional records and illustrative stage playback. No actual model calls or worker messages are implied.
+
+CLAIM ONLY
+Unverified AI claim
+
+A fictional completion statement. It cannot establish its own truth.
+
+FICTIONAL CHECK
+Independently checked outcome
+
+The browser compares the supplied fictional observation with its contract, independently of the claim. External authenticity remains unassessed.
+
+NOT IMPLEMENTED HERE
+Future functionality
+
+Intended product capabilities that require separate native, customer and commercial qualification.
+
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

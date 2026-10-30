@@ -1,0 +1,70 @@
+PRODUCT ARCHITECTURE
+One brain. Separate assurance.
+
+Design backward from the customer outcome; build upward from infrastructure and evidence.
+
+This page maps the intended commercial platform. Only the browser presentation and fictional checks described below are implemented in this public prototype.
+01
+Authorized sources
+
+Permission and provenance before investigation.
+
+02
+Raven + Queen
+
+One canonical context; scoped specialists and durable handoffs.
+
+03
+Independent Shadow
+
+Defined outcome contract and separately attributable observations.
+
+04
+Reviewed deliverable
+
+Full-artifact Quality, Queen acceptance and separate human release.
+
+FUTURE QUALIFICATION
+Customer experience
+
+Operator workspace, contextual Raven conversation and a permission-aware customer portal. A trusted internal finding precedes customer delivery.
+
+FUTURE FUNCTIONALITY
+Business capabilities
+
+Scoping, contracting, billing, support, retention, unit economics and measurable workflow outcomes. Pricing and demand remain unvalidated.
+
+INTENDED NATIVE INTEGRATION
+Domain engines
+
+Raven guides, Queen coordinates scoped recursive workers, Shadow checks consequential outcomes, Quality reviews complete artifacts, and Archive protects originals.
+
+NATIVE QUALIFICATION SEPARATE
+Runtime & trust
+
+One canonical Store, existing local-first model router, durable peer communication, bounded recovery, provenance, tenant isolation, observability and rollback.
+
+FUNCTIONAL BROWSER PROTOTYPE
+This presentation
+
+Bundled fictional intake, exact source hashing, citation navigation, illustrative replay, deterministic fictional comparison and downloadable internal report. No backend, agent orchestration or second Store.
+
+Preserved by design
+One canonical Raven brain and existing Queen architecture.
+Independent Shadow, Quality, Queen and human release gates.
+Recursive workers, auditable peer communication and bounded recovery.
+Local-first routing and scoped permissions enforced by the native runtime.
+Archive protects originals; generated-artifact cleanup requires Queen approval.
+Presentation boundary
+Only fictional, sanitized records are bundled.
+No private engine source, model logs or internal databases.
+Browser state clears on refresh; no tenant or agent backend.
+No arbitrary file upload, model call or external workflow action.
+Hash identity is distinct from truth and authorization.
+Architecture with a business reason.
+
+The first intended offer is a human-reviewed assurance assessment of one precisely scoped workflow. Secure customer observations, operational reliability and commercial delivery must be qualified before that offer becomes a production service.
+
+Read the full public blueprint
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

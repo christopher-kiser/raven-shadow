@@ -1,0 +1,8 @@
+ACME — SYNTHETIC STATE OBSERVATION
+Classification: Original public-demo example; not authenticated external evidence.
+Request: req-101
+Captured at (UTC): 2026-10-29T10:00:00Z
+Observed state: pending_activation
+Origin: Separately supplied fictional state snapshot, not the automation claim.
+Authentication: External authenticity is not assessed.
+Coverage: One request at the stated capture time; later state is unknown.

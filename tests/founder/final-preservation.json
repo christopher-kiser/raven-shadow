@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-30T18:41:22.792181+00:00",
+  "qualified_application_commit": "7e1319d5cbcebfcab16813d261922e952b1ae576",
+  "baseline_commit": "23219010e478f3940b78f182c8615b862ead31aa",
+  "candidate_branch": "prototype/founder-cockpit-audit",
+  "original_protected_files_verified": 27,
+  "original_protected_files_changed": [],
+  "application_assets_verified_against_commit": 6,
+  "final_browser_screenshots_verified": 24,
+  "acceptance_manifest": "acceptance-manifest.json",
+  "live_pages_source_expected_unchanged": {
+    "branch": "prototype/assurance-workspace",
+    "path": "/"
+  },
+  "original_source_and_report_generator": "demo/acme.js byte-identical to baseline",
+  "dependencies_added": [],
+  "scope": "Public prototype; no native-engine/private-runtime qualification."
+}
