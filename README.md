@@ -2,7 +2,68 @@
 
 **Evidence-first AI investigations, workflow assurance, and verified operations.**
 
-> **Project status — October 29, 2026:** Local, offline, non-sensitive staging prototype; private native-system integration and pre-pilot qualification are pending. **Not a production customer service, security certification, or autonomous repair system.**
+> **Project status — October 30, 2026:** A browser-based **Assurance Prototype** for a fictional Acme investigation. It demonstrates evidence navigation and a deterministic fictional outcome check. Native-engine qualification remains separate and incomplete. **No live agents, customer service, production certification or autonomous repair is represented.**
+
+## Try the Assurance Prototype
+
+The demonstration follows one question: **a workflow says it succeeded—did the
+required state actually exist at the deadline?** Load the fictional Acme case,
+inspect the supplied sources and citations, replay the labeled example timeline,
+run the browser's deterministic check, and inspect or export the internal report.
+Change the observation to understand why a result becomes `PASS`, `FAIL` or
+`NOT ASSESSED`.
+
+From this repository, run:
+
+```sh
+python -m http.server 4173 --bind 127.0.0.1
+```
+
+On Linux/WSL installations that name the executable `python3`, use `python3`
+in place of `python`.
+
+Then open [http://127.0.0.1:4173](http://127.0.0.1:4173). No package installation,
+model download, API key or backend is needed. See the [prototype guide](docs/PROTOTYPE.md)
+for the walkthrough, proof boundaries, tests and static-hosting status.
+
+| Works in this public prototype | Deliberately outside this prototype |
+| --- | --- |
+| Load the built-in fictional source set and inspect exact citations | Customer uploads, connectors and authenticated access grants |
+| Replay a clearly labeled synthetic investigation history | Real model calls, actual worker messages or native event replay |
+| Compare a selected fictional observation with a fixed outcome contract | Authenticated external business observations or canonical Shadow execution |
+| Inspect and download an internal demonstration report | Quality/Queen approval, customer release or production changes |
+| Explore the intended architecture and gated roadmap | A second Store, Queen, agent scheduler or assurance backend |
+
+The default Acme result is **FAIL**: the required state was not observed at the
+deadline. Detecting a discrepancy does not establish its cause or fix the workflow.
+A changed observation is an explicitly hypothetical variant; it never rewrites the
+original case. Every example remains fictional and every report remains unapproved.
+
+## Verified prototype experience
+
+The deterministic example tests pass **12/12**. The final real-browser acceptance
+run in installed Microsoft Edge passes **37/37** checks at desktop, tablet and
+mobile sizes. Checks cover source/citation navigation, all four observation
+variants, report download integrity, replay controls, keyboard/dialog behavior,
+reduced motion and stale-result handling. The tested app made no external requests,
+backend writes or WebSocket connections and raised no uncaught browser errors.
+These are presentation checks, not native-engine or accessibility certification.
+[Results and reproduction](docs/PROTOTYPE.md#validation).
+
+![Fictional Acme assurance dashboard in the tested desktop browser](tests/screenshots/dashboard-desktop.png)
+
+[Evidence viewer](tests/screenshots/evidence-desktop.png) ·
+[Inspectable report](tests/screenshots/report-desktop.png) ·
+[Crown-free example colony](tests/screenshots/colony-desktop.png) ·
+[Tablet architecture](tests/screenshots/architecture-tablet.png) ·
+[Mobile dashboard](tests/screenshots/dashboard-mobile.png)
+
+## Previously published engineering evidence
+
+The following dated results are historical software evidence. They are not new
+native-engine tests performed by this presentation workstream. The
+[current state](docs/CURRENT_STATE.md) separates the public prototype from earlier
+private engineering milestones.
 
 **Initial campaign baseline:** native audit baseline reproduced (416 tests: 413 pass, 3 skip); separate staging baseline reproduced (153 pass). [Current evidence and limits](docs/CURRENT_STATE.md) supersede historical staging status below.
 
@@ -43,7 +104,7 @@ The target experience includes one founder/operator workspace, permission-aware 
 | **Shadow** | Independent claim/outcome verification using an appropriate evidence and proof contract | An unobserved effect is **not verified**; disagreement or missing evidence does not become PASS |
 | **Archive and Quality** | Retain provenance, prevent unsupported reports, propose safe cleanup of identified generated artifacts | Founder-authored originals cannot be deleted; Archive cleanup requires Queen approval |
 
-## Verified progress vs. remaining work
+## Historical implementation register and remaining work
 
 | Capability | Status | Evidence / limitation |
 | --- | --- | --- |
@@ -87,4 +148,4 @@ The order is intentional: **design from the customer outcome downward, build fro
 
 ## Public-repository boundary
 
-This repository is intended as a **public project showcase and roadmap**, not a release of the native Raven installation, customer data, private models, business credentials or unreleased source. There is currently **no open-source license grant** for the underlying implementation. Public visibility is not permission to repurpose proprietary source. Real deployment availability and commercial terms have not been announced.
+This repository is intended as a **public project showcase, fictional presentation prototype and roadmap**, not a release of the native Raven installation, customer data, private models, business credentials or unreleased source. There is currently **no open-source license grant** for the underlying implementation. Public visibility is not permission to repurpose proprietary source. Real deployment availability and commercial terms have not been announced.

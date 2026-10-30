@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1119">
+  <meta name="description" content="An interactive, fictional Raven + Shadow assurance demonstration. Trace a completion claim to its evidence and independently check the supplied outcome.">
+  <title>Raven + Shadow · Assurance workspace</title>
+  <link rel="icon" href="demo/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="demo/styles.css">
+  <script type="module" src="demo/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workspace</a>
+  <div id="app"></div>
+  <div id="announcements" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="toast" role="status" hidden></div>
+  <dialog id="scope-dialog" aria-labelledby="scope-title">
+    <div class="dialog-top"><span class="eyebrow">FICTIONAL SOURCE INTAKE</span><button class="icon-button" data-action="close-scope" aria-label="Close sample intake">×</button></div>
+    <h2 id="scope-title">A deliberately narrow scope.</h2>
+    <p>Inspect the bundled Acme example in this browser. No files are uploaded, no customer systems are connected, and no access grant is created.</p>
+    <div class="scope-list"><div><span>01</span><div><strong>Completion claim</strong><small>A synthetic workflow says req-101 is complete.</small></div></div><div><span>02</span><div><strong>Outcome contract</strong><small>The state that must exist at the deadline.</small></div></div><div><span>03</span><div><strong>Supplied observation</strong><small>A fictional, separate view of the resulting state.</small></div></div></div>
+    <label class="consent"><input type="checkbox" id="sample-consent"> Use only the bundled fictional sample.</label>
+    <p class="caption">This scope selection demonstrates the intake boundary. It is not production authentication or a real approval record.</p>
+    <div class="dialog-actions"><button class="button secondary" data-action="close-scope">Cancel</button><button class="button primary" id="confirm-load" data-action="confirm-load" disabled>Load selected sample <span aria-hidden="true">→</span></button></div>
+  </dialog>
+  <noscript><main class="noscript"><h1>Raven + Shadow</h1><p>This browser prototype needs JavaScript for its fictional verification and evidence viewer. No model or backend is connected.</p><a href="docs/DEMO.md">Read the Acme demonstration</a></main></noscript>
+</body>
+</html>
