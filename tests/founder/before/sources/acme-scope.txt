@@ -1,0 +1,9 @@
+ACME — FICTIONAL SCOPE BRIEF
+Classification: Synthetic example; not a customer authorization record.
+Request: req-101
+Objective: Verify that access is enabled by the agreed deadline.
+Required state: access_enabled
+Deadline (UTC): 2026-10-29T10:00:00Z
+Permitted: Read only the fictional files supplied with this sample.
+External writes: Not authorized by this presentation.
+Release: Internal demonstration only; no approval record exists.

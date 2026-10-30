@@ -1,0 +1,556 @@
+{
+  "suite": "founder-live-before-controlled-recovery-and-keyboard",
+  "url": "https://christopher-kiser.github.io/raven-shadow/",
+  "started_at": "2026-10-30T18:16:26.826Z",
+  "stimulus": "The browser SHA-256 method is deliberately rejected once during sample intake, then restored. This is an injected error, not a spontaneous failure.",
+  "checks": [
+    {
+      "name": "intake_error_visible_inside_modal",
+      "status": "FAIL",
+      "error": "Injected source hashing error is only in the global toast outside the still-open modal."
+    },
+    {
+      "name": "intake_retry_available_after_recoverable_error",
+      "status": "FAIL",
+      "error": "Primary load remains disabled although consent is checked and hashing has been restored.\n\ntrue !== false\n"
+    },
+    {
+      "name": "cancel_reopen_retry_succeeds",
+      "status": "PASS"
+    },
+    {
+      "name": "source_buttons_keyboard_reachable",
+      "status": "PASS"
+    },
+    {
+      "name": "role_buttons_keyboard_focus_retained",
+      "status": "PASS"
+    },
+    {
+      "name": "timeline_checkpoint_keyboard_focus_retained",
+      "status": "FAIL",
+      "error": "Activating each checkpoint replaces the focused button and leaves focus on BODY."
+    }
+  ],
+  "page_errors": [],
+  "screenshots": [
+    {
+      "path": "tests/founder/before/injected-intake-error.png",
+      "sha256": "e1edf764144be9d5e68d0afd19155ebc7782396a4f8b2007452938dd292ec3eb"
+    },
+    {
+      "path": "tests/founder/before/keyboard-timeline-after-selection.png",
+      "sha256": "d8ddcd511b5f75af9b31d04b9bc979a3031014dc2393625ad64353acb035d5c4"
+    }
+  ],
+  "browser_version": "156.0.4314.50",
+  "after_injected_failure": {
+    "dialog_open": true,
+    "consent_checked": true,
+    "primary_disabled": true,
+    "loaded": "false",
+    "active_element": "confirm-load",
+    "toast_text": "The local operation could not finish: Controlled audit: source fingerprint unavailable",
+    "dialog_text": "FICTIONAL SOURCE INTAKE\n×\nA deliberately narrow scope.\n\nInspect the bundled Acme example in this browser. No files are uploaded, no customer systems are connected, and no access grant is created.\n\n01\nCompletion claim\nA synthetic workflow says req-101 is complete.\n02\nOutcome contract\nThe state that must exist at the deadline.\n03\nSupplied observation\nA fictional, separate view of the resulting state.\nUse only the bundled fictional sample.\n\nThis scope selection demonstrates the intake boundary. It is not production authentication or a real approval record.\n\nCancel\nLoad selected sample\n→",
+    "error_inside_dialog": false,
+    "top_element_at_toast_center": "DIALOG"
+  },
+  "crypto_restored": true,
+  "keyboard_sources": [
+    {
+      "id": "scope",
+      "tab_path": [
+        {
+          "matches": false,
+          "name": "Reload sample",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": true,
+          "name": "Scope & intended outcome\nacme-scope.txt",
+          "tag": "BUTTON"
+        }
+      ],
+      "active_after_selection": "BODY",
+      "selected": true
+    },
+    {
+      "id": "claim",
+      "tab_path": [
+        {
+          "matches": false,
+          "name": "Evidence you can inspect.",
+          "tag": "H1"
+        },
+        {
+          "matches": false,
+          "name": "Reload sample",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Scope & intended outcome\nacme-scope.txt",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": true,
+          "name": "Workflow completion claim\nacme-workflow-claim.txt",
+          "tag": "BUTTON"
+        }
+      ],
+      "active_after_selection": "H1",
+      "selected": true
+    },
+    {
+      "id": "observation",
+      "tab_path": [
+        {
+          "matches": false,
+          "name": "Reload sample",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Scope & intended outcome\nacme-scope.txt",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Workflow completion claim\nacme-workflow-claim.txt",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": true,
+          "name": "Independent state observation\nacme-state-observation.txt",
+          "tag": "BUTTON"
+        }
+      ],
+      "active_after_selection": "H1",
+      "selected": true
+    }
+  ],
+  "keyboard_roles": [
+    {
+      "id": "raven",
+      "tab_path": [
+        {
+          "matches": true,
+          "name": "Raven\nILLUSTRATIVE",
+          "tag": "BUTTON"
+        }
+      ],
+      "focus_retained": true,
+      "inspector": "ROLE INSPECTOR\nRaven\n\nThe founder-facing narrator connects questions to evidence. This prototype offers fixed guidance, not a live conversation.\n\nResponsibility\nOperator guide\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+    },
+    {
+      "id": "queen",
+      "tab_path": [
+        {
+          "matches": true,
+          "name": "Queen\nILLUSTRATIVE",
+          "tag": "BUTTON"
+        }
+      ],
+      "focus_retained": true,
+      "inspector": "ROLE INSPECTOR\nQueen\n\nThe intended canonical coordinator assigns bounded work. This crown-free map displays a fixed fictional structure; no workers are spawned.\n\nResponsibility\nScoped coordination\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+    },
+    {
+      "id": "research",
+      "tab_path": [
+        {
+          "matches": true,
+          "name": "Research\nILLUSTRATIVE",
+          "tag": "BUTTON"
+        }
+      ],
+      "focus_retained": true,
+      "inspector": "ROLE INSPECTOR\nResearch\n\nThe illustrated research role separates the completion claim from the supplied state. No native specialist or model runs here.\n\nResponsibility\nEvidence investigation\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+    },
+    {
+      "id": "shadow",
+      "tab_path": [
+        {
+          "matches": true,
+          "name": "Shadow\nILLUSTRATIVE",
+          "tag": "BUTTON"
+        }
+      ],
+      "focus_retained": true,
+      "inspector": "ROLE INSPECTOR\nShadow\n\nThe functional browser checker compares the fictional contract with its observation, independently of the success statement.\n\nResponsibility\nIndependent comparison\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+    },
+    {
+      "id": "quality",
+      "tab_path": [
+        {
+          "matches": true,
+          "name": "Quality\nILLUSTRATIVE",
+          "tag": "BUTTON"
+        }
+      ],
+      "focus_retained": true,
+      "inspector": "ROLE INSPECTOR\nQuality\n\nNative full-artifact Quality is a separate acceptance gate. No Quality verdict or Queen acceptance is produced by this presentation.\n\nResponsibility\nReview boundary\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+    },
+    {
+      "id": "archive",
+      "tab_path": [
+        {
+          "matches": true,
+          "name": "Archive\nILLUSTRATIVE",
+          "tag": "BUTTON"
+        }
+      ],
+      "focus_retained": true,
+      "inspector": "ROLE INSPECTOR\nArchive\n\nThe intended Archive protects founder/customer originals. This demo deletes nothing and grants no cleanup authority.\n\nResponsibility\nProtect the originals\nProvenance\nSynthetic example / public product blueprint\nActual model calls\n0 · no model connected\nView illustrative timeline"
+    }
+  ],
+  "keyboard_timeline": [
+    {
+      "id": "0",
+      "tab_path": [
+        {
+          "matches": false,
+          "name": "Play illustrative replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Next step",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Reset replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": true,
+          "name": "Inspect illustrative step 1: Establish the source boundary",
+          "tag": "BUTTON"
+        }
+      ],
+      "active_after_selection": "BODY",
+      "focus_retained": false
+    },
+    {
+      "id": "1",
+      "tab_path": [
+        {
+          "matches": false,
+          "name": "Raven and Shadow overview",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Overview",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Evidence",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Mission timeline",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Colony map",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Internal report",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Architecture",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Roadmap",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Play illustrative replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Next step",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Reset replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 1: Establish the source boundary",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": true,
+          "name": "Inspect illustrative step 2: Separate the claim from the evidence",
+          "tag": "BUTTON"
+        }
+      ],
+      "active_after_selection": "BODY",
+      "focus_retained": false
+    },
+    {
+      "id": "2",
+      "tab_path": [
+        {
+          "matches": false,
+          "name": "Raven and Shadow overview",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Overview",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Evidence",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Mission timeline",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Colony map",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Internal report",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Architecture",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Roadmap",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Play illustrative replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Next step",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Reset replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 1: Establish the source boundary",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 2: Separate the claim from the evidence",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": true,
+          "name": "Inspect illustrative step 3: Compare the required and observed state",
+          "tag": "BUTTON"
+        }
+      ],
+      "active_after_selection": "BODY",
+      "focus_retained": false
+    },
+    {
+      "id": "3",
+      "tab_path": [
+        {
+          "matches": false,
+          "name": "Raven and Shadow overview",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Overview",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Evidence",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Mission timeline",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Colony map",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Internal report",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Architecture",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Roadmap",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Play illustrative replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Next step",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Reset replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 1: Establish the source boundary",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 2: Separate the claim from the evidence",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 3: Compare the required and observed state",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": true,
+          "name": "Inspect illustrative step 4: Expose proof limits and unknowns",
+          "tag": "BUTTON"
+        }
+      ],
+      "active_after_selection": "BODY",
+      "focus_retained": false
+    },
+    {
+      "id": "4",
+      "tab_path": [
+        {
+          "matches": false,
+          "name": "Raven and Shadow overview",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Overview",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Evidence",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Mission timeline",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Colony map",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Internal report",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Architecture",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Roadmap",
+          "tag": "A"
+        },
+        {
+          "matches": false,
+          "name": "Play illustrative replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Next step",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Reset replay",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 1: Establish the source boundary",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 2: Separate the claim from the evidence",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 3: Compare the required and observed state",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": false,
+          "name": "Inspect illustrative step 4: Expose proof limits and unknowns",
+          "tag": "BUTTON"
+        },
+        {
+          "matches": true,
+          "name": "Inspect illustrative step 5: Prepare an inspectable internal report",
+          "tag": "BUTTON"
+        }
+      ],
+      "active_after_selection": "BODY",
+      "focus_retained": false
+    }
+  ],
+  "status": "AUDIT_COMPLETED",
+  "resources_closed": true,
+  "finished_at": "2026-10-30T18:16:33.620Z"
+}

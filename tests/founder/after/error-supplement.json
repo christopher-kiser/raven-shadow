@@ -1,0 +1,61 @@
+{
+  "suite": "first-candidate-controlled-error-supplement",
+  "started_at": "2026-10-30T18:29:53.807Z",
+  "stimulus": "Each API rejection is deliberately injected once and restored. Neither is a spontaneous platform error.",
+  "observations": [
+    {
+      "id": "variant_hash_failure",
+      "steps": [
+        "Load sample and establish hypothetical PASS.",
+        "Inject one SHA-256 rejection while selecting the missing observation.",
+        "Restore hashing and navigate to Evidence."
+      ],
+      "expected": "Evidence should say preparation failed with retry; no active hashing should be claimed after failure.",
+      "observed": {
+        "text": "The local step could not finish.\n\nControlled candidate variant hash failure\n\nRetry local step\n\nNo new approval, customer access or external action was created.\n\nSOURCES & CONTEXT\nPreparing the source fingerprints.\n\nThe previous result is invalidated while the selected fictional records are hashed.\n\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+        "raw_verdict": "NOT RUN",
+        "source_rows": 0,
+        "retry_visible": true
+      }
+    },
+    {
+      "id": "report_download_failure",
+      "steps": [
+        "Establish hypothetical PASS and open report.",
+        "Reject one blob URL creation during Download report.",
+        "Restore blob URL creation; inspect existing verdict and founder gate.",
+        "Activate Retry local step and observe whether it reissues the download."
+      ],
+      "expected": "A download failure should preserve accepted comparison state and retry the requested download.",
+      "observed": {
+        "before_retry": {
+          "text": "The local step could not finish.\n\nControlled candidate report download failure\n\nRetry local step\n\nNo new approval, customer access or external action was created.\n\nREPORTS & DELIVERABLES\nThe internal assessment.\n\nEvery finding retains its observation, citations and proof boundary.\n\nDownload report\nChanged synthetic observation · this what-if does not repair or replace the original example.\nINTERNAL DRAFT\nNO RELEASE APPROVAL\nAcme workflow assurance\n\nRequest req-101 · What if · outcome present\n\nPASS\n\nThe changed fictional observation contains the required state at the deadline. This does not change the original example.\n\n01 / Question and claim\n\nWas access enabled for req-101 by the agreed deadline?\n\n“Request req-101 is complete. Access has been enabled.”\n\nUnverified AI claim · synthetic statement, not a real model response.\n\n02 / Independently checked fictional outcome\n\nREQUIRED_STATE_OBSERVED_AT_DEADLINE\n\nFrozen sample scope\nThe unchanged fictional scope and claim resolve to req-101.\nPASS\nRequest identity\nThe contract, claim and separate observation refer to req-101.\nPASS\nDeadline coverage\nThe snapshot covers the stated deadline exactly.\nPASS\nRequired outcome\nRequired: access_enabled. Observed: access_enabled.\nPASS\n[1] acme-scope.txt · L3–6\n[2] acme-workflow-claim.txt · L3–7\n[3] acme-state-observation.txt · L3–5\n03 / What remains unknown\nWhy the workflow reported completion.\nWhether access was enabled after the observation boundary.\nThe authenticity of any real external system or customer state.\nThe effect of a proposed correction; no correction is performed.\n04 / Next operator action\n\nThis changed hypothetical observation meets the fixture contract. Real customer assurance still needs authenticated evidence, native Quality and Queen acceptance.\n\n05 / Proof and release boundary\nThis is a deterministic fictional comparison, not a native model investigation.\nSource hashes identify sample bytes; they do not establish external truth.\nNo customer records, live connectors, worker messages or approval records are used.\nThe presentation has no connection to the canonical Raven Store or Shadow runtime.\nNative Quality and Queen acceptance: not performed.\nNo approval, customer delivery or production correction.\nInspect the complete downloadable Markdown\nAssurance and release\nNO RELEASE APPROVAL\n\nA business discrepancy can be a valid finding. A fictional PASS or FAIL cannot approve the investigation or authorize delivery.\n\nFictional business outcome\nNOT RUN\n\nThe local action failed. No prior result is presented as the current outcome.\n\nSource fingerprints\n3 OF 3 AVAILABLE\n\nAvailable SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval.\n\nBrowser comparison\nNOT RUN\n\nNo completed comparison is bound to the current selected records.\n\nExternal authenticity\nNOT AUTHENTICATED\n\nEvery supplied record is fictional. No real system, customer record or authorization is authenticated.\n\nNative investigation\nINCOMPLETE\n\nNo native specialist work runs here. The public sample cannot complete a real customer investigation.\n\nIndependent Quality review\nNOT PERFORMED\n\nNo native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails.\n\nQueen acceptance\nNOT PERFORMED\n\nNo native Queen acceptance or authority record is supplied.\n\nHuman release\nNOT APPROVED\n\nThe report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action.\n\nLocal draft export is permitted. Real review, release and customer delivery are unavailable here.\n\nReport provenance\nProof class\nDeterministic fictional comparison\nIndependent of claim\nYes · contract vs observation\nExternal authenticity\nNot assessed\nNative reviews\nNot performed\nReport SHA-256\ne0074b1266184eb886c5c5e0c464facbe018656f765d56ffabb75c53bdd44ee2\n\nThis checksum binds the downloaded UTF-8 Markdown. It is not certification or approval.\n\nKeep the distinction.\n\nFinding a fictional failure is useful detection. It does not prove a repaired system, a successful customer investigation or commercial readiness.\n\nInspect original sources\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+          "raw_verdict": "PASS",
+          "founder_outcome": "NOT RUN",
+          "report_sha": "e0074b1266184eb886c5c5e0c464facbe018656f765d56ffabb75c53bdd44ee2",
+          "downloads": 0
+        },
+        "after_retry": {
+          "downloads": 0,
+          "error_visible": false,
+          "raw_verdict": "PASS",
+          "founder_outcome": "PASS"
+        }
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "tests/founder/after/injected-variant-error.png",
+      "sha256": "19ef5873d2394640def17cf8514d1d6e1b38dfb6055d29d344a86a916e02be3a"
+    },
+    {
+      "path": "tests/founder/after/injected-report-download-error.png",
+      "sha256": "89e54d43e4d84ddfc91539ede5e9cf7f695b485f5aad6e43861cb94e7485e323"
+    }
+  ],
+  "page_errors": [],
+  "status": "PROBES_COMPLETED",
+  "resources_closed": true,
+  "finished_at": "2026-10-30T18:29:55.803Z"
+}

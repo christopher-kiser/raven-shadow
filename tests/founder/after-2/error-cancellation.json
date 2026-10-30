@@ -1,0 +1,56 @@
+{
+  "suite": "first-candidate-controlled-error-supplement",
+  "started_at": "2026-10-30T18:35:07.098Z",
+  "stimulus": "Each API rejection is deliberately injected once and restored. Neither is a spontaneous platform error.",
+  "observations": [
+    {
+      "id": "variant_hash_failure",
+      "steps": [
+        "Load sample and establish hypothetical PASS.",
+        "Inject one SHA-256 rejection while selecting the missing observation.",
+        "Restore hashing and navigate to Evidence."
+      ],
+      "expected": "Evidence should say preparation failed with retry; no active hashing should be claimed after failure.",
+      "observed": {
+        "text": "The local step could not finish.\n\nControlled candidate variant hash failure\n\nRetry local step\n\nNo new approval, customer access or external action was created.\n\nSOURCES & CONTEXT\nSource preparation is incomplete.\n\nNo prepared source set is available. Retry the failed local step before checking or inspecting this selection.\n\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+        "raw_verdict": "NOT RUN",
+        "source_rows": 0,
+        "retry_visible": true
+      }
+    },
+    {
+      "id": "cancelled_reload_after_source_failure",
+      "steps": [
+        "After a controlled variant hash failure, open Reload sample.",
+        "Click Cancel without loading.",
+        "Activate the next permitted Run fictional check action."
+      ],
+      "expected": "Cancel should preserve the unresolved source error and retry; an unprepared source set must not receive an enabled inert check action.",
+      "observed": {
+        "before": {
+          "text": "FOUNDER WORKSPACE / FICTIONAL ACME\nCommand center.\n\nOne engagement, a clear next step, and separate evidence and release obligations.\n\nReload sample\nONE FICTIONAL ENGAGEMENT\nreq-101\nAcme · workflow assurance\n\nWas access enabled for req-101 by the agreed deadline?\n\nExpected outcome\nAccess enabled\nEvidence deadline · UTC\n29 Oct 2026 · 10:00\nPermitted scope\nBundled fictional records · read only\nFictional outcome\nNOT RUN\nNative investigation\nNOT PERFORMED\nHuman release\nNOT APPROVED\nCURRENT SAMPLE STAGE\nReady for the fictional check\n\nThe selected sample is available. Its current outcome has not been checked.\n\nNEXT PERMITTED DEMO ACTION\n\nCompare the selected observation with the frozen deadline and required state. No model or native Shadow runtime is called.\n\nRun fictional check\nScope, responsibilities and review gates \nSYNTHETIC EXAMPLE\nreq-101\nA success claim is only the beginning.\n\nAcme’s support workflow says access is enabled. A separate state snapshot tells a different story. Follow the evidence before trusting the claim.\n\nWORKFLOW CLAIM\nComplete\nUNVERIFIED AI CLAIM\n\nIllustrative statement, not a real model response\n\nSHADOW CHECK\nNOT RUN\n\nRun the deterministic comparison\n\nRun fictional check\nRuns locally · no AI or external system call\n0\nScoped sample sources\nPreparation incomplete\n—\nDeterministic checks\nAwaiting execution\n0\nReal model calls\nPresentation only\nThe evidence trail\nOriginals stay visible\nRead-only fictional scope. No uploads, connections or real access grants. Source fingerprints establish byte identity, not external truth.\nShadow verification\nNOT RUN\n\nA separate comparison of contract and observation. The completion claim has no vote.\n\nObservation to inspect\nOriginal example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early\nChanged synthetic observation · this what-if does not repair or replace the original example.\n01\nIdentify the request\nClaim, contract and observation must refer to the same workflow.\n02\nRespect the deadline\nMissing or early evidence remains not assessed.\n03\nInspect the actual state\nThe completion claim cannot verify itself.\n\nIndependent of the claim; limited to supplied fictional records. This is a presentation checker, not the native Shadow engine.\n\nFollow the investigation\n01\nInspect the original records\nRead lines, fingerprints and citations\n02\nReplay the illustrative steps\nSynthetic history · no workers execute\n03\nReview the discrepancy\nTraceable internal report, never approved\nRaven briefing\nDETERMINISTIC EXPLANATION\n\nFixed explanations of the selected fictional evidence. Raven is not connected; this is not an AI conversation.\n\nWhat needs attention?\nWhat can I trust?\nCan this be released?\nSeparate the claim from the outcome\n\nNo current fictional outcome is established. Review the scope and run the local check before interpreting the completion claim.\n\nThis is deterministic presentation guidance derived from the selected sample state. It is not a conversation, model response or worker message.\n\nConnections and business operations Not connected by this prototype\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+          "next_text": "CURRENT SAMPLE STAGE\nReady for the fictional check\n\nThe selected sample is available. Its current outcome has not been checked.\n\nNEXT PERMITTED DEMO ACTION\n\nCompare the selected observation with the frozen deadline and required state. No model or native Shadow runtime is called.\n\nRun fictional check\nScope, responsibilities and review gates ",
+          "next_disabled": false,
+          "retry_visible": false,
+          "verdict": "NOT RUN"
+        },
+        "after": {
+          "text": "FOUNDER WORKSPACE / FICTIONAL ACME\nCommand center.\n\nOne engagement, a clear next step, and separate evidence and release obligations.\n\nReload sample\nONE FICTIONAL ENGAGEMENT\nreq-101\nAcme · workflow assurance\n\nWas access enabled for req-101 by the agreed deadline?\n\nExpected outcome\nAccess enabled\nEvidence deadline · UTC\n29 Oct 2026 · 10:00\nPermitted scope\nBundled fictional records · read only\nFictional outcome\nNOT RUN\nNative investigation\nNOT PERFORMED\nHuman release\nNOT APPROVED\nCURRENT SAMPLE STAGE\nReady for the fictional check\n\nThe selected sample is available. Its current outcome has not been checked.\n\nNEXT PERMITTED DEMO ACTION\n\nCompare the selected observation with the frozen deadline and required state. No model or native Shadow runtime is called.\n\nRun fictional check\nScope, responsibilities and review gates \nSYNTHETIC EXAMPLE\nreq-101\nA success claim is only the beginning.\n\nAcme’s support workflow says access is enabled. A separate state snapshot tells a different story. Follow the evidence before trusting the claim.\n\nWORKFLOW CLAIM\nComplete\nUNVERIFIED AI CLAIM\n\nIllustrative statement, not a real model response\n\nSHADOW CHECK\nNOT RUN\n\nRun the deterministic comparison\n\nRun fictional check\nRuns locally · no AI or external system call\n0\nScoped sample sources\nPreparation incomplete\n—\nDeterministic checks\nAwaiting execution\n0\nReal model calls\nPresentation only\nThe evidence trail\nOriginals stay visible\nRead-only fictional scope. No uploads, connections or real access grants. Source fingerprints establish byte identity, not external truth.\nShadow verification\nNOT RUN\n\nA separate comparison of contract and observation. The completion claim has no vote.\n\nObservation to inspect\nOriginal example · outcome missing\nWhat if · outcome present\nWhat if · observation unavailable\nWhat if · observation too early\nChanged synthetic observation · this what-if does not repair or replace the original example.\n01\nIdentify the request\nClaim, contract and observation must refer to the same workflow.\n02\nRespect the deadline\nMissing or early evidence remains not assessed.\n03\nInspect the actual state\nThe completion claim cannot verify itself.\n\nIndependent of the claim; limited to supplied fictional records. This is a presentation checker, not the native Shadow engine.\n\nFollow the investigation\n01\nInspect the original records\nRead lines, fingerprints and citations\n02\nReplay the illustrative steps\nSynthetic history · no workers execute\n03\nReview the discrepancy\nTraceable internal report, never approved\nRaven briefing\nDETERMINISTIC EXPLANATION\n\nFixed explanations of the selected fictional evidence. Raven is not connected; this is not an AI conversation.\n\nWhat needs attention?\nWhat can I trust?\nCan this be released?\nSeparate the claim from the outcome\n\nNo current fictional outcome is established. Review the scope and run the local check before interpreting the completion claim.\n\nThis is deterministic presentation guidance derived from the selected sample state. It is not a conversation, model response or worker message.\n\nConnections and business operations Not connected by this prototype\nRaven + Shadow · Public assurance prototype · Fictional records only\nNo model calls. No customer connection. No release approval. View public source ↗",
+          "verdict": "NOT RUN",
+          "retry_visible": false
+        },
+        "click_changed_state": false
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "tests/founder/after-2/cancelled-reload-inert-next-action.png",
+      "sha256": "03a7d8256caf3764bbccf915f566f2315a859fcab0d4d66425d93b77e008382f"
+    }
+  ],
+  "page_errors": [],
+  "status": "PROBES_COMPLETED",
+  "resources_closed": true,
+  "finished_at": "2026-10-30T18:35:08.381Z"
+}

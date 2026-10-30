@@ -1,0 +1,77 @@
+{
+  "cause": "BROWSER_OUTPUT_DIR set in WSL shell did not propagate into Windows Node; default test paths were used.",
+  "candidate_result": "37/37 PASS, retained without rerunning or changing test outcomes.",
+  "raw_receipt": "tests/founder/regression/browser-results.raw.json",
+  "path_corrected_receipt": "tests/founder/regression/browser-results.json",
+  "mapping": [
+    {
+      "recorded_path": "tests/screenshots/dashboard-desktop.png",
+      "actual_preserved_path": "tests/founder/regression/screenshots/dashboard-desktop.png",
+      "sha256": "35b4187c59465b695d575146f2df4d7a3f95f097db9e88fbcd7bf2587a356b66"
+    },
+    {
+      "recorded_path": "tests/screenshots/report-desktop.png",
+      "actual_preserved_path": "tests/founder/regression/screenshots/report-desktop.png",
+      "sha256": "68c7cef07313d8b5a36ce938d500cb9135074bdb05e4994fa41c46ec612d98d8"
+    },
+    {
+      "recorded_path": "tests/screenshots/evidence-desktop.png",
+      "actual_preserved_path": "tests/founder/regression/screenshots/evidence-desktop.png",
+      "sha256": "871edb9b429e0ab1bf670ab0cc03c45dd1f97cfd4a4978b4f9936ad6634137ee"
+    },
+    {
+      "recorded_path": "tests/screenshots/colony-desktop.png",
+      "actual_preserved_path": "tests/founder/regression/screenshots/colony-desktop.png",
+      "sha256": "35c4aee1894b3e08cea6e57685893c1d9c1cbc0529512d3438c89747a8b1f37e"
+    },
+    {
+      "recorded_path": "tests/screenshots/architecture-tablet.png",
+      "actual_preserved_path": "tests/founder/regression/screenshots/architecture-tablet.png",
+      "sha256": "b5f9324a7d0fe76c7205c6a77d402bee39e8f3d44c124c581cfc07112a23d4e9"
+    },
+    {
+      "recorded_path": "tests/screenshots/dashboard-mobile.png",
+      "actual_preserved_path": "tests/founder/regression/screenshots/dashboard-mobile.png",
+      "sha256": "599048399c77b22fb1762fbd98d2469a6eb50656c0c513de5ac4e4c0356ac2ba"
+    }
+  ],
+  "restored_from_commit": "23219010e478f3940b78f182c8615b862ead31aa",
+  "restored_files": [
+    {
+      "path": "tests/browser-results.json",
+      "sha256": "b8238115d8873f439b1033320e4c70c944af5cdf82c0e1907c4a86905cb2f32b",
+      "matches_baseline": true
+    },
+    {
+      "path": "tests/screenshots/dashboard-desktop.png",
+      "sha256": "8b5f26b71bfafb65d6f95db3fbd6998f8659ee0656cfddd5dfc71a4010cf04cf",
+      "matches_baseline": true
+    },
+    {
+      "path": "tests/screenshots/report-desktop.png",
+      "sha256": "d83e291619566a84b4cb282dd5d27be782bea1c440aad133093ee98719593189",
+      "matches_baseline": true
+    },
+    {
+      "path": "tests/screenshots/evidence-desktop.png",
+      "sha256": "42bacffd91a6241436b553f7aa6928d7e49c7ea6210fed14ebb81198e642bae6",
+      "matches_baseline": true
+    },
+    {
+      "path": "tests/screenshots/colony-desktop.png",
+      "sha256": "5ad5045cd5e198f97d1d50b4be6605254029dfe323bfed7ac9e40d7c21ffa515",
+      "matches_baseline": true
+    },
+    {
+      "path": "tests/screenshots/architecture-tablet.png",
+      "sha256": "b9454f6c1782708950142e102be5ae43e9dc8d71ea152ae546537c10a5a25c0d",
+      "matches_baseline": true
+    },
+    {
+      "path": "tests/screenshots/dashboard-mobile.png",
+      "sha256": "75ec3a3730db4a66b15b7386c75569c3022582e6f0bc2001dbbd214a23a76a82",
+      "matches_baseline": true
+    }
+  ],
+  "future_invocation": "Set process.env.BROWSER_OUTPUT_DIR inside the Windows Node process before requiring the runner."
+}

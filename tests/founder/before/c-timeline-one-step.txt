@@ -1,0 +1,52 @@
+MISSION TIMELINE
+A history with clear provenance.
+
+Explore the five-stage Acme narrative without implying that live workers performed it.
+
+Synthetic example. These authored steps are illustrative. Verified event replay is unavailable: no public historical event payload is included. Playback runs no workers, model calls or verification.
+Play illustrative replay
+Next step
+Reset replay
+1 / 5 illustrative steps revealed
+01
+Establish the source boundary
+SYNTHETIC
+Intake / example-catalog
+
+Illustrated Intake role: identify the three fictional files and the read-only scope. The prototype can hash these bytes locally; no real access grant is created.
+
+02
+Separate the claim from the evidence
+SYNTHETIC
+Research / example-investigate
+
+Reveal this illustrative checkpoint.
+
+03
+Compare the required and observed state
+SYNTHETIC
+Shadow / example-shadow
+
+Reveal this illustrative checkpoint.
+
+04
+Expose proof limits and unknowns
+SYNTHETIC
+Quality / example-quality
+
+Reveal this illustrative checkpoint.
+
+05
+Prepare an inspectable internal report
+SYNTHETIC
+Report / example-draft
+
+Reveal this illustrative checkpoint.
+
+History is a projection, not a source of truth.
+
+A future connected view must read attributable events from the one canonical Raven Store. This playback never writes to it or invents saved handoffs, approvals or completed reviews.
+
+Inspect the illustrative colony
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

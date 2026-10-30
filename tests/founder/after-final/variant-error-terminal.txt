@@ -1,0 +1,15 @@
+The local step could not finish.
+
+Controlled final variant hash failure
+
+Retry local step
+
+No new approval, customer access or external action was created.
+
+SOURCES & CONTEXT
+Source preparation is incomplete.
+
+No prepared source set is available. Retry the failed local step before checking or inspecting this selection.
+
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

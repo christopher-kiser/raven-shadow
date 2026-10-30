@@ -1,0 +1,8 @@
+ACME — SYNTHETIC AUTOMATION CLAIM
+Classification: Invented example of an unverified AI claim; no model call occurred.
+Request: req-101
+Statement: Request req-101 is complete. Access has been enabled.
+Claimed state: access_enabled
+Claim timestamp (UTC): 2026-10-29T09:58:00Z
+Authority: This statement cannot prove the resulting system state.
+Approval: No customer or owner approval is represented.

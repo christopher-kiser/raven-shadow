@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-10-30T18:19:00.024Z",
+  "source_url": "https://christopher-kiser.github.io/raven-shadow/",
+  "sources": [
+    {
+      "id": "scope",
+      "path": "tests/founder/before/sources/acme-scope.txt",
+      "sha256": "41847d65a12dea2ce07283c68d73ab291c303cb4b0058c131978417af6a3c976",
+      "bytes": 439
+    },
+    {
+      "id": "claim",
+      "path": "tests/founder/before/sources/acme-workflow-claim.txt",
+      "sha256": "6c06afc2eeefdb19efb53dffb3487ee3430654cc8b8e404dc3b9a0e788426eb5",
+      "bytes": 398
+    },
+    {
+      "id": "observation",
+      "path": "tests/founder/before/sources/acme-state-observation.txt",
+      "sha256": "2bc37d8120dd9c9a32242c5b373901b3954e58135d0b5f5d5f20c9fc4e689fd7",
+      "bytes": 420
+    }
+  ],
+  "status": "PASS",
+  "finished_at": "2026-10-30T18:19:01.624Z",
+  "resources_closed": true
+}

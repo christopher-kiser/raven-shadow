@@ -1,0 +1,161 @@
+FICTIONAL ENGAGEMENT / req-101
+Acme engagement.
+
+The question, next action and review obligations belong to one source-bound sample.
+
+Reload sample
+ONE FICTIONAL ENGAGEMENT
+req-101
+Acme · workflow assurance
+
+Was access enabled for req-101 by the agreed deadline?
+
+Expected outcome
+Access enabled
+Evidence deadline · UTC
+29 Oct 2026 · 10:00
+Permitted scope
+Bundled fictional records · read only
+Fictional outcome
+FAIL
+Native investigation
+NOT PERFORMED
+Human release
+NOT APPROVED
+CURRENT SAMPLE STAGE
+Fictional comparison complete
+
+A source-bound internal sample report is available. Native investigation, review and release remain incomplete.
+
+NEXT PERMITTED DEMO ACTION
+
+Compare the observed state with the completion claim. A failed business outcome can be a valid finding; it is not a failed Quality verdict.
+
+Inspect the discrepancy
+Scope, responsibilities and review gates 
+Scope and constraints
+FIXED SAMPLE
+
+Investigate only req-101 using the bundled fictional records. The deadline is fixed. No external reads, writes, customer delivery or cleanup are authorized. Scope selection is not a signed customer agreement.
+
+Read the exact question, deadline and constraints in acme-scope.txt · L3–9 
+
+Defining a real question, organization and permission scope requires authenticated native intake. This prototype cannot create that mission.
+
+Engagement path
+01
+Prepare fictional sources
+COMPLETE
+
+The loaded sample has browser-prepared fingerprints for its source texts.
+
+Inspect this stage 
+02
+Check the fictional outcome
+COMPLETE
+
+The current source-bound comparison returned FAIL.
+
+Inspect this stage 
+03
+Inspect the internal sample report
+AVAILABLE
+
+A report is prepared; the interface does not claim that you have reviewed or approved it.
+
+Inspect this stage 
+04
+Complete native investigation and reviews
+UNAVAILABLE
+
+Real specialist work, independent Quality review and Queen acceptance are outside this public presentation.
+
+Inspect this stage 
+05
+Obtain human release authority
+UNAVAILABLE
+
+No customer release, remediation, delivery or follow-up is approved or executed here.
+
+Inspect this stage 
+Raven briefing
+DETERMINISTIC EXPLANATION
+
+Fixed explanations of the selected fictional evidence. Raven is not connected; this is not an AI conversation.
+
+What needs attention?
+What can I trust?
+Can this be released?
+Internal demonstration — release not approved
+
+No. Human release is NOT APPROVED in every sample variant. There is no authenticated customer engagement, native review chain or approval record in this presentation.
+
+A business FAIL may still be a valid reviewed finding. The absent evidence, reviews and authority prevent release here; the business verdict itself does not decide release.
+
+Inspecting or downloading the internal sample report is a working browser action. Customer delivery, correction, external writes and real follow-up remain unavailable.
+
+acme-scope.txt · L3–9
+Assurance and release
+NO RELEASE APPROVAL
+
+A business discrepancy can be a valid finding. A fictional PASS or FAIL cannot approve the investigation or authorize delivery.
+
+Fictional business outcome
+FAIL
+
+The supplied fictional state does not support the completion claim at the deadline.
+
+Source fingerprints
+3 OF 3 AVAILABLE
+
+Available SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval.
+
+Browser comparison
+COMPLETED
+
+The existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model.
+
+External authenticity
+NOT AUTHENTICATED
+
+Every supplied record is fictional. No real system, customer record or authorization is authenticated.
+
+Native investigation
+INCOMPLETE
+
+No native specialist work runs here. The public sample cannot complete a real customer investigation.
+
+Independent Quality review
+NOT PERFORMED
+
+No native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails.
+
+Queen acceptance
+NOT PERFORMED
+
+No native Queen acceptance or authority record is supplied.
+
+Human release
+NOT APPROVED
+
+The report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action.
+
+Local draft export is permitted. Real review, release and customer delivery are unavailable here.
+
+Open obligations
+Real evidence is absent
+
+Fictional records and their hashes cannot qualify an authenticated customer investigation.
+
+Native work and reviews are unavailable here
+
+Specialist investigation, independent Quality review and Queen acceptance have not occurred in this public presentation.
+
+Human release is not approved
+
+No sample result, including PASS, authorizes customer delivery, remediation or external action.
+
+Connections and business operations
+Not connected by this prototype
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗

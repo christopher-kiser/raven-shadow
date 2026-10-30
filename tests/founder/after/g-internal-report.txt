@@ -1,0 +1,129 @@
+REPORTS & DELIVERABLES
+The internal assessment.
+
+Every finding retains its observation, citations and proof boundary.
+
+Download report
+INTERNAL DRAFT
+NO RELEASE APPROVAL
+Acme workflow assurance
+
+Request req-101 · Original example · outcome missing
+
+FAIL
+
+The supplied fictional state does not support the completion claim at the deadline.
+
+01 / Question and claim
+
+Was access enabled for req-101 by the agreed deadline?
+
+“Request req-101 is complete. Access has been enabled.”
+
+Unverified AI claim · synthetic statement, not a real model response.
+
+02 / Independently checked fictional outcome
+
+REQUIRED_STATE_NOT_OBSERVED_AT_DEADLINE
+
+Frozen sample scope
+The unchanged fictional scope and claim resolve to req-101.
+PASS
+Request identity
+The contract, claim and separate observation refer to req-101.
+PASS
+Deadline coverage
+The snapshot covers the stated deadline exactly.
+PASS
+!
+Required outcome
+Required: access_enabled. Observed: pending_activation.
+FAIL
+[1] acme-scope.txt · L3–6
+[2] acme-workflow-claim.txt · L3–7
+[3] acme-state-observation.txt · L3–5
+03 / What remains unknown
+Why the workflow reported completion.
+Whether access was enabled after the observation boundary.
+The authenticity of any real external system or customer state.
+The effect of a proposed correction; no correction is performed.
+04 / Next operator action
+
+In a real engagement, request an authorized current observation and investigate the discrepancy before proposing a correction. No correction is performed here.
+
+05 / Proof and release boundary
+This is a deterministic fictional comparison, not a native model investigation.
+Source hashes identify sample bytes; they do not establish external truth.
+No customer records, live connectors, worker messages or approval records are used.
+The presentation has no connection to the canonical Raven Store or Shadow runtime.
+Native Quality and Queen acceptance: not performed.
+No approval, customer delivery or production correction.
+Inspect the complete downloadable Markdown
+Assurance and release
+NO RELEASE APPROVAL
+
+A business discrepancy can be a valid finding. A fictional PASS or FAIL cannot approve the investigation or authorize delivery.
+
+Fictional business outcome
+FAIL
+
+The supplied fictional state does not support the completion claim at the deadline.
+
+Source fingerprints
+3 OF 3 AVAILABLE
+
+Available SHA-256 fingerprints identify loaded sample bytes. A fingerprint does not prove truth, external authenticity or approval.
+
+Browser comparison
+COMPLETED
+
+The existing deterministic fictional check produced this bound report; it is separate from the unverified claim and uses no model.
+
+External authenticity
+NOT AUTHENTICATED
+
+Every supplied record is fictional. No real system, customer record or authorization is authenticated.
+
+Native investigation
+INCOMPLETE
+
+No native specialist work runs here. The public sample cannot complete a real customer investigation.
+
+Independent Quality review
+NOT PERFORMED
+
+No native Quality verdict exists in this presentation, including when the fictional business outcome passes or fails.
+
+Queen acceptance
+NOT PERFORMED
+
+No native Queen acceptance or authority record is supplied.
+
+Human release
+NOT APPROVED
+
+The report is an internal demonstration. Downloading or inspecting it does not approve delivery or external action.
+
+Local draft export is permitted. Real review, release and customer delivery are unavailable here.
+
+Report provenance
+Proof class
+Deterministic fictional comparison
+Independent of claim
+Yes · contract vs observation
+External authenticity
+Not assessed
+Native reviews
+Not performed
+Report SHA-256
+d90e0811e722dd459a748b4daf7b5a47d32b2cefc7510a4239258637915ceef4
+
+This checksum binds the downloaded UTF-8 Markdown. It is not certification or approval.
+
+Keep the distinction.
+
+Finding a fictional failure is useful detection. It does not prove a repaired system, a successful customer investigation or commercial readiness.
+
+Inspect original sources
+Raven + Shadow · Public assurance prototype · Fictional records only
+No model calls. No customer connection. No release approval. View public source ↗
