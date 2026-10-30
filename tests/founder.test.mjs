@@ -23,6 +23,7 @@ test('initial state is NOT RUN with no evidence citations or invented completion
   const view = founderView();
   assert.equal(view.outcome.code, 'NOT RUN');
   assert.equal(view.next.action, 'open-scope');
+  assert.equal(view.canCheck, false);
   assert.equal(gate(view, 'integrity').value, 'NOT PREPARED');
   assert.equal(gate(view, 'integrity').state, 'NOT LOADED');
   assert.ok(view.briefings.every(item => item.citations.length === 0));
@@ -35,6 +36,7 @@ test('loaded fingerprints do not imply a check, authenticity, or approval', asyn
   const view = founderView({ loaded: true, scenario, sources });
   assert.equal(view.outcome.code, 'NOT RUN');
   assert.equal(view.next.action, 'verify');
+  assert.equal(view.canCheck, true);
   assert.equal(gate(view, 'integrity').value, '3 OF 3 AVAILABLE');
   assert.equal(gate(view, 'integrity').state, 'HASHED');
   assert.equal(gate(view, 'authenticity').value, 'NOT AUTHENTICATED');
@@ -49,6 +51,55 @@ test('fingerprint availability counts supplied hashes without inventing them', (
   assert.equal(gate(view, 'integrity').value, '1 OF 3 AVAILABLE');
   assert.equal(gate(view, 'integrity').state, 'INCOMPLETE');
   assert.match(gate(view, 'integrity').detail, /does not prove truth/);
+});
+
+test('empty sources after a cancelled recovery require preparation, not an inert check', () => {
+  const view = founderView({ loaded: true, scenario: getScenario(), sources: [], error: null });
+  assert.equal(view.phase.code, 'unprepared');
+  assert.equal(view.canCheck, false);
+  assert.equal(view.next.action, 'prepare-sources');
+  assert.equal(view.next.label, 'Retry source preparation');
+  assert.equal(view.outcome.code, 'NOT RUN');
+  assert.equal(view.steps.find(step => step.id === 'check').state, 'waiting');
+  assert.equal(gate(view, 'release').state, 'NOT APPROVED');
+});
+
+test('partly prepared fingerprints require preparation even with an older complete report', async () => {
+  const input = await prepared('satisfied');
+  const sources = input.sources.map((source, index) => ({ ...source, sha256: index === 0 ? source.sha256 : undefined }));
+  const view = founderView({ ...input, sources });
+  assert.equal(view.phase.code, 'unprepared');
+  assert.equal(view.canCheck, false);
+  assert.equal(view.next.action, 'prepare-sources');
+  assert.equal(view.outcome.code, 'NOT RUN');
+  assert.equal(view.steps.find(step => step.id === 'check').state, 'waiting');
+  assert.equal(gate(view, 'integrity').value, '1 OF 3 AVAILABLE');
+});
+
+test('a fully hashed subset is incomplete for the three-source baseline', async () => {
+  const scenario = getScenario('baseline');
+  const sources = await hashSources(scenario.sources.slice(0, 2));
+  const view = founderView({ loaded: true, scenario, sources });
+  assert.equal(view.phase.code, 'unprepared');
+  assert.equal(view.canCheck, false);
+  assert.equal(view.next.action, 'prepare-sources');
+  assert.equal(view.outcome.code, 'NOT RUN');
+  assert.equal(view.steps.find(step => step.id === 'preparation').state, 'current');
+  assert.equal(view.steps.find(step => step.id === 'check').state, 'waiting');
+  assert.equal(gate(view, 'integrity').value, '2 OF 2 AVAILABLE');
+});
+
+test('the intentionally missing-observation variant is ready with its complete two-source set', async () => {
+  const scenario = getScenario('missing');
+  const sources = await hashSources(scenario.sources);
+  assert.equal(sources.length, 2);
+  const view = founderView({ loaded: true, scenario, sources });
+  assert.equal(view.phase.code, 'ready');
+  assert.equal(view.canCheck, true);
+  assert.equal(view.next.action, 'verify');
+  assert.equal(view.outcome.code, 'NOT RUN');
+  assert.equal(view.steps.find(step => step.id === 'check').state, 'available');
+  assert.ok(view.briefings.every(item => item.citations.every(ref => ref.sourceId !== 'observation')));
 });
 
 for (const [variant, status, href] of [
@@ -99,13 +150,15 @@ test('same variant with changed loaded bytes cannot retain the earlier result', 
   const sources = input.sources.map(source => source.id === 'observation' ? { ...source, text: source.text + '\nChanged record.' } : source);
   const view = founderView({ ...input, sources });
   assert.equal(view.outcome.code, 'NOT RUN');
-  assert.equal(view.next.action, 'verify');
+  assert.equal(view.next.action, 'prepare-sources');
+  assert.equal(view.canCheck, false);
 });
 
 test('busy and failed actions cannot display an earlier PASS as current success', async () => {
   const input = await prepared('satisfied');
   const busy = founderView({ ...input, busy: true });
   assert.equal(busy.phase.code, 'working');
+  assert.equal(busy.canCheck, false);
   assert.equal(busy.outcome.code, 'NOT RUN');
   assert.equal(busy.next.action, undefined);
   const failed = founderView({ ...input, error: { kind: 'hash', message: 'Local hashing unavailable.' } });
@@ -114,6 +167,39 @@ test('busy and failed actions cannot display an earlier PASS as current success'
   assert.equal(failed.next.action, 'retry-local');
   assert.equal(failed.blockers[0].detail, 'Local hashing unavailable.');
   assert.equal(gate(failed, 'release').value, 'NOT APPROVED');
+});
+
+for (const kind of ['download-report', 'download-source']) {
+  for (const [variant, status] of [['satisfied', 'PASS'], ['baseline', 'FAIL']]) {
+    test(`${kind} failure retains the bound ${status}, citations and report bytes for a download retry`, async () => {
+      const input = await prepared(variant);
+      const before = JSON.stringify(input);
+      const normal = founderView(input);
+      const failed = founderView({ ...input, error: { kind, message: 'Object URL unavailable.' } });
+      assert.equal(failed.phase.code, 'error');
+      assert.equal(failed.phase.label, 'Download needs attention');
+      assert.equal(failed.outcome.code, status);
+      assert.equal(failed.next.label, 'Retry download');
+      assert.equal(failed.next.action, 'retry-local');
+      assert.deepEqual(failed.gates, normal.gates);
+      assert.deepEqual(failed.briefings.map(item => item.citations), normal.briefings.map(item => item.citations));
+      assertBoundCitations(failed, input.sources);
+      assert.equal(gate(failed, 'comparison').state, 'COMPLETE');
+      assert.equal(gate(failed, 'release').state, 'NOT APPROVED');
+      assert.equal(JSON.stringify(input), before, 'Original source bytes, report Markdown and report SHA are unchanged');
+    });
+  }
+}
+
+test('preparation and checking errors still suppress the prior bound result', async () => {
+  const input = await prepared('satisfied');
+  for (const kind of ['intake', 'variant', 'verify']) {
+    const view = founderView({ ...input, error: { kind, message: 'Local hashing unavailable.' } });
+    assert.equal(view.outcome.code, 'NOT RUN');
+    assert.equal(view.next.label, 'Retry local preparation');
+    assert.equal(gate(view, 'comparison').state, 'NOT RUN');
+    assert.equal(gate(view, 'release').state, 'NOT APPROVED');
+  }
 });
 
 test('projection is deterministic and leaves scenario, source and report bytes unchanged', async () => {

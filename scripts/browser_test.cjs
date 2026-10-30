@@ -75,7 +75,7 @@ async function main() {
     const file = path.join(SHOTS, name + '.png');
     await page.locator('#toast').waitFor({state: 'hidden', timeout: 7000});
     await page.screenshot({path: file, fullPage: true, animations: 'disabled'});
-    report.screenshots.push({path: 'tests/screenshots/' + name + '.png', sha256: sha256(fs.readFileSync(file))});
+    report.screenshots.push({path: path.relative(ROOT, file).split(path.sep).join('/'), sha256: sha256(fs.readFileSync(file))});
   };
   try {
     assert(fs.existsSync(executable), 'Point BROWSER_EXECUTABLE at an installed browser.');
@@ -184,7 +184,7 @@ async function main() {
       assert.match(await page.locator('main').innerText(), /presentation checker, not the native Shadow engine/);
     }, true);
     await screenshot('dashboard-desktop');
-    console.log('SCREENSHOT_READY tests/screenshots/dashboard-desktop.png');
+    console.log('SCREENSHOT_READY ' + path.relative(ROOT, path.join(SHOTS, 'dashboard-desktop.png')).split(path.sep).join('/'));
     await check('desktop_dashboard_has_no_document_overflow', noOverflow);
     await check('desktop_hides_mobile_navigation_toggle', async () => assert(!(await action('menu').isVisible())));
     let baselineReport;

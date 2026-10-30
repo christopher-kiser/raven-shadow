@@ -13,17 +13,19 @@ const availableCitation = (sources, id, start, end) => {
 
 export function founderView({ loaded = false, busy = false, scenario, sources = [], report = null, error = null } = {}) {
   const currentSources = loaded ? sources : [];
+  const exportError = error && ['download-report', 'download-source'].includes(error.kind);
+  const fingerprintCount = currentSources.filter(source => /^[a-f0-9]{64}$/i.test(source.sha256 ?? '')).length;
+  const allFingerprints = currentSources.length > 0 && fingerprintCount === currentSources.length;
+  const preparedSources = allFingerprints && sameSources(currentSources, scenario?.sources);
   // A previous report cannot describe a different selection or changed source bytes.
   // This checks display binding only; it does not repeat the fictional verifier.
-  const boundReport = loaded && !busy && !error && report
+  const boundReport = loaded && preparedSources && !busy && (!error || exportError) && report
     && report.result?.variantId === scenario?.variantId
     && ['PASS', 'FAIL', 'NOT ASSESSED'].includes(report.result?.status)
     && sameSources(report.sources, currentSources)
     && sameSources(report.sources, scenario?.sources)
     ? report : null;
   const status = boundReport?.result.status ?? 'NOT RUN';
-  const fingerprintCount = currentSources.filter(source => /^[a-f0-9]{64}$/i.test(source.sha256 ?? '')).length;
-  const allFingerprints = currentSources.length > 0 && fingerprintCount === currentSources.length;
   const scope = availableCitation(currentSources, 'scope', 3, 9);
   const claim = availableCitation(currentSources, 'claim', 3, 7);
   const observation = availableCitation(currentSources, 'observation', 3, 5);
@@ -37,14 +39,19 @@ export function founderView({ loaded = false, busy = false, scenario, sources = 
   let phase;
   let next;
   if (error) {
-    phase = { code: 'error', label: 'Local action needs attention', detail: String(error.message || 'The local action did not complete.') };
-    next = { label: 'Retry local preparation', description: 'Retry the failed browser action with the current sample. This does not execute a native investigation.', action: 'retry-local' };
+    phase = { code: 'error', label: exportError ? 'Download needs attention' : 'Local action needs attention', detail: String(error.message || 'The local action did not complete.') };
+    next = exportError
+      ? { label: 'Retry download', description: 'Retry the failed local file download. The existing finding and release restrictions are unchanged.', action: 'retry-local' }
+      : { label: 'Retry local preparation', description: 'Retry the failed browser action with the current sample. This does not execute a native investigation.', action: 'retry-local' };
   } else if (busy) {
     phase = { code: 'working', label: 'Preparing the local view', detail: 'The browser is working on the selected fictional records. Native workers are not running.' };
     next = { label: 'Local action in progress', description: 'Wait for the browser action to complete before inspecting a new result.' };
   } else if (!loaded) {
     phase = { code: 'unloaded', label: 'Start with the fictional scope', detail: 'No sample has been loaded or checked in this view.' };
     next = { label: 'Review scope and load sample', description: 'Read the question, deadline and read-only limits before preparing the fictional sources.', action: 'open-scope' };
+  } else if (!preparedSources) {
+    phase = { code: 'unprepared', label: 'Source preparation is incomplete', detail: 'The current selection does not have a complete, prepared source set. No current outcome has been established.' };
+    next = { label: 'Retry source preparation', description: 'Prepare fingerprints for the currently selected fictional records before running the check.', action: 'prepare-sources' };
   } else if (!boundReport) {
     phase = { code: 'ready', label: 'Ready for the fictional check', detail: 'The selected sample is available. Its current outcome has not been checked.' };
     next = { label: 'Run fictional check', description: 'Compare the selected observation with the frozen deadline and required state. No model or native Shadow runtime is called.', action: 'verify' };
@@ -75,8 +82,8 @@ export function founderView({ loaded = false, busy = false, scenario, sources = 
   for (const gate of gates) gate.state = gateStates[gate.id];
 
   const steps = [
-    { id: 'preparation', label: 'Prepare fictional sources', state: allFingerprints ? 'complete' : loaded ? 'current' : 'available', detail: allFingerprints ? 'The loaded sample has browser-prepared fingerprints for its source texts.' : 'Review the read-only scope and load the supplied sample; no real access grant is created.', href: '#evidence/scope/L3-L9' },
-    { id: 'check', label: 'Check the fictional outcome', state: boundReport ? 'complete' : loaded && !busy && !error ? 'available' : 'waiting', detail: boundReport ? `The current source-bound comparison returned ${status}.` : 'A browser comparison must run before an outcome can be shown.', href: '#dashboard' },
+    { id: 'preparation', label: 'Prepare fictional sources', state: preparedSources ? 'complete' : loaded ? 'current' : 'available', detail: preparedSources ? 'The loaded sample has browser-prepared fingerprints for its source texts.' : 'Review the read-only scope and load the supplied sample; no real access grant is created.', href: '#evidence/scope/L3-L9' },
+    { id: 'check', label: 'Check the fictional outcome', state: boundReport ? 'complete' : loaded && preparedSources && !busy && !error ? 'available' : 'waiting', detail: boundReport ? `The current source-bound comparison returned ${status}.` : 'A browser comparison must run before an outcome can be shown.', href: '#dashboard' },
     { id: 'report', label: 'Inspect the internal sample report', state: boundReport ? 'available' : 'waiting', detail: boundReport ? 'A report is prepared; the interface does not claim that you have reviewed or approved it.' : 'No current sample report has been prepared.', href: '#report' },
     { id: 'review', label: 'Complete native investigation and reviews', state: 'unavailable', detail: 'Real specialist work, independent Quality review and Queen acceptance are outside this public presentation.', href: '#architecture' },
     { id: 'release', label: 'Obtain human release authority', state: 'unavailable', detail: 'No customer release, remediation, delivery or follow-up is approved or executed here.', href: '#report' }
@@ -101,5 +108,5 @@ export function founderView({ loaded = false, busy = false, scenario, sources = 
     { title: 'Human release is not approved', detail: 'No sample result, including PASS, authorizes customer delivery, remediation or external action.' }
   ];
   if (error) blockers.unshift({ title: 'Local action did not complete', detail: String(error.message || 'Retry the failed local browser action.') });
-  return { phase, next, outcome: { code: status, label: status, description: outcomeDescription }, gates, steps, briefings, blockers };
+  return { canCheck: Boolean(loaded && preparedSources && !busy), phase, next, outcome: { code: status, label: status, description: outcomeDescription }, gates, steps, briefings, blockers };
 }
