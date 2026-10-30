@@ -35,3 +35,7 @@ Executed native/reference comparison: the staging filename-based inventory rejec
 ## Campaign 002 refresh
 
 [Authlib](https://github.com/authlib/authlib) and [OPA](https://github.com/open-policy-agent/opa) were evaluated against the verified local-owner intake gap. Both are **DEFER**: no enterprise issuer is configured, and a policy engine would not replace application authentication/enforcement. The existing session and Store were adapted. Docling, Presidio, Promptfoo, OpenTelemetry, MiniLM and BGE metadata/licenses/security/model formats were refreshed; no dependency or weight was adopted/downloaded. Existing Temporal/LiteLLM decisions remain unchanged. Retrieval quality, RAM and latency remain unmeasured; local synthetic correctness tests support only the bounded native adaptation.
+
+## Campaign 003 focused reuse
+
+The verified gap was an existing caller bypassing an existing authorization boundary. The native boundary and Store were adapted; relevant official authentication/policy references and Hugging Face revision metadata were checked without reopening rejected framework migrations. Prior Authlib/OPA/parser/evaluation/retrieval deferrals and Temporal/LiteLLM decisions stand. No dependency or model weights were adopted. The measurable result is closed admission gaps plus duplicate-safe recovery, backed by 23 new tests and real-browser checks.

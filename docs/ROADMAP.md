@@ -31,3 +31,7 @@ Business operations owners: founder approves customer scope/pricing/release; Que
 ## Campaign 002 milestone update
 
 RS-002 now has a tested local-owner intake boundary and deterministic end-to-end source/contract/Shadow/internal-report workflow. Enterprise identity, delegated tenant sessions and legacy intake migration remain open. All later colony, recovery, Archive, communications and company requirements remain preserved. Tests are engineering evidence, not business readiness.
+
+## Campaign 003 milestone update
+
+Local owner-upload consolidation and protected workspace admission are implemented and adversarially tested. RS-002 stays open for remaining identity and investigation-source integration gates. Next: bind selected authorized source snapshots to the existing mission/task/worker read boundary before live reasoning qualification. No parallel Store, Queen, router or orchestration system is introduced.

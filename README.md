@@ -4,7 +4,9 @@
 
 > **Project status — October 29, 2026:** Local, offline, non-sensitive staging prototype; private native-system integration and pre-pilot qualification are pending. **Not a production customer service, security certification, or autonomous repair system.**
 
-**Current campaign:** native audit baseline reproduced (416 tests: 413 pass, 3 skip); separate staging baseline reproduced (153 pass). [Current evidence and limits](docs/CURRENT_STATE.md) supersede historical staging status below.
+**Initial campaign baseline:** native audit baseline reproduced (416 tests: 413 pass, 3 skip); separate staging baseline reproduced (153 pass). [Current evidence and limits](docs/CURRENT_STATE.md) supersede historical staging status below.
+
+**Campaign 003:** legacy intake consolidation is tested on Windows and WSL (489 tests each), with 14 real-browser checks. RS-002 and native business qualification remain incomplete. [Current evidence and limits](docs/CURRENT_STATE.md).
 
 ## Why we're building it
 
