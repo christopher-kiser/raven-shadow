@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-30T17:23:05.141035+00:00",
+  "repository": "https://github.com/christopher-kiser/raven-shadow",
+  "pull_request": "https://github.com/christopher-kiser/raven-shadow/pull/9",
+  "qualified_application_commit": "7028c3620a8e492cb83c22da1e0348448171e3f8",
+  "pages": {
+    "url": "https://christopher-kiser.github.io/raven-shadow/",
+    "source": {
+      "branch": "prototype/assurance-workspace",
+      "path": "/"
+    },
+    "https_enforced": true,
+    "build_status": "built",
+    "build_commit": "7028c3620a8e492cb83c22da1e0348448171e3f8",
+    "build_updated_at": "2026-10-30T17:20:01Z"
+  },
+  "validation_workflow": {
+    "url": "https://github.com/christopher-kiser/raven-shadow/actions/runs/41097872551",
+    "head_sha": "7028c3620a8e492cb83c22da1e0348448171e3f8",
+    "conclusion": "success"
+  },
+  "hosted_browser_evidence": "public-smoke-results.json",
+  "local_browser_evidence": "browser-results.json",
+  "local_initial_failures_preserved": "browser-results.initial.json",
+  "boundary": "Public synthetic presentation only. Main unmerged. No native engine, customer records, model calls, private source or production qualification."
+}

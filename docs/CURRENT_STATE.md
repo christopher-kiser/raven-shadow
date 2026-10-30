@@ -37,6 +37,23 @@ corrected. A desktop menu visibility issue found separately was fixed and added
 to the final checks. Neither the corrections nor the passing presentation checks
 constitute native-engine, customer-outcome or accessibility certification.
 
+### Verified public delivery
+
+The [Assurance Prototype](https://christopher-kiser.github.io/raven-shadow/) is
+published over HTTPS through GitHub Pages from the root of the isolated
+`prototype/assurance-workspace` branch. The application build was
+[`7028c3620a8e492cb83c22da1e0348448171e3f8`](https://github.com/christopher-kiser/raven-shadow/commit/7028c3620a8e492cb83c22da1e0348448171e3f8).
+The [hosted Edge smoke run](../tests/public-smoke-results.json) passed **7/7** checks,
+including byte-identical hosted assets, the sample discrepancy, report/download
+hash agreement, original citation lines and mobile navigation. It observed zero
+page errors, external app requests, backend writes or WebSockets.
+
+[Repository validation passed](https://github.com/christopher-kiser/raven-shadow/actions/runs/41097872551).
+[Public PR #9](https://github.com/christopher-kiser/raven-shadow/pull/9) remains open
+and unmerged. The [deployment receipt](../tests/deployment-results.json) records
+actual source settings and build evidence. This delivery changes no native-engine,
+customer-data, approval or production qualification boundary.
+
 ## Historical engineering record — published 2026-10-29
 
 The dated record below is preserved as originally published. It describes those

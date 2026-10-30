@@ -6,6 +6,13 @@
 
 ## Try the Assurance Prototype
 
+**[Open the live Raven + Shadow Assurance Prototype](https://christopher-kiser.github.io/raven-shadow/)**
+
+Published over HTTPS on GitHub Pages from the isolated
+`prototype/assurance-workspace` branch. [Public PR #9](https://github.com/christopher-kiser/raven-shadow/pull/9)
+remains open and unmerged. This is the fictional presentation only; the native
+engine and customer systems are not connected.
+
 The demonstration follows one question: **a workflow says it succeeded—did the
 required state actually exist at the deadline?** Load the fictional Acme case,
 inspect the supplied sources and citations, replay the labeled example timeline,
@@ -47,8 +54,13 @@ mobile sizes. Checks cover source/citation navigation, all four observation
 variants, report download integrity, replay controls, keyboard/dialog behavior,
 reduced motion and stale-result handling. The tested app made no external requests,
 backend writes or WebSocket connections and raised no uncaught browser errors.
+A separate **7/7 hosted Edge smoke check** verified the published assets, sample
+intake, discrepancy check, report download/hash, citations and mobile navigation.
+[Repository validation also passed](https://github.com/christopher-kiser/raven-shadow/actions/runs/41097872551).
 These are presentation checks, not native-engine or accessibility certification.
-[Results and reproduction](docs/PROTOTYPE.md#validation).
+[Results and reproduction](docs/PROTOTYPE.md#validation) ·
+[Hosted smoke receipt](tests/public-smoke-results.json) ·
+[Deployment receipt](tests/deployment-results.json).
 
 ![Fictional Acme assurance dashboard in the tested desktop browser](tests/screenshots/dashboard-desktop.png)
 

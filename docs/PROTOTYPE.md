@@ -151,22 +151,43 @@ native reasoning, independently authenticated customer evidence or commercial
 qualification. No private native test suite or qualification runtime was run by
 this presentation campaign.
 
-## Static hosting
+## Static hosting — verified public delivery
 
-At the initial audit on 2026-10-30, the public repository had no GitHub Pages site,
-and no Cloudflare deployment configuration was present. The anticipated project
-address is `https://christopher-kiser.github.io/raven-shadow/`; it is **not a claimed
-working deployment until the site and its browser experience are verified**.
+**[Open the live Assurance Prototype](https://christopher-kiser.github.io/raven-shadow/).**
+It is published over HTTPS through GitHub Pages. The source is the root (`/`) of
+`prototype/assurance-workspace`; [public PR #9](https://github.com/christopher-kiser/raven-shadow/pull/9)
+remains open and unmerged. The tested application build is
+[`7028c3620a8e492cb83c22da1e0348448171e3f8`](https://github.com/christopher-kiser/raven-shadow/commit/7028c3620a8e492cb83c22da1e0348448171e3f8).
+Only this sanitized public presentation is hosted. The native runtime, customer
+systems and any production backend remain disconnected.
 
-GitHub documents [Pages availability for free public repositories](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+The separate [hosted browser smoke run](../tests/public-smoke-results.json) passed
+**7/7** checks in Edge 156.0.4314.50 on 2026-10-30. It verified that the five hosted
+application assets match their reviewed bytes; the sample loads and detects the
+fictional discrepancy; the downloaded report matches its visible content and
+SHA-256; citations resolve to original source lines; and mobile navigation/layout
+work. It observed no page errors, external app requests, backend writes or
+WebSockets. This hosted smoke check complements the local 12 deterministic and
+37 real-browser checks; it does not replace them or establish native qualification.
+
+The [deployment receipt](../tests/deployment-results.json) records the actual Pages
+source, build and verification details.
+[The repository validation workflow passed](https://github.com/christopher-kiser/raven-shadow/actions/runs/41097872551).
+The subsequent documentation/evidence commit records delivery without changing the
+tested application assets.
+
+At the initial audit on 2026-10-30 there was no Pages site or Cloudflare deployment
+configuration. GitHub documents [Pages availability for free public repositories](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 and [publishing from a selected branch and its root](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-A reviewed public prototype branch can therefore be the publishing source without
-merging the private engine or the public main branch. The repository contains
-`.nojekyll` for plain static delivery. Publication must use only this sanitized
-public branch and requires the existing account's Pages/administration capability.
-No paid service, domain purchase or production backend is needed.
+The reviewed public prototype branch was selected without merging the public main
+branch or modifying private engineering. `.nojekyll` enables plain static delivery.
+No paid service, domain purchase or production backend was introduced.
 
-The deployment source and successful public URL should be recorded after actual
-publication. Rollback means selecting an earlier reviewed public presentation
-commit/branch, or unpublishing the static site; it never means modifying a native
-Store, private runtime or customer system.
+### Updates and rollback
+
+While this prototype branch is the Pages source, pushing it updates the site.
+After a future reviewed merge, **retarget Pages to the intended reviewed source
+before deleting this branch**. Keep the source and evidence history intact.
+Rollback can select an earlier reviewed public presentation source; disabling
+Pages withdraws the site while preserving the repository and evidence. Neither
+operation calls for changing a native Store, private runtime or customer system.
