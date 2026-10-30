@@ -1,0 +1,254 @@
+{
+  "suite": "public-assurance-prototype-browser",
+  "started_at": "2026-10-30T17:07:05.909Z",
+  "proof_boundary": "Actual browser behavior over fictional, client-side demonstration data. No model, native runtime, real worker, customer observation or approval is exercised.",
+  "browser_executable": "msedge.exe",
+  "non_read_requests": [],
+  "websockets": [],
+  "checks": [
+    {
+      "name": "prototype_document_loads_with_honest_empty_state",
+      "status": "PASS",
+      "elapsed_ms": 34
+    },
+    {
+      "name": "skip_link_is_keyboard_operable",
+      "status": "PASS",
+      "elapsed_ms": 9
+    },
+    {
+      "name": "empty_evidence_and_report_do_not_fabricate_results",
+      "status": "PASS",
+      "elapsed_ms": 167
+    },
+    {
+      "name": "scope_dialog_requires_deliberate_fictional_selection",
+      "status": "PASS",
+      "elapsed_ms": 113
+    },
+    {
+      "name": "dialog_cancel_close_and_backdrop_controls",
+      "status": "PASS",
+      "elapsed_ms": 132
+    },
+    {
+      "name": "sample_intake_loads_only_fictional_records",
+      "status": "PASS",
+      "elapsed_ms": 84
+    },
+    {
+      "name": "baseline_real_client_check_detects_false_completion",
+      "status": "PASS",
+      "elapsed_ms": 30
+    },
+    {
+      "name": "desktop_dashboard_has_no_document_overflow",
+      "status": "PASS",
+      "elapsed_ms": 1,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "baseline_report_download_is_hash_bound_and_unapproved",
+      "status": "PASS",
+      "elapsed_ms": 286,
+      "detail": {
+        "filename": "raven-shadow-acme-baseline.md",
+        "sha256": "56c0778d044bcf74bd047c492c8238bd16949986193ecca5c76460dc02ac3790"
+      }
+    },
+    {
+      "name": "skip_link_preserves_the_active_report_route",
+      "status": "PASS",
+      "elapsed_ms": 5
+    },
+    {
+      "name": "all_report_citations_resolve_exact_original_lines",
+      "status": "PASS",
+      "elapsed_ms": 349,
+      "detail": {
+        "resolved_citations": 3
+      }
+    },
+    {
+      "name": "all_source_downloads_preserve_exact_text_and_sha256",
+      "status": "PASS",
+      "elapsed_ms": 698,
+      "detail": {
+        "source_count": 3
+      }
+    },
+    {
+      "name": "source_search_is_live_keyboard_usable_and_preserves_originals",
+      "status": "PASS",
+      "elapsed_ms": 20
+    },
+    {
+      "name": "satisfied_observation_invalidates_prior_report",
+      "status": "PASS",
+      "elapsed_ms": 107
+    },
+    {
+      "name": "satisfied_observation_produces_honest_verdict_and_report",
+      "status": "PASS",
+      "elapsed_ms": 215,
+      "detail": {
+        "filename": "raven-shadow-acme-satisfied.md",
+        "sha256": "d65cde78c3d782ac68868b77c7c159c161c835be3860f26086d23d902ab2a16b",
+        "verdict": "PASS"
+      }
+    },
+    {
+      "name": "missing_observation_invalidates_prior_report",
+      "status": "PASS",
+      "elapsed_ms": 106
+    },
+    {
+      "name": "missing_observation_produces_honest_verdict_and_report",
+      "status": "PASS",
+      "elapsed_ms": 213,
+      "detail": {
+        "filename": "raven-shadow-acme-missing.md",
+        "sha256": "5f6c80f6ae277981ac1af13b69521f5961bbc97b7f4d8b35d9a57dfef25cfab5",
+        "verdict": "NOT ASSESSED"
+      }
+    },
+    {
+      "name": "stale_observation_invalidates_prior_report",
+      "status": "PASS",
+      "elapsed_ms": 107
+    },
+    {
+      "name": "stale_observation_produces_honest_verdict_and_report",
+      "status": "PASS",
+      "elapsed_ms": 214,
+      "detail": {
+        "filename": "raven-shadow-acme-stale.md",
+        "sha256": "c88a6fde91ca9d4b1fb07e9bc79fe6f6d31151060439cb7e64cce082566f4914",
+        "verdict": "NOT ASSESSED"
+      }
+    },
+    {
+      "name": "controlled_async_race_discards_stale_report",
+      "status": "PASS",
+      "elapsed_ms": 549,
+      "detail": "Actual SHA-256 operations delayed by 100 ms to exercise the presentation generation fence; no digest or outcome fabricated."
+    },
+    {
+      "name": "reloading_sample_resets_results_and_original_observation",
+      "status": "PASS",
+      "elapsed_ms": 107
+    },
+    {
+      "name": "timeline_labels_separate_synthetic_history_from_verified_replay",
+      "status": "PASS",
+      "elapsed_ms": 51
+    },
+    {
+      "name": "every_timeline_step_reveals_its_labeled_content",
+      "status": "PASS",
+      "elapsed_ms": 188
+    },
+    {
+      "name": "replay_play_pause_resume_complete_reset_are_real_controls",
+      "status": "PASS",
+      "elapsed_ms": 6296
+    },
+    {
+      "name": "leaving_timeline_stops_the_owned_replay_timer",
+      "status": "PASS",
+      "elapsed_ms": 1769
+    },
+    {
+      "name": "all_colony_nodes_are_inspectable_without_fake_activity",
+      "status": "PASS",
+      "elapsed_ms": 221,
+      "detail": {
+        "node_count": 6
+      }
+    },
+    {
+      "name": "colony_links_to_the_selected_illustrative_stage",
+      "status": "PASS",
+      "elapsed_ms": 34
+    },
+    {
+      "name": "architecture_and_roadmap_preserve_canonical_and_future_boundaries",
+      "status": "PASS",
+      "elapsed_ms": 116
+    },
+    {
+      "name": "all_desktop_routes_have_accessible_names_and_current_navigation",
+      "status": "PASS",
+      "elapsed_ms": 368
+    },
+    {
+      "name": "tablet_layout_and_navigation",
+      "status": "PASS",
+      "elapsed_ms": 64
+    },
+    {
+      "name": "mobile_navigation_excludes_hidden_sidebar_and_every_page_fits",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-action=\"menu\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <button data-action=\"menu\" aria-expanded=\"true\" aria-label=\"Toggle navigation\" class=\"icon-button menu-button\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <img alt=\"\" src=\"demo/mark.svg\"/> from <aside class=\"sidebar open\">…</aside> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <img alt=\"\" src=\"demo/mark.svg\"/> from <aside class=\"sidebar open\">…</aside> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <aside class=\"sidebar open\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <img alt=\"\" src=\"demo/mark.svg\"/> from <aside class=\"sidebar open\">…</aside> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <img alt=\"\" src=\"demo/mark.svg\"/> from <aside class=\"sidebar open\">…</aside> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <aside class=\"sidebar open\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <aside class=\"sidebar open\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <img alt=\"\" src=\"demo/mark.svg\"/> from <aside class=\"sidebar open\">…</aside> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <aside class=\"sidebar open\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "name": "reduced_motion_disables_decorative_motion",
+      "status": "PASS",
+      "elapsed_ms": 58
+    },
+    {
+      "name": "deep_links_and_refresh_do_not_invent_persisted_evidence",
+      "status": "FAIL",
+      "error": "Expected values to be strictly equal:\n\n'true' !== 'false'\n"
+    },
+    {
+      "name": "no_uncaught_browser_errors",
+      "status": "PASS",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "no_external_app_requests",
+      "status": "PASS",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "no_backend_writes_or_websockets",
+      "status": "PASS",
+      "elapsed_ms": 0
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "tests/screenshots/dashboard-desktop.png",
+      "sha256": "f6c0040886e3441ea16e5e1f2edbc530fb899253905b57c7425f6a80913b45df"
+    },
+    {
+      "path": "tests/screenshots/report-desktop.png",
+      "sha256": "3508359f9ff56db219075be45c210482fc02a58e8c67696f255c6c92d835bf21"
+    },
+    {
+      "path": "tests/screenshots/evidence-desktop.png",
+      "sha256": "484fcf4adf28e5fc9eb4433f6855efa7f4310d762894f007735583c7f443545d"
+    },
+    {
+      "path": "tests/screenshots/colony-desktop.png",
+      "sha256": "300ce9cf523c49d3300381a8b5d20a03385d205d3b07416d761c119507d85769"
+    },
+    {
+      "path": "tests/screenshots/architecture-tablet.png",
+      "sha256": "fc9f5f82c19660c832d550d30d6df95543a78de3bc012b2f4f07b8610f0501c4"
+    },
+    {
+      "path": "tests/screenshots/dashboard-mobile.png",
+      "sha256": "eb0196adff6ebf3820cd47e18631831414dc5dfa9c0b5e2a5fa78f741069d77f"
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "browser_version": "156.0.4314.50",
+  "status": "FAIL",
+  "finished_at": "2026-10-30T17:07:26.529Z"
+}

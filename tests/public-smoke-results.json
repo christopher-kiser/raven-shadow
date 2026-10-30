@@ -1,0 +1,84 @@
+{
+  "suite": "published-public-prototype-smoke",
+  "url": "https://christopher-kiser.github.io/raven-shadow/",
+  "started_at": "2026-10-30T17:21:14.417Z",
+  "checks": [
+    {
+      "name": "hosted_assets_match_public_repository_bytes",
+      "status": "PASS"
+    },
+    {
+      "name": "published_document_loads",
+      "status": "PASS"
+    },
+    {
+      "name": "sample_intake_and_fictional_discrepancy_check",
+      "status": "PASS",
+      "detail": {
+        "fictional_outcome": "FAIL",
+        "real_model_calls": 0
+      }
+    },
+    {
+      "name": "downloaded_report_matches_visible_report_and_sha256",
+      "status": "PASS",
+      "detail": {
+        "filename": "raven-shadow-acme-baseline.md",
+        "sha256": "817dd2d81d5bca32a99c999619247ed8a52caaee21296e8ebcd858d57848be11"
+      }
+    },
+    {
+      "name": "published_citation_resolves_original_source_lines",
+      "status": "PASS"
+    },
+    {
+      "name": "published_mobile_navigation_and_layout",
+      "status": "PASS",
+      "detail": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "no_page_errors_external_app_requests_backend_writes_or_sockets",
+      "status": "PASS",
+      "detail": {
+        "page_errors": 0,
+        "external_app_requests": 0,
+        "backend_writes": 0,
+        "websockets": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "3a890d28aa1ed17989830803aa2c8a416fe216ae94317966c60c967919dfc235"
+    },
+    {
+      "path": "demo/app.js",
+      "status": 200,
+      "sha256": "22b67ec587629b7cc50adf4f0f9b862f2c957f144c7bf265343a3b2e109f44cd"
+    },
+    {
+      "path": "demo/acme.js",
+      "status": 200,
+      "sha256": "07e11411cb9f2b4fdea56139443a8c4fdc5f8526eb4e63995741f75094855548"
+    },
+    {
+      "path": "demo/styles.css",
+      "status": 200,
+      "sha256": "9276100ed8cc6c10b0d7249923febc4e5a8bb3b96781a3feef7df63868ff068a"
+    },
+    {
+      "path": "demo/mark.svg",
+      "status": 200,
+      "sha256": "48545efa10e63b5ac84a9aac003dcc787cf0d4eeb03e0f78f26f8fe89bb5d1cd"
+    }
+  ],
+  "proof_boundary": "Published fictional browser demonstration only. No native engine, model call, customer investigation or approval is exercised.",
+  "browser_version": "156.0.4314.50",
+  "status": "PASS",
+  "finished_at": "2026-10-30T17:21:16.976Z"
+}

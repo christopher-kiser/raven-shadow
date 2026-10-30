@@ -1,4 +1,64 @@
-# Current verified state — 2026-10-29
+# Current verified state
+
+## Public Assurance Prototype — 2026-10-30
+
+The public repository now includes a standalone static presentation of the Acme
+false-completion scenario. It provides source and citation navigation, a labeled
+synthetic timeline and colony projection, a deterministic fictional outcome
+comparison, and an inspectable internal demonstration report. Architecture and
+roadmap views explain the intended commercial platform and its remaining gates.
+See the [prototype guide](PROTOTYPE.md) for local execution and validation evidence.
+
+This workstream does not inspect, execute, modify, merge or copy the private native
+engine or qualification runtime. The demo uses only public documentation and newly
+authored, clearly labeled fictional data. No real model calls, worker messages,
+customer approvals or accepted investigations are claimed. Browser checks establish
+presentation behavior, not native reasoning, customer authorization or production
+security. No native or commercial milestone is promoted by this interface.
+
+The existing native-engine qualification remains a separate engineering workstream.
+It is incomplete; protected Raven remains inspection-only. A public presentation
+cannot confer Quality/Queen acceptance or customer release.
+
+### Verified presentation checks
+
+The public deterministic suite passed **12/12** checks. Installed Microsoft Edge
+156.0.4314.50 passed **37/37** final browser checks across desktop, tablet and mobile.
+The run exercised all interactive controls, four fictional observation variants,
+exact citations, source/report download integrity, replay, keyboard/dialog and
+navigation behavior, reduced motion and stale-result handling. It recorded no
+uncaught browser errors, external app requests, backend writes or WebSockets.
+Six actual screenshots and the initial/final browser results are retained in this
+public repository. See [results and reproduction](PROTOTYPE.md#validation).
+
+The initial browser result was 34/36: a mobile close-control issue was fixed, and
+an incorrect test-harness assumption about hash navigation versus reload was
+corrected. A desktop menu visibility issue found separately was fixed and added
+to the final checks. Neither the corrections nor the passing presentation checks
+constitute native-engine, customer-outcome or accessibility certification.
+
+### Verified public delivery
+
+The [Assurance Prototype](https://christopher-kiser.github.io/raven-shadow/) is
+published over HTTPS through GitHub Pages from the root of the isolated
+`prototype/assurance-workspace` branch. The application build was
+[`7028c3620a8e492cb83c22da1e0348448171e3f8`](https://github.com/christopher-kiser/raven-shadow/commit/7028c3620a8e492cb83c22da1e0348448171e3f8).
+The [hosted Edge smoke run](../tests/public-smoke-results.json) passed **7/7** checks,
+including byte-identical hosted assets, the sample discrepancy, report/download
+hash agreement, original citation lines and mobile navigation. It observed zero
+page errors, external app requests, backend writes or WebSockets.
+
+[Repository validation passed](https://github.com/christopher-kiser/raven-shadow/actions/runs/41097872551).
+[Public PR #9](https://github.com/christopher-kiser/raven-shadow/pull/9) remains open
+and unmerged. The [deployment receipt](../tests/deployment-results.json) records
+actual source settings and build evidence. This delivery changes no native-engine,
+customer-data, approval or production qualification boundary.
+
+## Historical engineering record — published 2026-10-29
+
+The dated record below is preserved as originally published. It describes those
+campaign boundaries; it is not a fresh audit of the native installation performed
+by the public prototype campaign.
 
 The native candidate remains inspection-only. Missions, conversational inference and actions are disabled. No customer service, production rollout or autonomous business readiness is claimed.
 
@@ -8,7 +68,7 @@ The first private engineering slice is a read-only source snapshot adapter using
 
 Still blocked: native business model qualification, authenticated independent customer observations, enterprise identity/data handling and full reviewed customer delivery. Earlier failed qualification evidence is retained privately. No real customer data or native backup is published here.
 
-The public showcase contains documentation and its validator only. Private engineering work is maintained separately. See [roadmap](ROADMAP.md) and [resource evaluation](OPEN_SOURCE_CANDIDATES.md).
+At that campaign boundary, the public showcase contained documentation and its validator only. Private engineering work is maintained separately. See [roadmap](ROADMAP.md) and [resource evaluation](OPEN_SOURCE_CANDIDATES.md).
 
 ## Campaign 002 — local authenticated intake
 

@@ -1,4 +1,4 @@
-name: Validate public project documentation
+name: Validate public prototype and documentation
 on:
   workflow_dispatch:
 
@@ -17,3 +17,5 @@ jobs:
           python-version: '3.12'
       - name: Check documentation and local links
         run: python scripts/validate_docs.py
+      - name: Check fictional verification and report integrity
+        run: node --test tests/*.test.mjs

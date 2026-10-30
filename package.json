@@ -1,0 +1,8 @@
+{
+  "name": "raven-shadow-assurance-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Public fictional assurance presentation; no native runtime or model integration.",
+  "scripts": { "test": "node --test tests/*.test.mjs" }
+}
